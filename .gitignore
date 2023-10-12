@@ -1,6 +1,7 @@
 logs
 *.log
 **/print169*.css
+**/data/
 npm-debug.log*
 node_modules/
 notes.txt

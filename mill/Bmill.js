@@ -13,47 +13,23 @@ console.log(`nticks = ${nticks}`);
 const fps = 24;
 const Bfile = `./B.js`;
 const BfilmFile = `./Bfilm.js`;
-const pigments = require("./pigments.js");
+const pigments = require("./pigments.js").pigments;
+const colorsets = require("./pigments.js").colorsets;
 const tools = require("./tools.js");
-/* 
- * think about gravitational locations / colors ...
- * */
-let nx = 2, ny = 2, nz = 4; 
-/*
-const colorsets = [
-	["#fdfdf3", "#191918"], //"warmbw",
-	["#8F0000", "#fdfdf3", ""#4b4b44","#191918"], //"warmbwred",
-	["#8F0000", "#fdfdf3", "#191918"], //"warmbwgred",
-	["#fdfdf3", "#191918"], //"warmbw",
-	["#ffcc00", "#fdfdf3", "#191918"], //"warmbwyellow",
-	["#fdfdf3", "#191918"], //"warmbw",
-	//["#006699", "#fdfdf3", "#191918"], //"warmbwblue",
-];
-*/
-const colorsets = [[[["#fdfdf3", "#191918"],3],[["#8F0000", "#fdfdf3", "#191918"],1],[["#fdfdf3", "#191918"],2],[["#4b4b44", "#fdfdf3", "#191918"],1]].map(wx=>{
-	return [...new Array(wx[1]).keys()].map( w=>wx[0] );
-}).flat(2)];
-
-const colors = [...new Array(nticks).keys()].map( j=> {
-	let k = Math.floor(j/10);
-	return colorsets[k%colorsets.length];
-});
-/*
- * for each tick
- * for each (x,y,z) a parameter obj (r,sw,sd,color)
- * */
-
-const rmin = .25, rmax = 40;
+const spice = colorsets.philip1; 
+const colors = colorsets.warmbw; 
+const allcolors = [...spice,...colors];
+const rmin = .25, rmax = 38;
 const swmin = .20, swmax = 38;
 const sdmin = .08, sdmax = 10;
 
-const ncircles = 8;
-const nvlines = 0;
+const ncircles = 4;
+//|const ncircles = 1;
+const nvlines = 6;
 const nhlines = 6;
 const nlayers = 3;
 
 const m = (nvlines+nhlines+ncircles)*nlayers;
-//const m = nhlines*nlayers + ncircles;
 
 const pgrid = [...new Array(nticks).keys()].map( j=> {
 	const cx = [...new Array(m).keys()].map( x => {
@@ -63,7 +39,7 @@ const pgrid = [...new Array(nticks).keys()].map( j=> {
 		return 0.5;
 	});
 	const so = [...new Array(m).keys()].map( x => {
-	 let so = x%3===0 ? 0.0 : 1.0;
+	 let so = x%2===0 ? 0.0 : 1.0;
 		//if(j<2 || j>nticks-2) {so=0}
 		return so;
 	});
@@ -85,16 +61,15 @@ const pgrid = [...new Array(nticks).keys()].map( j=> {
 	return {cx,cy,r,sw,sd,so,fo};
 });
 let drawp = {
-	circle: p => { return {cx:p.cx,cy:p.cy,r:p.r,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.color,fill:p.color } },
+	//circle: p => { return {cx:p.cx,cy:p.cy,r:p.r,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.color,fill:p.color } },
+	circle: p => { return {cx:p.cx,cy:p.cy,r:p.r*0.8,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":1.0,"fill-opacity":0.0,stroke:p.color,fill:p.color } },
 	rect: p => { return {x:p.cx,y:p.cy,width:p.w,height:p.h,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.color,fill:p.color } },
-	vline: p => { return {x1:p.cx,x2:p.cx,y1:0,y2:1,"stroke-width":p.sw,"stroke-dasharray":0.8*p.sd,"stroke-opacity":p.so,stroke:p.color } },
-	hline: p => { return {x1:0,x2:1,y1:p.cy,y2:p.cy,"stroke-width":p.sw*2,"stroke-dasharray":0.8*p.sd,"stroke-opacity":p.so,stroke:p.color } },
+	vline: p => { return {x1:p.cx,x2:p.cx,y1:0,y2:1,"stroke-width":p.sw*2,"stroke-dasharray":0.8*p.sd,"stroke-opacity":1.0,stroke:p.color } },
+	hline: p => { return {x1:0,x2:1,y1:p.cy,y2:p.cy,"stroke-width":p.sw*2,"stroke-dasharray":0.8*p.sd,"stroke-opacity":1.0,stroke:p.color } },
 	//vline: p => { return {x1:p.cx,x2:p.cx,y1:0,y2:1,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":1,stroke:p.color } },
 	//hline: p => { return {x1:0,x2:1,y1:p.cy,y2:p.cy,"stroke-width":p.sw,"stroke-dasharray":p.sd,"stroke-opacity":1,stroke:p.color } },
 }
 const tween = (p1,p2,t,d) => {
-	//console.log(`****p1=${JSON.stringify(p1)}`);
-	//console.log(`****p2=${JSON.stringify(p2)}`);
 	let dt = (100*t/d)/100;
 	let pdt = {};
 	Object.keys(p1).forEach(k=> {
@@ -103,18 +78,14 @@ const tween = (p1,p2,t,d) => {
 		}
 		else {
 			pdt[k] = (100*p1[k] + 100*(p2[k]-p1[k])*dt)/100;
-		//	console.log(`k=${k},dt=${dt},(p2[k]-p1[k])*dt=${(p2[k]-p1[k])*dt}`);
 		}
 	});
-	//console.log(`pdt = ${JSON.stringify(pdt)}`);
 	return pdt;
 };
 
 let elements = [...new Array(nlayers-1).keys()].reduce( (acc,z) => {
 	let zels = [];
 	let n = 0;
-	//let colors = ["#fdfdf3","#4b4b44","#191918"];
-	let colors = ["#fdfdf3","#191918","#fdfdf3"];
 	[...new Array(nvlines).keys()].filter( j=>j%2===0 ).forEach( j => {
 		zels.push({tag:"line", role:"vline", n:n, color:colors[(z+j)%colors.length]});
 		++n;
@@ -131,22 +102,29 @@ let elements = [...new Array(nlayers-1).keys()].reduce( (acc,z) => {
 		zels.push({tag:"line", role:"hline", n:n, color:colors[(z+j)%colors.length]});
 		++n;
 	});
+	/*
+	[...new Array(ncircles).keys()].forEach( j => {
+		zels.push({tag:"circle", role:"circle", n:n, color:colors[(z+j)%colors.length]});
+		++n;
+	})*/;
 	acc.push(zels);
 	return acc;
 }, [[{tag:"rect"}]]);
 
 elements[nlayers] = [...new Array(ncircles).keys()].map( n => {
- let colors = ["#fdfdf3","#191918","#fdfdf3"];
 	return ({tag:"circle", role:"circle", n:n, color:colors[(nlayers+n)%colors.length]});
 });
 
-[0,1,2,3,4].forEach( j => {
-	let colors = ["warmlightwhite"].map(c=>pigments[c]);
+/*
+[0].forEach( j => {
+	let colors = spice; 
 	let l = tools.randominteger(0,nlayers+1);
+	//|let l = tools.randominteger(0,nlayers);
 	let color = colors[tools.randominteger(0,colors.length)];
 	console.log(color);
 	elements[l][tools.randominteger(0,elements[l].length)].color=color;
 });
+*/
 
 let B = {
 	nticks: nticks,
@@ -166,7 +144,7 @@ let Bfilm = {
 		});
 	})
 }
-	const istweens = [[Math.floor(nticks*0.98),1],[1,1]].flatMap(wx=>{
+	const istweens = [[Math.floor(nticks*0.28),1],[1,1]].flatMap(wx=>{
 		return [...new Array(wx[0]).keys()].map( w=>wx[1] );
 	});
 	const changes = [[6,0],[3,1]].flatMap(wx=>{
@@ -189,7 +167,7 @@ let Bfilm = {
 	 * */
 	[0].forEach( layer => {
 		let cx = 0, cy = 0, w = 1.0, h = 1.0, sw = 0.01, sd = 1, so = 0, fo = 1;
-		let color = "#fdfdf3";
+		let color = pigments.warmlightwhite; 
 		[...new Array(elements[layer].length).keys()].forEach( n => { 
 			B.elements[layer][n].b = [...new Array(nticks).keys()].map( j => {
 				return drawp.rect({cx:cx,cy:cy,w:w,h:h,sw,sd,so,fo,color});
@@ -206,25 +184,24 @@ let Bfilm = {
 /* layers 1 to z-1
  * */
 [...new Array(nlayers).keys()].map( z => z+1).forEach( z => { 
-	[0].forEach( j => {
-		let colors = ["warmlightwhite","red"].map(c=>pigments[c]);
-		let l = tools.randominteger(0,nlayers+1);
-		let color = colors[tools.randominteger(0,colors.length)];
-		B.elements[l][tools.randominteger(0,elements[l].length)].color=color;
-		Bfilm.elements[l][tools.randominteger(0,elements[l].length)].color=color;
-	});
+//| [...new Array(nlayers-1).keys()].map( z => z+1).forEach( z => { 
 	B.elements[z].forEach( (el,n) => {
-		let k = z < nlayers-1 ? n*(z-1)+n : n;
-		//let k = n*(z-1)+n;
+		//|let k = z < nlayers-1 ? n*(z-1)+n : n;
+		let k = n*(z-1)+n;
 		let bframe = [...new Array(nticks).keys()].reduce( (acc,j) => {
 			let bt = [];
 			if(j===0 || ischange[j][n] || j===nticks-1) {
 				//let so = (j===0 || j===nticks-1) ? 0 : pgrid[j].so[k];
 				//let fo = (j===0 || j===nticks-1) ? 0 : pgrid[j].fo[k];
+
+				let t = tools.randominteger(0,80)<2;
+				if(t){
+					el.color=allcolors[tools.randominteger(0,allcolors.length)]
+				}
+
 				let so = pgrid[j].so[k];
 				let fo = pgrid[j].fo[k]
 				if(el.tag==="line" && j>0 && j<nticks-1) { so=1.0; fo=0.0}
-				//console.log(`j=${j}, so=${so}, fo=${fo}`);
 				bt = drawp[el.role]({ 
 					cx:pgrid[j].cx[k], cy:pgrid[j].cy[k],
 					r:pgrid[j].r[k],w:1,h:1,
@@ -247,6 +224,8 @@ let Bfilm = {
 			bframe[t] = tween(bframe[t-1],bframe[t+2],1,3);
 			bframe[t+1] = tween(bframe[t-1],bframe[t+2],2,3);
 		});
+
+
 		el.b = bframe;
 		Bfilm.elements[z][n].b = [...new Array(nticks).keys()].flatMap( j => { 
 			//let p2 = j < nticks-1 ? bframe[j+1] : f;
@@ -254,7 +233,7 @@ let Bfilm = {
 			let p2 = bframe[Math.min((j+1),(nticks-1))];
 			//console.log(`el.n=${el.n}, j=${j}, p2=${JSON.stringify(p2)}`);
 			let istween = istweens[tools.randominteger(0,istweens.length)];
-			if(j===0 || j===nticks-1) {istween = 1}
+			if(j===0 || j===nticks-1) {istween = 0}
 			return [...new Array(fps).keys()].map( t => {
 				let step = istween ? tween(p1,p2,t,fps) : bframe[tools.randominteger(0,bframe.length)];
 				return step; 

@@ -1,3 +1,4 @@
+
 const pigments = {
 	red: "#8F0000", /*panatone:"7621 C" rgb(rgb(143,0,0)), cmyk(0,100,100,44), hsl(0,100%,28%)*/
 	yellow: "#ffcc00",/*rgb(255,204,0), hsl(48,100%,50%), cmyk(0,20,100,0) */
@@ -20,5 +21,22 @@ const pigments = {
 	richgray4: "#a2a3a3",
 	richgray5: "#d0d0d0",
 	richgray6: "#ffffff",
+	philippurple1: "#1A0D73",
+	philippurple2: "#59518C",
+	philippurple3: "#131159",
+	philipgreen1: "#3E5915",
+	philipgreen2: "#708C32",
 };
-module.exports = pigments;
+
+const colorsets = {
+	warmbw: [pigments.warmlightwhite, pigments.warmblack],
+	warmbwgred: [pigments.red, pigments.warmlightwhite, pigments.warmgray,pigments.warmblack],
+	warmbwred: [pigments.red, pigments.warmlightwhite, pigments.warmblack],
+	warmbwyellow: [pigments.yellow, pigments.warmlightwhite, pigments.warmblack],
+	warmbwb: [pigments.blue, pigments.warmlightwhite, pigments.warmblack],
+	philip1: ["#1A0D73","#59518C","#3F665C","#3E5915","#131159","#708C32","#5C4B4A", "#6D9E98", "#6D1626", "#DFE1E6"],
+	philip2: ["#1C17A6","#0A3EA6","#0B6BBF","#6A732C","#734002","#CE8F3C"] ,
+	philip3: ["#1A0D73","#59518C","#3E5915","#131159","#708C32","#5C4B4A", "#6D9E98", "#6D1626", "#DFE1E6"],
+};
+
+module.exports = {pigments,colorsets};

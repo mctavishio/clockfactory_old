@@ -25,6 +25,6 @@ rm frame*.png
 
 # magick convert frame024.pdf -resize 1920 poster.png
 # magick convert frame018.pdf -resize 1920 poster000.png
-open film.mp4
+#open film.mp4
 # vopen film_withtext.mp4
 echo done;

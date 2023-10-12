@@ -211,10 +211,10 @@ acc[3] = acc[3] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.m
 	return acc;
 }, ["sox -m ", "sox -m ", "sox -m ", "sox -m "]);
 
-linemerge[0] = linemerge[0]+` line_all_thread_all.mp3 ${mcompandstr} norm -4  ${silencestr}`;
-linemerge[1] = linemerge[1] + ` line_all_thread_all_reverb.mp3 ${reverbstr} ${mcompandstr} norm -4  ${silencestr}`;
-linemerge[2] = linemerge[2] + ` line_all_thread_all_echo.mp3 ${mcompandstr} norm -4  ${silencestr}`;
-linemerge[3] = linemerge[3] + ` line_all_thread_all_echo_reverb.mp3 ${reverbstr} ${mcompandstr} norm -4  ${silencestr}`;
+linemerge[0] = linemerge[0]+` line_all_thread_all.mp3 ${mcompandstr} norm -3  ${silencestr}`;
+linemerge[1] = linemerge[1] + ` line_all_thread_all_reverb.mp3 ${reverbstr} ${mcompandstr} norm -3  ${silencestr}`;
+linemerge[2] = linemerge[2] + ` line_all_thread_all_echo.mp3 ${mcompandstr} norm -3  ${silencestr}`;
+linemerge[3] = linemerge[3] + ` line_all_thread_all_echo_reverb.mp3 ${reverbstr} ${mcompandstr} norm -3  ${silencestr}`;
 soxstr = soxstr + linemerge.join(" \n");
 /*
 let linemerge = rawsoundfileweightseeds.reduce( (acc,line,l) => {
