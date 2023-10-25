@@ -15,9 +15,12 @@ const Bfile = `./B.js`;
 const BfilmFile = `./Bfilm.js`;
 const pigments = require("./pigments.js").pigments;
 const colorsets = require("./pigments.js").colorsets;
+const rawcolorsets = require("./pigments.js").rawcolorsets;
 const tools = require("./tools.js");
-const spice = colorsets.philip1; 
+const spice = colorsets.warmbwred; 
 const colors = colorsets.warmbw; 
+//const spice = rawcolorsets.filter(cs=>cs.title==="core colors")[0].lists[8];
+//const colors = rawcolorsets.filter(cs=>cs.title==="core colors")[0].lists[8];
 const allcolors = [...spice,...colors];
 const rmin = .25, rmax = 38;
 const swmin = .20, swmax = 38;
@@ -115,7 +118,7 @@ elements[nlayers] = [...new Array(ncircles).keys()].map( n => {
 	return ({tag:"circle", role:"circle", n:n, color:colors[(nlayers+n)%colors.length]});
 });
 
-/*
+
 [0].forEach( j => {
 	let colors = spice; 
 	let l = tools.randominteger(0,nlayers+1);
@@ -124,7 +127,7 @@ elements[nlayers] = [...new Array(ncircles).keys()].map( n => {
 	console.log(color);
 	elements[l][tools.randominteger(0,elements[l].length)].color=color;
 });
-*/
+
 
 let B = {
 	nticks: nticks,
@@ -144,7 +147,7 @@ let Bfilm = {
 		});
 	})
 }
-	const istweens = [[Math.floor(nticks*0.28),1],[1,1]].flatMap(wx=>{
+	const istweens = [[Math.floor(nticks*0.88),1],[1,0]].flatMap(wx=>{
 		return [...new Array(wx[0]).keys()].map( w=>wx[1] );
 	});
 	const changes = [[6,0],[3,1]].flatMap(wx=>{
@@ -168,6 +171,7 @@ let Bfilm = {
 	[0].forEach( layer => {
 		let cx = 0, cy = 0, w = 1.0, h = 1.0, sw = 0.01, sd = 1, so = 0, fo = 1;
 		let color = pigments.warmlightwhite; 
+		//let color = colors[tools.randominteger(0,colors.length)];
 		[...new Array(elements[layer].length).keys()].forEach( n => { 
 			B.elements[layer][n].b = [...new Array(nticks).keys()].map( j => {
 				return drawp.rect({cx:cx,cy:cy,w:w,h:h,sw,sd,so,fo,color});
@@ -190,12 +194,11 @@ let Bfilm = {
 		let k = n*(z-1)+n;
 		let bframe = [...new Array(nticks).keys()].reduce( (acc,j) => {
 			let bt = [];
-			if(j===0 || ischange[j][n] || j===nticks-1) {
+			if( j===0 || ischange[j][n] || j===nticks-1 ) {
 				//let so = (j===0 || j===nticks-1) ? 0 : pgrid[j].so[k];
 				//let fo = (j===0 || j===nticks-1) ? 0 : pgrid[j].fo[k];
 
-				let t = tools.randominteger(0,80)<2;
-				if(t){
+				if(tools.randominteger(0,400)<2){
 					el.color=allcolors[tools.randominteger(0,allcolors.length)]
 				}
 

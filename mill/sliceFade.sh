@@ -23,7 +23,6 @@ echo $filename
 echo $fileid
 echo $fileext
 
-
 WAV_IN=$filename
 WAV_OUT=$fileid.mp3
 echo $WAV_IN
@@ -34,6 +33,8 @@ FADE_OUT_L="0.3"
 
 LENGTH=`soxi -d $WAV_IN`
 
-sox $WAV_IN $WAV_OUT fade $FADE_IN_L $LENGTH $FADE_OUT_L
+#sox $WAV_IN $WAV_OUT fade $FADE_IN_L $LENGTH $FADE_OUT_L
+sox $WAV_IN $WAV_OUT fade $FADE_IN_L -0 $FADE_OUT_L
 
 done
+echo zsh getSoundFileData.sh

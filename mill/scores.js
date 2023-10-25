@@ -93,19 +93,45 @@ const bowedmetal = soundFiles.filter(f=>f.keywords.includes("bowedmetal")).map(f
 const cry = soundFiles.filter(f=>f.keywords.includes("cry")).map(f=> {
 	return [f.id,1,toneweights[4]]
 });  
+const brass = soundFiles.filter(f=>f.keywords.includes("brass")).map(f=> {
+	return [f.id,1,toneweights[4]]
+});  
 let scores = {
 	toneweights,
 	orchestrations: [
 		[
-			{gain:0.3,padmin:100,padmax:400,list:bells},
+			{gain:0.3,padmin:0,padmax:200,list:brass},
+			{gain:0.2,padmin:0,padmax:100,list:brass},
+			{gain:0.3,padmin:0,padmax:200,list:bowedmetal},
+		],
+		[
+			{gain:0.3,padmin:0,padmax:200,list:bowedmetal},
 			{gain:0.3,padmin:0,padmax:100,list:afterring},
-			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
 		],
 		[
 			{gain:0.8,padmin:0,padmax:60,list:bagpipebeats},
 			{gain:1.2,padmin:0,padmax:60,list:[ ["t0",1,toneweights[9]] ]},
 			//{gain:0.4,padmin:0,padmax:60,list:[ ["clapping0",1,toneweights[12]] ]},
 			{gain:1.2,padmin:0,padmax:60,list:[ ["thunk",1,toneweights[12]] ]},
+		],
+		[
+			{gain:0.5,padmin:0,padmax:100,list:beats},
+			{gain:0.5,padmin:0,padmax:80,list:beats},
+		],
+		[
+			{gain:0.4,padmin:0,padmax:400,list:cry},
+			{gain:0.4,padmin:0,padmax:100,list:afterring},
+			{gain:0.2,padmin:0,padmax:80,list:noise},
+		],
+		[
+			{gain:0.3,padmin:100,padmax:400,list:bells},
+			{gain:0.3,padmin:0,padmax:100,list:afterring},
+			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
+		],
+		[
+			{gain:0.3,padmin:10,padmax:200,list:bowedmetal},
+			{gain:0.3,padmin:0,padmax:100,list:afterring},
+			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
 		],
 		[
 			{gain:0.6,padmin:0,padmax:200,list:magsclarinetnotes},
@@ -115,11 +141,6 @@ let scores = {
 			{gain:0.4,padmin:0,padmax:200,list:pianokeys},
 			{gain:0.6,padmin:0,padmax:100,list:pianosolo},
 			{gain:0.4,padmin:80,padmax:400,list:pianosolonoise},
-		],
-		[
-			{gain:0.4,padmin:0,padmax:400,list:cry},
-			{gain:0.4,padmin:0,padmax:100,list:afterring},
-			{gain:0.2,padmin:0,padmax:80,list:noise},
 		],
 		[
 			{gain:0.4,padmin:0,padmax:100,list:magsmonk},

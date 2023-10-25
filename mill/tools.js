@@ -37,6 +37,84 @@ let tools = {
 	  }
 	  return array;
 	},
+	hexToRGB: h => {
+		let r = 0, g = 0, b = 0;
+		// 3 digits
+		if (h.length == 4) {
+			r = "0x" + h[1] + h[1];
+			g = "0x" + h[2] + h[2];
+			b = "0x" + h[3] + h[3];
+			// 6 digits
+		} else if (h.length == 7) {
+			r = "0x" + h[1] + h[2];
+			g = "0x" + h[3] + h[4];
+			b = "0x" + h[5] + h[6];
+		}
+		return {r:+r,g:+g,b:+b};
+	},
+	RGBToHSLA: ({r,g,b,a=1}={}) => {
+		// Make r, g, and b fractions of 1
+		r /= 255;
+		g /= 255;
+		b /= 255;
+
+		// Find greatest and smallest channel values
+		let cmin = Math.min(r,g,b),
+			cmax = Math.max(r,g,b),
+			delta = cmax - cmin,
+			h = 0,
+			s = 0,
+			l = 0;
+
+		if (delta == 0)
+			h = 0;
+		// Red is max
+		else if (cmax == r)
+			h = ((g - b) / delta) % 6;
+		// Green is max
+		else if (cmax == g)
+			h = (b - r) / delta + 2;
+		// Blue is max
+		else
+			h = (r - g) / delta + 4;
+
+		h = Math.round(h * 60);
+
+		// Make negative hues positive behind 360°
+		if (h < 0) h += 360;
+
+		// Calculate lightness
+		l = (cmax + cmin) / 2;
+
+		// Calculate saturation
+		s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+
+		// Multiply l and s by 100
+		s = +(s * 100).toFixed(1);
+		l = +(l * 100).toFixed(1);
+		//return "hsl(" + h + "," + s + "%," + l + "%)";
+		// return "hsla(" + h + "," + s + "%," +l + "%," + a + ")";
+		return {h:h, s:s, l:l, a:a}
+	},
+	hexToRGB2:  hex => {
+		let alpha = false,
+			h = hex.slice(hex.startsWith('#') ? 1 : 0);
+		if (h.length === 3) h = [...h].map(x => x + x).join('');
+		else if (h.length === 8) alpha = true;
+		h = parseInt(h, 16);
+		return (
+			'rgb' +
+			(alpha ? 'a' : '') +
+			'(' +
+			(h >>> (alpha ? 24 : 16)) +
+			', ' +
+			((h & (alpha ? 0x00ff0000 : 0x00ff00)) >>> (alpha ? 16 : 8)) +
+			', ' +
+			((h & (alpha ? 0x0000ff00 : 0x0000ff)) >>> (alpha ? 8 : 0)) +
+			(alpha ? `, ${h & 0x000000ff}` : '') +
+			')'
+		);
+	},
 	//linear tween
 	//for more see: https://github.com/danro/jquery-easing/blob/master/jquery.easing.js
 	//https://spicyyoghurt.com/tools/easing-functions
@@ -255,8 +333,8 @@ let tools = {
 			if ( -1 != d.search(/[rR]/) ) {
 				// no need to redraw the path if no Catmull-Rom segments are found
 				// split path into constituent segments
-					var pathSplit = d.split(/([A-Za-z])/);
-					for (var i = 0, iLen = pathSplit.length; iLen > i; i++) {
+				var pathSplit = d.split(/([A-Za-z])/);
+				for (var i = 0, iLen = pathSplit.length; iLen > i; i++) {
 					var segment = pathSplit[i];
 					// make command code lower case, for easier matching
 					// NOTE: this code assumes absolution coordinates, and doesn't account for relative command coordinates
@@ -268,17 +346,17 @@ let tools = {
 							val = pathSplit[ i ].replace(/\s+$/, '');
 						}
 
-								if ( "r" == command ) {
+						if ( "r" == command ) {
 							// "R" and "r" are the a Catmull-Rom spline segment
 							var points = lastX + "," + lastY + " " + val;
-									// convert Catmull-Rom spline to BÃ©zier curves
+							// convert Catmull-Rom spline to BÃ©zier curves
 							var beziers = tools.curves.catmullRom2bezier( points );
 							//insert replacement curves back into array of path segments
 							pathArray.push( beziers );
 						} else {
-							 // rejoin the command code and the numerical values, place in array of path segments
+							// rejoin the command code and the numerical values, place in array of path segments
 							pathArray.push( segment + val );
-									// find last x, y points, for feeding into Catmull-Rom conversion algorithm
+							// find last x, y points, for feeding into Catmull-Rom conversion algorithm
 							if ( "h" == command ) {
 								lastX = val;
 							} else if ( "v" == command ) {
