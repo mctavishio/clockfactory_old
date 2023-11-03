@@ -1,6 +1,10 @@
 const fs = require("fs");
 const tools = require("./tools.js");
+const input = require("./input.js");
 const scores = require("./scores.js");
+const orchestrationparts = scores.orchestrations[input.score]; 
+const nthreads = 4;
+const threadlength = input.duration*48;
 const rawsoundfiledata = require("./rawSoundFiles.js");
 // echo module.exports = [ > soundfiles.js; for file in ?(*.mp3|*.wav); do soxi -D $file | read d ; soxi -c $file | read c ; soxi -r $file | read r ; soxi -t $file | read t ; soxi -p $file | read p ;echo {id:\"${file%.*}\", file:\"$file\", duration:$d, nchannels:$c, rate:$r, type:\"$t\", bitrate:$p}, >> soundfiles.js; done; echo ] >> soundfiles.js;
 const prefix = "soundmill002";
@@ -42,18 +46,8 @@ const toneweights = [
 ];
 */
 
-const rawsoundfileweightseeds = scores.orchestrations[0]; 
-/*
-const rawsoundfileweightseeds = [
-	{gain:0.2,padmin:0,padmax:100,list:[ ["clarinet1",4,toneweights[9]], ["clarinetnotes_a",2,toneweights[9]], ["clarinetnotes_e",2,toneweights[9]], ["clarinetnotes_f",1,toneweights[9]], ["clarinetnotes_g",1,toneweights[9]], ["clarinetnotes_b",1,toneweights[9]], ["clarinetnotes_i",1,toneweights[9]] ]},
-	//{gain:0.3,list:[ ["magsSessionClips_3b",1,toneweights[14]], ["magsSessionClips_1",2,toneweights[2]],["mctbreathing0",1,toneweights[2]] ]},
-	{gain:0.4,padmin:0,padmax:200,list:[ ["bell13",4,toneweights[9]],["bell11",4,toneweights[9]],["bird2",1,toneweights[2]],["bird3",1,toneweights[12]],["bird1",2,toneweights[12]] ]},
-	{gain:0.4,padmin:0,padmax:80,list:[ ["vox20200118_8_3b",2,toneweights[3]],["mctbreathing0",2,toneweights[13]],["train1",1,toneweights[4]]  ]},
-];
-*/
 
-
-const rawsoundfiledata_subset = rawsoundfileweightseeds.filter(x=>x.clips).reduce( (acc,rawsoundfiles) => {
+const rawsoundfiledata_subset = orchestrationparts.filter(x=>x.clips).reduce( (acc,rawsoundfiles) => {
 	let counted = acc.filter( f => f.id );
 	rawsoundfiles.forEach( rawsoundfile => { 
 		if(!counted.includes(rawsoundfile[0])) {
@@ -63,10 +57,10 @@ const rawsoundfiledata_subset = rawsoundfileweightseeds.filter(x=>x.clips).reduc
 	return acc;
 }, []);
 // console.log(`rawsoundfildata_subset = ${JSON.stringify(rawsoundfiledata_subset)}`);
-// const rawsoundfileweightseeds = [ ["mctbreathing0",1,toneweights[2]], ["mctvox1c",1,toneweights[2]], ["numberstation0",1,toneweights[0]], ["numberstation0b",1,toneweights[0]], ["vox20200118_8_3b",1,toneweights[0]], ["vox20200124_itwas",1,toneweights[0]]];
-// const rawsoundfileweightseeds = [ ["weatherradio1_1channel",3,toneweights[3]], ["clarinet1_1channel",1,toneweights[4]], ["bird1_1channel",1,toneweights[4]], ["bird3_1channel",1,toneweights[3]], ["128_c",2,toneweights[3]],["144_d",3,toneweights[3]], ["192_g",2,toneweights[3]], ["288_d",2,toneweights[3]], ["384_g",2,toneweights[3]], ["432_a",2,toneweights[5]], ["64_c",1,toneweights[0]] ];
-//const rawsoundfileweightseeds = [ ["128_c",2,toneweights[3]],["144_d",3,toneweights[3]], ["192_g",3,toneweights[3]], ["288_d",3,toneweights[3]], ["384_g",3,toneweights[3]], ["432_a",3,toneweights[5]], ["64_c",1,toneweights[0]] ];
-// const rawsoundfileweightseeds = [ ["128_c",2,toneweights[0]],["144_d",3,toneweights[5]], ["192_g",2,toneweights[5]], ["288_d",2,toneweights[5]], ["384_g",2,toneweights[5]], ["432_a",2,toneweights[5]], ["64_c",1,toneweights[0]] ];
+// const orchestrationparts = [ ["mctbreathing0",1,toneweights[2]], ["mctvox1c",1,toneweights[2]], ["numberstation0",1,toneweights[0]], ["numberstation0b",1,toneweights[0]], ["vox20200118_8_3b",1,toneweights[0]], ["vox20200124_itwas",1,toneweights[0]]];
+// const orchestrationparts = [ ["weatherradio1_1channel",3,toneweights[3]], ["clarinet1_1channel",1,toneweights[4]], ["bird1_1channel",1,toneweights[4]], ["bird3_1channel",1,toneweights[3]], ["128_c",2,toneweights[3]],["144_d",3,toneweights[3]], ["192_g",2,toneweights[3]], ["288_d",2,toneweights[3]], ["384_g",2,toneweights[3]], ["432_a",2,toneweights[5]], ["64_c",1,toneweights[0]] ];
+//const orchestrationparts = [ ["128_c",2,toneweights[3]],["144_d",3,toneweights[3]], ["192_g",3,toneweights[3]], ["288_d",3,toneweights[3]], ["384_g",3,toneweights[3]], ["432_a",3,toneweights[5]], ["64_c",1,toneweights[0]] ];
+// const orchestrationparts = [ ["128_c",2,toneweights[0]],["144_d",3,toneweights[5]], ["192_g",2,toneweights[5]], ["288_d",2,toneweights[5]], ["384_g",2,toneweights[5]], ["432_a",2,toneweights[5]], ["64_c",1,toneweights[0]] ];
 // const rawsoundfiles = ["rider1_a", "rider1_b", "therider0_a", "therider0_b", "therider0_c", "therider0_d", "therider0_e", "therider0b_a", "therider0b_b", "therider0b_c", "therider0b_d", "therider0b_e", "therider0b_f", "therider0b_g"];
 
 // const rawsoundfiles = ["magsSessionClips_1"];
@@ -110,8 +104,6 @@ const  baseweights = Object.entries(speeds).reduce( (acc,entry) => {
 // console.log(`speeds = ${JSON.stringify(speeds)}`);
 // console.log(`baseweights = ${JSON.stringify(baseweights)}`);
 
-const nthreads = 4;
-const threadlength = 2*48;
 // const mcompandstr = `gain -4 sinc -n 29 -b 100 8000 mcompand "0.005,0.1 -47,-40,-34,-34,-17,-33" 100 "0.003,0.05 -47,-40,-34,-34,-17,-33" 400 "0.000625,0.0125 -47,-40,-34,-34,-15,-33" 1600 "0.0001,0.025 -47,-40,-34,-34,-31,-31,-0,-30" 6400 "0,0.025 -38,-31,-28,-28,-0,-25" gain 15 highpass 22 highpass 22 sinc -n 255 -b 16 -17500 gain 8 lowpass -1 17801 norm -2 silence -l 1 0.1 1% -1 2.0 1%`;
 const mcompandstr = `gain -12 sinc -n 29 -b 100 8000 mcompand "0.005,0.1 -47,-40,-34,-34,-17,-33" 100 "0.003,0.05 -47,-40,-34,-34,-17,-33" 400 "0.000625,0.0125 -47,-40,-34,-34,-15,-33" 1600 "0.0001,0.025 -47,-40,-34,-34,-31,-31,-0,-30" 6400 "0,0.025 -38,-31,-28,-28,-0,-25" gain 15 highpass 22 highpass 22 sinc -n 255 -b 16 -17500 gain 1 lowpass -1 17801 lowpass 2400`;
 // const mcompandstr = `gain -6 sinc -n 29 -b 100 8000 mcompand "0.005,0.1 -47,-40,-34,-34,-17,-33" 100 "0.003,0.05 -47,-40,-34,-34,-17,-33" 400 "0.000625,0.0125 -47,-40,-34,-34,-15,-33" 1600 "0.0001,0.025 -47,-40,-34,-34,-31,-31,-0,-30" 6400 "0,0.025 -38,-31,-28,-28,-0,-25" gain 15 highpass 22 highpass 22 sinc -n 255 -b 16 -17500 gain 6 lowpass -1 17801`;
@@ -131,9 +123,9 @@ const echos = () => {
 };
 
 const tonepads = (min=0,max=100) => { return tools.randominteger(min,max)/100 };
-// soc cheat cheat: https://gist.github.com/ideoforms/d64143e2bad16b18de6e97b91de494fd
+// sox cheat cheat: https://gist.github.com/ideoforms/d64143e2bad16b18de6e97b91de494fd
 let soxstr = "";
-rawsoundfileweightseeds.forEach( (line,l) => {
+orchestrationparts.forEach( (line,l) => {
 	rawseeds = line.list;
 	//console.log(`rawseeds = ${JSON.stringify(rawseeds)}`);
 	let soundindexweights = tools.reifyWeightedArray( 
@@ -159,7 +151,15 @@ rawsoundfileweightseeds.forEach( (line,l) => {
 	soxstr = soxstr + [...Array(nthreads).keys()].reduce( (threadstr,j) => {
 		let dur = 0;
 		let filestr = "";
-		while(dur < threadlength) {
+		let threaddur = line.duration ? Math.min(line.duration,threadlength) : threadlength;
+		
+		if(line.delay) {
+			filestr = filestr + ` "|sox ../../fragments/silence.mp3 -p pad 0 ${line.delay}" `;
+			//filestr = filestr + ` "|sox -n -r 44100 -c 2 silence.mp3 trim 0.0 ${line.delay}" `;
+			dur += 1 + line.delay;
+			console.log(`delaydur = ${dur}`);
+		}
+		while(dur < threaddur) {
 			let rawsoundfile = rawsoundfileweights[soundindexweights[tools.randominteger(0,soundindexweights.length)]];
 			//console.log(`rawsoundfile = ${JSON.stringify(rawsoundfile)}`);
 			//console.log(`rawsoundfile[0] = ${rawsoundfile[0]}`);
@@ -201,9 +201,9 @@ sox -M "|sox -v 0.5 line_${l.toString().padStart(3, "0")}_thread_${j.toString().
 */
 });
 
-let linemerge = rawsoundfileweightseeds.reduce( (acc,line,l) => {
+let linemerge = orchestrationparts.reduce( (acc,line,l) => {
 	console.log("l = "+l);
-	let vol = rawsoundfileweightseeds[l].gain;
+	let vol = orchestrationparts[l].gain;
 acc[0] = acc[0] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 `;
 acc[1] = acc[1] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 `;
 acc[2] = acc[2] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 `;
@@ -217,9 +217,9 @@ linemerge[2] = linemerge[2] + ` line_all_thread_all_echo.mp3 ${mcompandstr} norm
 linemerge[3] = linemerge[3] + ` line_all_thread_all_echo_reverb.mp3 ${reverbstr} ${mcompandstr} norm -3  ${silencestr}`;
 soxstr = soxstr + linemerge.join(" \n");
 /*
-let linemerge = rawsoundfileweightseeds.reduce( (acc,line,l) => {
+let linemerge = orchestrationparts.reduce( (acc,line,l) => {
 	console.log("l = "+l);
-	let vol = rawsoundfileweightseeds[l].gain;
+	let vol = orchestrationparts[l].gain;
 acc[0] = acc[0] + ` "|sox -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 -c1 -p pad ${threadpads()} 0 norm -4" `;
 acc[1] = acc[1] + ` "|sox -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 -c1 -p pad ${threadpads()} 0 norm -4" `;
 acc[2] = acc[2] + ` "|sox -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 -c1 -p pad ${threadpads()} 0 norm -4" `;

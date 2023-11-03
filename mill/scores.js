@@ -96,13 +96,19 @@ const cry = soundFiles.filter(f=>f.keywords.includes("cry")).map(f=> {
 const brass = soundFiles.filter(f=>f.keywords.includes("brass")).map(f=> {
 	return [f.id,1,toneweights[4]]
 });  
+const brasslong = soundFiles.filter(f=>f.keywords.includes("brass") && f.keywords.includes("long")).map(f=> {
+	return [f.id,1,toneweights[7]]
+});  
+const brassshort = soundFiles.filter(f=>f.keywords.includes("brass") && f.keywords.includes("short")).map(f=> {
+	return [f.id,1,toneweights[7]]
+});  
 let scores = {
 	toneweights,
 	orchestrations: [
 		[
-			{gain:0.3,padmin:0,padmax:200,list:brass},
-			{gain:0.2,padmin:0,padmax:100,list:brass},
-			{gain:0.3,padmin:0,padmax:200,list:bowedmetal},
+			{gain:0.3,padmin:0,padmax:100,delay:40,duration:80,list:brassshort},
+			{gain:0.3,padmin:0,padmax:100,list:brasslong},
+			{gain:0.3,padmin:0,padmax:80,list:noise},
 		],
 		[
 			{gain:0.3,padmin:0,padmax:200,list:bowedmetal},

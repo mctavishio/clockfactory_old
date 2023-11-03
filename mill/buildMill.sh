@@ -5,6 +5,7 @@ echo $ts
 echo $dt
 mkdir data/mill$dt
 mkdir data/mill$dt/css
+cp input.js data/mill$dt/input.js
 cp pigments.js data/mill$dt/pigments.js
 cp tools.js data/mill$dt/tools.js
 cp poemTextLists.js data/mill$dt/poemTextLists.js
