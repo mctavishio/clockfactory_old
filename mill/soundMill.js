@@ -147,16 +147,17 @@ orchestrationparts.forEach( (line,l) => {
 
 	//console.log(`rawsoundfileweights = ${JSON.stringify(rawsoundfileweights)}`);
 	//console.log(`soundindexweights = ${JSON.stringify(soundindexweights)}`);
-
-	soxstr = soxstr + [...Array(nthreads).keys()].reduce( (threadstr,j) => {
+	let nlinethreads = line.nthreads ? line.nthreads : nthreads;
+	soxstr = soxstr + [...Array(nlinethreads).keys()].reduce( (threadstr,j) => {
 		let dur = 0;
 		let filestr = "";
-		let threaddur = line.duration ? Math.min(line.duration,threadlength) : threadlength;
+		let threaddur = line.duration ? threadlength*Math.min(line.duration,1.0) : threadlength;
 		
 		if(line.delay) {
-			filestr = filestr + ` "|sox ../../fragments/silence.mp3 -p pad 0 ${line.delay}" `;
+			let del = Math.min(line.delay*threadlength,threaddur-10);
+			filestr = filestr + ` "|sox ../../fragments/silence.mp3 -p pad 0 ${del}" `;
 			//filestr = filestr + ` "|sox -n -r 44100 -c 2 silence.mp3 trim 0.0 ${line.delay}" `;
-			dur += 1 + line.delay;
+			dur += 1 + del;
 			console.log(`delaydur = ${dur}`);
 		}
 		while(dur < threaddur) {

@@ -71,7 +71,7 @@ rm page*.pdf
 rm printbroadsides_temp.pdf
 
 bash pdfToFilm.sh
-ffmpeg -i film.mp4 -i line_all_thread_all_echo.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmsound.mp4
+ffmpeg -i film.mp4 -i line_all_thread_all_echo_reverb.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmsound.mp4
 #ffmpeg -i filmtext.mp4 -i line_all_thread_all_echo.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmtextsound.mp4
 open filmsound.mp4
 echo "$(date)" > readMe.txt

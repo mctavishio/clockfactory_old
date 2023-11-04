@@ -78,6 +78,9 @@ const bagpipebeats = soundFiles.filter(f=> {
 const clarinetnotes = soundFiles.filter(f=>f.keywords.includes("clarinetnotes")).map(f=> {
 	return [f.id,1,toneweights[0]]
 });  
+const strings = soundFiles.filter(f=>f.keywords.includes("strings")).map(f=> {
+	return [f.id,1,toneweights[0]]
+});  
 const bells = soundFiles.filter(f=>f.keywords.includes("bell")).map(f=> {
 	return [f.id,1,toneweights[4]]
 });  
@@ -102,23 +105,41 @@ const brasslong = soundFiles.filter(f=>f.keywords.includes("brass") && f.keyword
 const brassshort = soundFiles.filter(f=>f.keywords.includes("brass") && f.keywords.includes("short")).map(f=> {
 	return [f.id,1,toneweights[7]]
 });  
+const brasslong_ad = soundFiles.filter(f=>(f.id.includes("_d3_") || f.id.includes("_a2_")) && f.keywords.includes("brass") && f.keywords.includes("long")).map(f=> {
+	return [f.id,1,toneweights[0]]
+});  
+const brassshort_ad = soundFiles.filter(f=>(f.id.includes("_d3_") || f.id.includes("_a2_")) && f.keywords.includes("brass") && f.keywords.includes("short")).map(f=> {
+	return [f.id,1,toneweights[0]]
+});  
 let scores = {
 	toneweights,
 	orchestrations: [
 		[
-			{gain:0.3,padmin:0,padmax:100,delay:40,duration:80,list:brassshort},
-			{gain:0.3,padmin:0,padmax:100,list:brasslong},
-			{gain:0.3,padmin:0,padmax:80,list:noise},
+			{gain:0.3,padmin:0,padmax:200,list:strings},
+			{gain:0.3,padmin:0,padmax:100,list:afterring},
+		],
+		[
+			{gain:0.4,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:8,list:brassshort},
+			{gain:0.3,padmin:0,padmax:100,nthreads:4,list:brasslong_ad},
+			{gain:0.4,padmin:0,padmax:100,list:afterring},
+		],
+		[
+			{gain:0.5,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:4,list:cry},
+			{gain:0.8,padmin:0,padmax:100,delay:.6,duration:.8,nthreads:4,list:cry},
+			//{gain:0.4,padmin:0,padmax:400,list:cry},
+			{gain:0.4,padmin:0,padmax:100,list:afterring},
+			{gain:0.2,padmin:0,padmax:80,list:noise},
+		],
+		[
+			{gain:0.4,padmin:0,padmax:100,delay:.20,duration:.40,list:beats},
+			{gain:0.4,padmin:0,padmax:100,delay:.50,duration:.60,list:beats},
+			{gain:1.2,padmin:0,padmax:60,nthreads:6,list:bagpipebeats},
+			//{gain:1.2,padmin:0,padmax:60,list:[ ["t0",1,toneweights[9]] ]},
+			{gain:1.2,padmin:0,padmax:60,nthreads:6,list:[ ["thunk",1,toneweights[12]] ]},
 		],
 		[
 			{gain:0.3,padmin:0,padmax:200,list:bowedmetal},
 			{gain:0.3,padmin:0,padmax:100,list:afterring},
-		],
-		[
-			{gain:0.8,padmin:0,padmax:60,list:bagpipebeats},
-			{gain:1.2,padmin:0,padmax:60,list:[ ["t0",1,toneweights[9]] ]},
-			//{gain:0.4,padmin:0,padmax:60,list:[ ["clapping0",1,toneweights[12]] ]},
-			{gain:1.2,padmin:0,padmax:60,list:[ ["thunk",1,toneweights[12]] ]},
 		],
 		[
 			{gain:0.5,padmin:0,padmax:100,list:beats},

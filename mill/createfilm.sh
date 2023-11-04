@@ -7,4 +7,4 @@ echo "# sound films" > filmFiles$dt.txt
 for file in $(find . -name "filmsound.mp4"); do 
  echo "file '$file'" >> filmFiles$dt.txt
 done
-ffmpeg -f concat -safe 0 -i filmFiles$dt.txt -c copy film$dt.mp4
+#ffmpeg -f concat -safe 0 -i filmFiles$dt.txt -c copy film$dt.mp4

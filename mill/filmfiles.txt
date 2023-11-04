@@ -1,8 +1,3 @@
-# sound films
-file './data/mill20231023170337/filmsound.mp4'
-file './data/mill20231023171214/filmsound.mp4'
-file './data/mill20231023172400/filmsound.mp4'
-file './data/mill20231023173308/filmsound.mp4'
-file './data/mill20231023174257/filmsound.mp4'
-file './data/mill20231023182758/filmsound.mp4'
-file './data/mill20231023184910/filmsound.mp4'
+file './data/mill20231104132640'
+file './data/mill20231104134707'
+file './data/mill20231104135400'
