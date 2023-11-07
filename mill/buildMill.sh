@@ -35,6 +35,7 @@ echo done with soundMill
 echo run SOX: sound weaving . . . 
 bash runSOX.sh 
 echo done running SOX 
+rm line_0*_thread_*.mp3
 echo module.exports = [ > outSoundFiles.js; for file in ?(*.mp3|*.wav); do soxi -D $file | read d ; soxi -c $file | read c ; soxi -r $file | read r ; soxi -t $file | read t ; soxi -p $file | read p ;echo {id:\"${file%.*}\", file:\"$file\", url:\"https://storage.googleapis.com/soundfactory/1696901930244/$file\", duration:$d, nchannels:$c, rate:$r, type:\"$t\", bitrate:$p}, >> outsoundfiles.js; done; echo ] >> outSoundFiles.js;
 echo done writing outSoundFiles.js 
 node Bmill.js

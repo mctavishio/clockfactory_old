@@ -185,6 +185,7 @@ const pigments = {
 
 const colorsets = {
 	warmbw: [pigments.warmlightwhite, pigments.warmblack],
+	warmb2w: [pigments.warmlightwhite, pigments.warmlightwhite, pigments.warmblack],
 	warmbwgred: [pigments.red, pigments.warmlightwhite, pigments.warmgray,pigments.warmblack],
 	warmbwred: [pigments.red, pigments.warmlightwhite, pigments.warmblack],
 	warmbwyellow: [pigments.yellow, pigments.warmlightwhite, pigments.warmblack],

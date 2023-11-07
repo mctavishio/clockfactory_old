@@ -115,6 +115,11 @@ let scores = {
 	toneweights,
 	orchestrations: [
 		[
+			{gain:0.4,padmin:100,padmax:400,nthreads:6,list:bells},
+			{gain:0.4,padmin:0,padmax:100,list:afterring},
+			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
+		],
+		[
 			{gain:0.3,padmin:0,padmax:200,list:strings},
 			{gain:0.3,padmin:0,padmax:100,list:afterring},
 		],
@@ -149,11 +154,6 @@ let scores = {
 			{gain:0.4,padmin:0,padmax:400,list:cry},
 			{gain:0.4,padmin:0,padmax:100,list:afterring},
 			{gain:0.2,padmin:0,padmax:80,list:noise},
-		],
-		[
-			{gain:0.3,padmin:100,padmax:400,list:bells},
-			{gain:0.3,padmin:0,padmax:100,list:afterring},
-			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
 		],
 		[
 			{gain:0.3,padmin:10,padmax:200,list:bowedmetal},
