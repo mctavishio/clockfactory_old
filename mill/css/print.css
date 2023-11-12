@@ -373,11 +373,14 @@ body.film article > div.flex > div.content {
 	padding: 1em;
 	padding: 1em;
 	margin: 2em;
+	width: 90%;
 	/*justify-content: center;*/
 	text-align: center;
 	flex-basis: 1;
-	background-color: var(--warmlightwhiteveil);
+	/*background-color: var(--warmlightwhiteveil);*/
+	color: var(--red);
 	font-size:1.4rem;
+	font-size:16vmin;
 }
 body.notext article > div.flex > div.content {
 	display:none;

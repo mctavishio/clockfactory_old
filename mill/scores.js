@@ -78,6 +78,9 @@ const bagpipebeats = soundFiles.filter(f=> {
 const clarinetnotes = soundFiles.filter(f=>f.keywords.includes("clarinetnotes")).map(f=> {
 	return [f.id,1,toneweights[0]]
 });  
+const stringspluck = soundFiles.filter(f=>f.keywords.includes("strings") && f.keywords.includes("pluck")).map(f=> {
+	return [f.id,1,toneweights[0]]
+});  
 const strings = soundFiles.filter(f=>f.keywords.includes("strings")).map(f=> {
 	return [f.id,1,toneweights[0]]
 });  
@@ -115,6 +118,23 @@ let scores = {
 	toneweights,
 	orchestrations: [
 		[
+			{gain:0.4,padmin:0,padmax:80,list:stringspluck},
+			{gain:0.4,padmin:0,padmax:100,list:stringspluck},
+			{gain:0.4,padmin:10,padmax:100,nthreads:6,list:stringspluck},
+			{gain:0.5,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:6,list:stringspluck},
+		],
+		[
+			{gain:0.4,padmin:0,padmax:200,list:strings},
+			{gain:0.4,padmin:0,padmax:100,list:strings},
+		],
+		[
+			{gain:0.5,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:4,list:cry},
+			{gain:0.8,padmin:0,padmax:100,delay:.6,duration:.8,nthreads:4,list:cry},
+			//{gain:0.4,padmin:0,padmax:400,list:cry},
+			{gain:0.4,padmin:0,padmax:100,list:afterring},
+			{gain:0.2,padmin:0,padmax:80,list:noise},
+		],
+		[
 			{gain:0.4,padmin:100,padmax:400,nthreads:6,list:bells},
 			{gain:0.4,padmin:0,padmax:100,list:afterring},
 			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
@@ -127,13 +147,6 @@ let scores = {
 			{gain:0.4,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:8,list:brassshort},
 			{gain:0.3,padmin:0,padmax:100,nthreads:4,list:brasslong_ad},
 			{gain:0.4,padmin:0,padmax:100,list:afterring},
-		],
-		[
-			{gain:0.5,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:4,list:cry},
-			{gain:0.8,padmin:0,padmax:100,delay:.6,duration:.8,nthreads:4,list:cry},
-			//{gain:0.4,padmin:0,padmax:400,list:cry},
-			{gain:0.4,padmin:0,padmax:100,list:afterring},
-			{gain:0.2,padmin:0,padmax:80,list:noise},
 		],
 		[
 			{gain:0.4,padmin:0,padmax:100,delay:.20,duration:.40,list:beats},

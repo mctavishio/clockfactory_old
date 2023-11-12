@@ -11,17 +11,19 @@ cp frame0098.png poster0001.png
 cp frame0218.png poster0002.png
 cp frame0480.png poster0003.png
 rm frame*.png
+echo done making film.mp4
 
 # with text film
-# prince -s css/print.css filmwithtext.html --raster-dpi=150 --raster-output=frame%04d_withtext.png;
-# rm frame0000_withtext.png
-# rm frame0001_withtext.png
-# ffmpeg -framerate 24 -i frame%04d_withtext.png -c:v libx264 -r 24 -pix_fmt yuv420p film_withtext.mp4
-# cp frame0048_withtext.png poster_withtext.png
-# cp frame0098_withtext.png poster0001_withtext.png
-# cp frame0218_withtext.png poster0002_withtext.png
-# cp frame0480_withtext.png poster0003_withtext.png
-# rm frame*_withtext.png
+prince -s css/print.css filmtext.html --raster-dpi=150 --raster-output=frame%04d_text.png;
+rm frame0000_text.png
+rm frame0001_withtext.png
+ffmpeg -framerate 24 -i frame%04d_text.png -c:v libx264 -r 24 -pix_fmt yuv420p filmtext.mp4
+cp frame0048_withtext.png poster_withtext.png
+cp frame0098_withtext.png poster0001_withtext.png
+cp frame0218_withtext.png poster0002_withtext.png
+cp frame0480_withtext.png poster0003_withtext.png
+rm frame*_withtext.png
+echo done making filmtext.mp4
 
 # magick convert frame024.pdf -resize 1920 poster.png
 # magick convert frame018.pdf -resize 1920 poster000.png

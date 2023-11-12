@@ -16,7 +16,9 @@ cp bookMill.js data/mill$dt/bookMill.js
 cp filmMill.js data/mill$dt/filmMill.js
 cp soundMill.js data/mill$dt/soundMill.js
 cp rawSoundFiles.js data/mill$dt/rawSoundFiles.js
-cp pdfToFilm.sh data/mill$dt/pdfToFilm.sh
+# cp pdfToFilm.sh data/mill$dt/pdfToFilm.sh
+cp buildMill.sh data/mill$dt/buildMill.sh
+
 cp getsoundfiledata.sh data/mill$dt/getsoundfiledata.sh
 cd css
  bash clean.sh
@@ -46,34 +48,61 @@ node bookMill
 echo done running bookMill
 prince -s css/print.css print.html -o printbook_temp.pdf
 echo done making print book
-sed "s/illustratedbook/broadsides/" print.html > printbroadsides.html
-prince -s css/print.css printbroadsides.html -o printbroadsides_temp.pdf
-echo done making broadside book
-node filmMill
-echo done running filmMill
-prince -s css/print.css film.html -o film.pdf
-echo done making film book
-# sed "s/notext/withtext/" film.html > filmtext.html
-# prince -s css/print.css filmtext.html -o filmtext.pdf
-echo done making word film book
-
 pdfseparate printbook_temp.pdf page%03d.pdf
 rm page001.pdf
 rm page002.pdf
 pdfunite page*.pdf printbook.pdf
 rm page*.pdf
 rm printbook_temp.pdf
+echo done removing front matter from printbook.pdf
 
+sed "s/illustratedbook/broadsides/" print.html > printbroadsides.html
+prince -s css/print.css printbroadsides.html -o printbroadsides_temp.pdf
+echo done making broadside book
 pdfseparate printbroadsides_temp.pdf page%03d.pdf
 rm page001.pdf
 rm page002.pdf
 pdfunite page*.pdf printbroadsides.pdf
 rm page*.pdf
 rm printbroadsides_temp.pdf
+echo done removing front matter from printbroadsides.pdf
 
-bash pdfToFilm.sh
+node filmMill
+echo done running filmMill
+prince -s css/print.css film.html -o film.pdf
+echo done making film book
+sed "s/notext/withtext/" film.html > filmtext.html
+prince -s css/print.css filmtext.html -o filmtext.pdf
+echo done making word film book
+
+# https://www.princexml.com/doc/command-line/
+prince -s css/print.css film.html --raster-dpi=150 --raster-output=frame%04d.png;
+rm frame0000.png
+rm frame0001.png
+ffmpeg -framerate 24 -i frame%04d.png -c:v libx264 -r 24 -pix_fmt yuv420p film.mp4
+cp frame0048.png poster.png
+cp frame0098.png poster0001.png
+cp frame0218.png poster0002.png
+cp frame0480.png poster0003.png
+rm frame*.png
+echo done making film.mp4
 ffmpeg -i film.mp4 -i line_all_thread_all_echo_reverb.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmsound.mp4
+echo done making filmsound 
+
+# with text film
+#prince -s css/print.css filmtext.html --raster-dpi=150 --raster-output=frame%04d_text.png;
+#rm frame0000_text.png
+#rm frame0001_withtext.png
+#ffmpeg -framerate 24 -i frame%04d_text.png -c:v libx264 -r 24 -pix_fmt yuv420p filmtext.mp4
+#cp frame0048_withtext.png poster_withtext.png
+#cp frame0098_withtext.png poster0001_withtext.png
+#cp frame0218_withtext.png poster0002_withtext.png
+#cp frame0480_withtext.png poster0003_withtext.png
+#rm frame*_withtext.png
+#echo done making filmtext.mp4
 #ffmpeg -i filmtext.mp4 -i line_all_thread_all_echo.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmtextsound.mp4
+#echo done making filmtextsound 
+
 open filmsound.mp4
 echo "$(date)" > readMe.txt
 echo "directory=data/mill$dt" >> readMe.txt
@@ -82,8 +111,6 @@ echo "|:|"
 cd ../..
 echo gsutil -m cp -r data/mill$dt gs://clockfactory/
 echo "cd data/mill$dt"
-echo "bash pdfToFilm.sh"
-echo "ffmpeg -i film.mp4 -i line_all_thread_all_echo.mp3 -map 0:v:0 -map 1:a:0  -c:v copy -c:a aac -b:a 192k filmsound.mp4"
 echo open data/mill$dt/printbook.pdf
 echo open data/mill$dt/printbroadsides.pdf
 echo "open data/mill$dt/film.mp4"
