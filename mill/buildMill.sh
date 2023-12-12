@@ -3,6 +3,11 @@ ts=$(date +"%s")
 dt=$(date +"%Y%m%d%H%M%S")
 echo $ts
 echo $dt
+
+mv poemTextLists.js poemTextLists$dt
+node createTextLists.js
+mv rawPoemsList.js poemTextLists.js
+
 mkdir data/mill$dt
 mkdir data/mill$dt/css
 cp input.js data/mill$dt/input.js
@@ -40,12 +45,15 @@ echo done running SOX
 rm line_0*_thread_*.mp3
 echo module.exports = [ > outSoundFiles.js; for file in ?(*.mp3|*.wav); do soxi -D $file | read d ; soxi -c $file | read c ; soxi -r $file | read r ; soxi -t $file | read t ; soxi -p $file | read p ;echo {id:\"${file%.*}\", file:\"$file\", url:\"https://storage.googleapis.com/soundfactory/1696901930244/$file\", duration:$d, nchannels:$c, rate:$r, type:\"$t\", bitrate:$p}, >> outsoundfiles.js; done; echo ] >> outSoundFiles.js;
 echo done writing outSoundFiles.js 
+
 node Bmill.js
 echo done running Bmill
 node poemMill
 echo done running poemMill
+
 node bookMill
 echo done running bookMill
+
 prince -s css/print.css print.html -o printbook_temp.pdf
 echo done making print book
 pdfseparate printbook_temp.pdf page%03d.pdf

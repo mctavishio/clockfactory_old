@@ -1,3 +1,4 @@
+
 const fs = require("fs"); 
 const tools = require("./tools.js");
 const wordsFieldNotes = require("./wordsFieldNotes.js");
@@ -7,17 +8,19 @@ const wordsArtistSelf = require("./wordsArtistSelf.js");
 //{n: 1, count:92, text:"&"}
 const phrases = [
 	"it was like this every morning",
-	"the repairman rider passenger lone bird",
+	"the repairman rider", 
+	"passenger lone bird",
 	"grass blade dyke",
 	"(our hero zero rider ze)",
 	"hero zero rider ze",
 	"arrived alone", 
 	"worn suitcase",
 	"sandwich lukewarm coffee thermos",
-  	"tepid brown liquid",
 	"greasy paper",
   	"rusted texaco station folded map",
+  	"rusted texaco station",
 	"creased map",
+	"folded map",
   	"urgent mission",
 	"fix gears network system",
 	"repair reclaim rebuild reweave restore",
@@ -57,6 +60,7 @@ const texts = {
 };
 const glitch = "xœ½Yo½Ï¯_ÐØ‰~H=$ôoAéiØöï÷Q³k{Vj½:Ã#š#½Gj%DüìJIÂá8¹×´üýçÝôêÝ=…_î½M­ýæî¯ßw?½}÷Sœk‰5!Ê&PPç¤R#Uƒ¦4!æó‹pø„øöý#¾ûƒ#²#¾ÙÀÊ?&êëÍÍIÛ”±Èœc7ÇéÕw¨Jù<xmj«÷4¼Nwû`mÜ‡ø1Ü|?3ýx~±8‹H/·ö9K_il3¦f0e…tûbTLòâÃGÛÆ$".split('');
 const chancelecturewebs =  ["!==", "!.!", "< >", "01", "10", "00100", "10101", "010","2","4","8","16","32","64","128", "::", "=>", "++", "#.#", "|-|", ".,.", "<=>", "|||", "|.|.|", ":::", "&&", "^.", ".^", ": : :", "|:|:|", "<<-- ::: . ::: -->>", "|:|:|", "networks", "webs","spiders", "quartets", "the body", "the infinite sky", "the networked (i)", "chords", "tone rows", "electrical current", "radio transmissions", "telephone wires", "choreographies", "scores", "sculpture", "hypertext", "material", "palette", "light", "echo", "resonance", "rivers", "wind mills", "differential equations", "(how things change)", "the carbon cycle", "pipelines", "systems", "cities", "food web", "lattice", "tree", "graph",  "space", "orchestration", "digital cloud", "multi threaded", "multi lingual", "multi dimensional", "infinite between", "gender fluid", "attraction", "diffusion", "distraction", "friction", "resonation", "intra dependent", "ecosystem", "galaxies", "arteries", "cellular connections", "forests", "histories", "the modernist grid", "the API"];
+const chancelecturecyborg = ["the cyborg", "trans / border", "trans / platform", "trans / media", "trans / figured", "trans / formed", "trans / gender", "say my name", "cybernetix ze", "cybernetic she", "networked (i)"];
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const vowels = 'aeiou'.split('');
 const symbols = '!@#$%^&*|/.,\~?;:<>+=-_'.split('');
@@ -76,15 +80,17 @@ const numbers_2 = numbers_.flatMap(s=> {
 	});
 });
 console.log(numbers_2);
-let newbook = [...phrases,...numbers,...symbols_,...glitch,...alphabet,...chancelecturewebs].map( w => {
+const symbolsets = ["|..|","=>","=||=","#_#","^|^"];
+let newbook = [...phrases,...numbers,...symbols_,...symbolsets,...symbols_2subset,...glitch,...alphabet,...chancelecturewebs,...chancelecturecyborg].map( w => {
 	return {n:w.length,text:w }
 });
 
 let ws = [];
+let notwords = ["porn"];
 let wordscratch = [...Array(80).keys()].map( k=> {
 	let wordsn = [];
 	[newbook,wordsFieldNotes,wordsBlueWindow,wordsBirdland,wordsArtistSelf].forEach(wordset => {
-		wordset.filter(w => !ws.includes(w.text) && w.n===k).forEach(w => {
+		wordset.filter(w => !ws.includes(w.text) && !notwords.includes(w.text) && w.n===k).forEach(w => {
 			wordsn.push(w.text);
 			ws.push(w.text);
 		});
@@ -95,7 +101,7 @@ let words = wordscratch.map( (w,k) => {
 	return { n:k, words:w }
 }).filter( w=> w.words.length>0 );
 
-fs.writeFileSync("wordsAll.js", JSON.stringify(words,null," "), (err) => {
+fs.writeFileSync("wordsAll.js", `module.exports = ${JSON.stringify(words,null," ")}`, (err) => {
 	if (err)
 		console.log(err);
 	else {

@@ -84,6 +84,10 @@ const stringspluck = soundFiles.filter(f=>f.keywords.includes("strings") && f.ke
 const strings = soundFiles.filter(f=>f.keywords.includes("strings")).map(f=> {
 	return [f.id,1,toneweights[0]]
 });  
+//const bellssparse = soundFiles.filter(f=>f.id.includes("bell6") || f.id.includes("374273__samulis__tubular-bells-c4-tb_hit_c4_v4_rr1") || f.id.includes("375552__samulis__gong-gong_scrape_3")).map(f=> {
+const bellssparse = soundFiles.filter(f=>f.id.includes("bell11") || f.id.includes("bell2")).map(f=> {
+	return [f.id,1,toneweights[4]]
+});  
 const bells = soundFiles.filter(f=>f.keywords.includes("bell")).map(f=> {
 	return [f.id,1,toneweights[4]]
 });  
@@ -118,6 +122,15 @@ let scores = {
 	toneweights,
 	orchestrations: [
 		[
+			{gain:0.3,padmin:0,padmax:200,list:strings},
+			{gain:0.3,padmin:0,padmax:100,list:afterring},
+		],
+		[
+			{gain:0.4,padmin:100,padmax:400,nthreads:6,list:bellssparse},
+			{gain:0.4,padmin:100,padmax:400,nthreads:1,list:bells},
+			{gain:0.4,padmin:200,padmax:600,nthreads:2,list:afterring},
+		],
+		[
 			{gain:0.4,padmin:0,padmax:80,list:stringspluck},
 			{gain:0.4,padmin:0,padmax:100,list:stringspluck},
 			{gain:0.4,padmin:10,padmax:100,nthreads:6,list:stringspluck},
@@ -138,10 +151,6 @@ let scores = {
 			{gain:0.4,padmin:100,padmax:400,nthreads:6,list:bells},
 			{gain:0.4,padmin:0,padmax:100,list:afterring},
 			{gain:0.3,padmin:0,padmax:60,list:[ ["surf",1,toneweights[9]] ]},
-		],
-		[
-			{gain:0.3,padmin:0,padmax:200,list:strings},
-			{gain:0.3,padmin:0,padmax:100,list:afterring},
 		],
 		[
 			{gain:0.4,padmin:0,padmax:100,delay:.3,duration:.5,nthreads:8,list:brassshort},

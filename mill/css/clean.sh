@@ -1,1 +1,1 @@
-rm print169*.css
+rm print17*.css

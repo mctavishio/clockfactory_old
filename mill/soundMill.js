@@ -46,7 +46,6 @@ const toneweights = [
 ];
 */
 
-
 const rawsoundfiledata_subset = orchestrationparts.filter(x=>x.clips).reduce( (acc,rawsoundfiles) => {
 	let counted = acc.filter( f => f.id );
 	rawsoundfiles.forEach( rawsoundfile => { 
@@ -158,7 +157,7 @@ orchestrationparts.forEach( (line,l) => {
 			filestr = filestr + ` "|sox ../../fragments/silence.mp3 -p pad 0 ${del}" `;
 			//filestr = filestr + ` "|sox -n -r 44100 -c 2 silence.mp3 trim 0.0 ${line.delay}" `;
 			dur += 1 + del;
-			console.log(`delaydur = ${dur}`);
+			//console.log(`delaydur = ${dur}`);
 		}
 		while(dur < threaddur) {
 			let rawsoundfile = rawsoundfileweights[soundindexweights[tools.randominteger(0,soundindexweights.length)]];
@@ -166,7 +165,7 @@ orchestrationparts.forEach( (line,l) => {
 			//console.log(`rawsoundfile[0] = ${rawsoundfile[0]}`);
 			//console.log(`rawsoundfiledata=${JSON.stringify(rawsoundfiledata.filter(f => f.id===rawsoundfile[0]))}`);
 			let rawsounddur = rawsoundfiledata.filter(f => f.id===rawsoundfile[0])[0].duration;
-			console.log(`rawsounddur = ${rawsounddur}`);
+			//console.log(`rawsounddur = ${rawsounddur}`);
 			let notef = rawsoundfile[2][tools.randominteger(0,rawsoundfile[2].length)];
 			//console.log(`notef = ${notef}`);
 			let speed = intervals[notef](1);
@@ -203,7 +202,7 @@ sox -M "|sox -v 0.5 line_${l.toString().padStart(3, "0")}_thread_${j.toString().
 });
 
 let linemerge = orchestrationparts.reduce( (acc,line,l) => {
-	console.log("l = "+l);
+	//console.log("l = "+l);
 	let vol = orchestrationparts[l].gain;
 acc[0] = acc[0] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 `;
 acc[1] = acc[1] + ` -v ${vol} line_${l.toString().padStart(3, "0")}_thread_all.mp3 `;

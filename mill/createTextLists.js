@@ -1,13 +1,14 @@
 const fs = require("fs"); 
 const tools = require("./tools.js");
 const wordsAll = require("./wordsAll.js");
-const npoems = 80;
-const nstanzas = 3;
-const nlines = 4;
-const nchars = 48;
+const input = require("./input.js");
+const npoems = input.npoems || 80;
+const nstanzas = input.nstanzas || 3;
+const nlines = input.nlines || 4;
+const nchars = input.nchars || 48;
 const chcounts = wordsAll.map(w=>w.n);
 //const chcounts = [...Array(8).keys()].map(k=>k+1);
-const weights = [0,8,12,12,20,14,8,6,4,2];
+const weights = input.weights || [0,8,12,12,20,14,8,6,4,2];
 const wchcounts = [...weights.keys()].map(k=>k+1).filter(k=>chcounts.includes(k)).flatMap(k=>{
 	return [...Array(weights[k]).keys()].map(w=>k);  
 });
@@ -35,7 +36,7 @@ let rawpoems = [...Array(npoems).keys()].map(p=>{
 });
 let rawpoemsstr = `module.exports = ${JSON.stringify(rawpoems,null," ")}`;
 console.log(`rawpoems = ${JSON.stringify(rawpoems,null,"\t")}`);
-fs.writeFileSync("rawPoemsList.js", rawpoemstr, (err) => {
+fs.writeFileSync("rawPoemsList.js", rawpoemsstr, (err) => {
 	if (err)
 		console.log(err);
 	else {

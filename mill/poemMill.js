@@ -1,14 +1,4 @@
-let input = {
-	bookunits: "in",
-	bookwidth: 16,
-	bookheight: 9,
-	bookmargin: 1,
-	bookguttermargin: 1.2,
-	bleed: 0.125,
-	pixelsperunit: 72,
-	captionheight: 1,
-	cssstyles: "", 
-};
+const input = require("./input.js");
 const fs = require("fs"); 
 console.log(process.argv);
 let args = process.argv;
@@ -20,8 +10,8 @@ const tools = require("./tools.js");
 const nticks = B.nticks;
 const fps = B.fps;
 const bookunits = input.bookunits || "in";
-const bookwidth = input.bookwidth || 8.5;
-const bookheight = input.bookheight || 8.5;
+const bookwidth = input.bookwidth || 8;
+const bookheight = input.bookheight || 8;
 const bookmargin = input.bookmargin || 1;
 const bleed = input.bleed || 0.125;
 const pixelsperunit = input.pixelsperunit || 72;

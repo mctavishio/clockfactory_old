@@ -1,4 +1,5 @@
 const fs = require("fs"); 
+const input = require("./input.js"); 
 console.log(process.argv);
 let args = process.argv;
 
@@ -46,10 +47,11 @@ const colors = colorsets.warmbw;
 //const allcolors = [...spice,...colors];
 //const allcolors = [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmgray,pigments.yellow,pigments.warmblack,pigments.warmlightwhite,pigments.warmgray];
 //const allcolors = [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.yellow,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack];
-const allcolors = [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.yellow,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack];
+//const allcolors = [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.yellow,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack];
 //const allcolors = [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack];
-const n = 5;
-const nz = 5;
+const allcolors = input.allcolors(pigments);
+const n = input.nx;
+const nz = input.nz;
 
 const xgrid = [...new Array(n).keys()].map( j=>j/(n-1) );
 const ygrid = [...new Array(n).keys()].map( j=>j/(n-1) );
@@ -59,7 +61,7 @@ const xygrid = xgrid.map( x=> {
 		return [x,y];
 	});
 });
-console.log(`xygrid=${JSON.stringify(xygrid)}`);
+//console.log(`xygrid=${JSON.stringify(xygrid)}`);
 
 let elements = [];
 elements[0] = [{tag:"rect", n:0, cx:0, cy:0, color:pigments.warmlightwhite}];
@@ -86,7 +88,7 @@ elements[0] = [{tag:"rect", n:0, cx:0, cy:0, color:pigments.warmlightwhite}];
 		});
 	});
 });
-console.log(`nelements = ${elements.length}`);
+//console.log(`nelements = ${elements.length}`);
 //console.log(`elements = ${JSON.stringify(elements)}`);
 
 let B = {
@@ -134,8 +136,8 @@ let xdt = [...new Array(n).keys()].map( j=> [tools.randominteger(2,5),tools.rand
 
 [...new Array(nz).keys()].map(z=>z+1).forEach( z => { 
 	B.elements[z].forEach( (el,j) => {
-		let so = (el.role==="circle" && z%2===0) ? 0 : 1;
-		let fo = (el.role==="circle" && z%2===0) ? 1 : 0;
+		let so = (el.role==="circle" && z < 3) ? 0 : 1;
+		let fo = (el.role==="circle" && z < 3) ? 1 : 0;
 		let bframe = [...new Array(nticks).keys()].reduce( (acc,t) => {
 			let dx = (t%xdt[el.n%(n)][z-1]+1)/(xdt[el.n%n][z-1]);
 			//console.log(`dx=${dx}`);
@@ -143,7 +145,7 @@ let xdt = [...new Array(n).keys()].map( j=> [tools.randominteger(2,5),tools.rand
 			let sw = el.role==="circle" ? tools.randominteger(6,24)/100 : ( z<nz-2 ? tools.randominteger(8,42)/100 : 4);
 			if(z>1) { 
 				let sw0 = B.elements[z-1].filter(e=>e.n===j)[0].b[t]["stroke-width"];
-				sw = sw0*tools.randominteger(4,8)/10;
+				sw = sw0*tools.randominteger(6,9)/10;
 			}
 			let sf = tools.randominteger(0,100)/100;
 			let sd = tools.randominteger(40,80)/100;
@@ -175,7 +177,7 @@ let xdt = [...new Array(n).keys()].map( j=> [tools.randominteger(2,5),tools.rand
 
 		el.b = bframe;
 		//console.log(`bframe[0] = ${JSON.stringify(bframe[0])}`);
-		console.log(`bframe[nticks-1] = ${JSON.stringify(bframe[nticks-1])}`);
+		//console.log(`bframe[nticks-1] = ${JSON.stringify(bframe[nticks-1])}`);
 		Bfilm.elements[z][j].b = [...new Array(nticks).keys()].flatMap( t => { 
 			//console.log(`t=${t}`);
 			let p1 = bframe[t];
@@ -193,10 +195,10 @@ let xdt = [...new Array(n).keys()].map( j=> [tools.randominteger(2,5),tools.rand
 				return step; 
 			});
 		});
-		console.log(`Bfilm.elements[z][j].b.length =${Bfilm.elements[z][j].b.length}`);
-		console.log(`el.b.length=${el.b.length}`);
-		console.log(`count=${el.b.length}`);
-		console.log(`count=${Bfilm.elements[z][j].b.length}`);
+		//console.log(`Bfilm.elements[z][j].b.length =${Bfilm.elements[z][j].b.length}`);
+		//console.log(`el.b.length=${el.b.length}`);
+		//console.log(`count=${el.b.length}`);
+		//console.log(`count=${Bfilm.elements[z][j].b.length}`);
 	});
 });
 
