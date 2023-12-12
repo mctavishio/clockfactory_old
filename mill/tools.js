@@ -115,6 +115,19 @@ let tools = {
 			')'
 		);
 	},
+	tween: (p1,p2,t,d) => {
+	let dt = (100*t/d)/100;
+	let pdt = {};
+	Object.keys(p1).forEach(k=> {
+		if(isNaN(p1[k])) {
+			pdt[k] = p1[k];
+		}
+		else {
+			pdt[k] = (100*p1[k] + 100*(p2[k]-p1[k])*dt)/100;
+		}
+	});
+	return pdt;
+	},
 	//linear tween
 	//for more see: https://github.com/danro/jquery-easing/blob/master/jquery.easing.js
 	//https://spicyyoghurt.com/tools/easing-functions
@@ -284,6 +297,15 @@ let tools = {
 			}
 		}
 	},
+	drawp: {
+		circle: p => { return {cx:p.cx,cy:p.cy,r:p.r,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.strokecolor,fill:p.fillcolor } },
+		rect: p => { return {x:p.cx,y:p.cy,width:p.w,height:p.h,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.strokecolor,fill:p.fillcolor } },
+		//rect: p => { return {x:p.cx,y:p.cy,width:p.w,height:p.h,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,"fill-opacity":p.fo,stroke:p.strokecolor,fill:p.fillcolor } },
+		vline: p => { return {x1:p.cx,x2:p.cx,y1:0,y2:1,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,stroke:p.strokecolor } },
+		hline: p => { return {x1:0,x2:1,y1:p.cy,y2:p.cy,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,stroke:p.strokecolor } },
+		line: p => { return {x1:p.x1,x2:p.x2,y1:p.y1,y2:p.y2,"stroke-width":p.sw,"stroke-dashoffset":p.sf,"stroke-dasharray":p.sd,"stroke-opacity":p.so,stroke:p.strokecolor } },
+	},
+
 	drawf: ({width=100,height=100,min=100,max=100}={},b,tag) => {
 		let p = b;
 		//console.log("b = "+JSON.stringify(b));

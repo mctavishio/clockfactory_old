@@ -126,9 +126,13 @@ let scores = {
 			{gain:0.3,padmin:0,padmax:100,list:afterring},
 		],
 		[
-			{gain:0.4,padmin:100,padmax:400,nthreads:6,list:bellssparse},
-			{gain:0.4,padmin:100,padmax:400,nthreads:1,list:bells},
+			{gain:0.6,padmin:100,padmax:300,nthreads:6,list:bellssparse},
+			{gain:0.4,padmin:200,padmax:600,nthreads:1,list:bells},
 			{gain:0.4,padmin:200,padmax:600,nthreads:2,list:afterring},
+		],
+		[
+			{gain:0.4,padmin:100,padmax:400,nthreads:3,list:brasslong},
+			{gain:0.4,padmin:200,padmax:600,nthreads:1,list:afterring},
 		],
 		[
 			{gain:0.4,padmin:0,padmax:80,list:stringspluck},

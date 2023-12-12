@@ -190,10 +190,6 @@ const colorsets = {
 	warmbwred: [pigments.red, pigments.warmlightwhite, pigments.warmblack],
 	warmbwyellow: [pigments.yellow, pigments.warmlightwhite, pigments.warmblack],
 	warmbwb: [pigments.blue, pigments.warmlightwhite, pigments.warmblack],
-	//philip1: ["#1A0D73","#59518C","#3F665C","#3E5915","#131159","#708C32","#5C4B4A", "#6D9E98", "#6D1626", "#DFE1E6"],
-	philip1: ["#0B6BBF", "#CE8F3C", "#59518C","#3F665C","#708C32","#5C4B4A", "#6D9E98", "#6D1626", "#DFE1E6"],
-	philip2: ["#1C17A6","#0A3EA6","#0B6BBF","#6A732C","#734002","#CE8F3C"] ,
-	philip3: ["#1A0D73","#59518C","#3E5915","#131159","#708C32","#5C4B4A", "#6D9E98", "#6D1626", "#DFE1E6"],
 };
 
 module.exports = {pigments,colorsets,rawcolorsets};

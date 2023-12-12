@@ -1,8 +1,8 @@
 const input = {
 	duration: 1.6, //minutes
 	fps: 24,
-	score: 2,
-	nx:5,ny:5,nz:9,
+	score: 1,
+	nx:3,ny:3,nz:9,
 	allcolors: (pigments)=>{ return [pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmlightblack,pigments.warmlightwhite,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack,pigments.warmlightwhite,pigments.warmblack]},
 	bookunits: "in",
 	bookwidth: 8,

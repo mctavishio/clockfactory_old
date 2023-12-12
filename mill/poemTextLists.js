@@ -3,22 +3,22 @@ module.exports = [
   "title": "poem 0",
   "lists": [
    [
-    "tonal retie inflection bending curve deeper slam ",
-    "# downward glance creased map marked path ´ type ",
-    "label deer ^. curl xylophone ghostly Ç top like ",
-    "produced repair(z) cliffs _ questions vacuum die "
+    "neighborhood C living 10 behind fix <=> :# rises ",
+    ">: piercing ephemeral psych helm :# run coins 4 ",
+    "coordinates he } alchemist simpler psych 5 fugue ",
+    "2d turns touch sandwich lukewarm coffee thermos "
    ],
    [
-    "sea faded paper census sketchpad marks south 43 ",
-    "{ stitched gas clasp strangers back emergency to ",
-    "elevators wolf on mass >& v we >^ .< rural .- us ",
-    "hey screws dynamic wanderers untied regenerative "
+    "by I he 8 novel bags ï flags Ã 8th own cold |-| ",
+    "ç and can œ => pivot generators mathematician ^. ",
+    "13 deck york clockworks bits literature ø poured ",
+    "traveling >: I b orb data &^ 17 census clickbait "
    ],
    [
-    "forever lay of pour temples ­ known future lucky ",
-    "darkness bad biome sea helicopter finally ƒ gap ",
-    "dissonance quickly &. heaving choreographies an ",
-    "heaving tackle stars : >< sails 3 passions :: 5 "
+    "ô l temperature intermittent ++ utter veil hunt ",
+    "sky provide top over redemptive feedback aflame ",
+    "iced ü walked yet ý regenerative management soon ",
+    "rusted >& racing sack illuminate riding while 2d "
    ]
   ]
  },
@@ -26,22 +26,22 @@ module.exports = [
   "title": "poem 1",
   "lists": [
    [
-    "kaleidoscope have configurations >: fur bar N ^. ",
-    "birth wing comes stones dyke iron ” 4 01 # path ",
-    "½ locomotion tears titrations tonal opacity they ",
-    "e á cataclysmic disk =- push calling reconstruct "
+    "w fog microfiche sow punctuations media resident ",
+    "strewn stairwells cloistered science ::: v tires ",
+    "computation failure leap << atmospheric æ b hat ",
+    "unprecedented off dictionaries ash 89 lean V >: "
    ],
    [
-    "blacksmith chlorophyll film today place ÷ fodder ",
-    "back splayed needs R goods wish with landing -. ",
-    "by mist << web flew sea bully magic 48 animation ",
-    "watchfulness patterns form(s) loss purl glow &. "
+    ".< maybe } faded paper census sketchpad marks ÷ ",
+    "slow gay inflection bending curve were ^. while ",
+    "=||= ice copper painted punctuate .- gut erasure ",
+    "detection pine took method wireless signal code "
    ],
    [
-    "nonlinear encodings fell organize joins >& bits ",
-    "2d wild revealed 17 car found magic sewing block ",
-    "top ash trains translations >< null mathematics ",
-    "many sinew escape be s edge <> probabilities &> "
+    "transfigured spoken intoxicating exchange fields ",
+    "faded paper census sketchpad marks notes pigeon ",
+    "& technologies melody glyph &. land up curl day ",
+    "weaver fur # acid golden re o carpenter chiseled "
    ]
   ]
  },
@@ -49,22 +49,22 @@ module.exports = [
   "title": "poem 2",
   "lists": [
    [
-    "lash reverse differential equations stones j rip ",
-    "god interrupted ivy junk > guns dictionaries one ",
-    "wireless signal code suitcase as j me compelling ",
-    "flickering package animations soot came < > god "
+    "label ? plain transactions finite iterative well ",
+    ":: absent to ripe lay ! dice 13 experienced paul ",
+    "west ::: circulate collaborations it always grid ",
+    "tears 16 fuel days vein history >: contrast wire "
    ],
    [
-    "moss run failing pavement terrains fix knot lens ",
-    "regenerative slung M 16 lens notes ready raw 16 ",
-    "3 17 train dissolution full rider tune dumpsters ",
-    "32 digital cloud ü R ode third G up flickering ‹ "
+    "climb proclaim beer ö constellations blur 9 too ",
+    "bandwidth start note to aerial ^. before & angel ",
+    "records sing erasure bog ax file mist functional ",
+    "have blueprints be spatially-distributed lyrical "
    ],
    [
-    "webs context-specific list ivy exchange intimate ",
-    "verb developer was cricket sweltering ø ancient ",
-    "$ gunpoint (m)bodiment probabilities routed hard ",
-    "matchbook & fog 89 hero zero rider ze =- lexicon "
+    "bridge folk see gas harp railroad if homestead ô ",
+    "saw ô telescope connectance grasses so sets bits ",
+    "area 01 the networked (i) description indigo ze ",
+    "raster trophic then died cybernetic she ++ these "
    ]
   ]
  },
@@ -72,22 +72,22 @@ module.exports = [
   "title": "poem 3",
   "lists": [
    [
-    "fuel electrode helm 4 phase # ward (re)do (red)o ",
-    "king is entry moon &. breadth castles boots <! ! ",
-    "´ u +. 010 u buzz it was like this every morning ",
-    "< > warm beats heat signals thirst fossilized .^ "
+    "fall ½ : raining knots ç far context-specific … ",
+    "edge ` dew why is this day unlike any other day? ",
+    "number station urgent message translations seal ",
+    "prairie meadow sequestration wards one altered j "
    ],
    [
-    "cold surface deals inflection bending curve too ",
-    "spine trains œ prairie meadow sequestration line ",
-    "loom independence food stone ocean response king ",
-    "pleasure living ‰ whispers regiment with matter "
+    "repair(*man) churn goes key ´ digital cloud ivy ",
+    ". harvest frequency m chair explosion man steady ",
+    "ê ” ++ inhabitance flashlight book approximation ",
+    "­ ready intra dependent Ù din has helm make tape "
    ],
    [
-    "essential hurry even levels jet fur Â ÷ .& pen q ",
-    "/ root ô weld mallet j 89 top oceans swarm-self ",
-    "½ algorithms stick taxonomy oily 01 fossil signs ",
-    "us reduce drought translate Í oxygen swarm buzz "
+    "6 10 climbing fungal clap trying ë part browser ",
+    "highways suburban is vial mycorrhiza vastness ´ ",
+    "=- | on we why is this day unlike any other day? ",
+    "makers lumber bandaged if diode j delay inch day "
    ]
   ]
  },
@@ -95,22 +95,22 @@ module.exports = [
   "title": "poem 4",
   "lists": [
    [
-    "spilling post p Ù ode context-specific raw cast ",
-    "&. lose ƒ me hands-on clamps in set < > episodic ",
-    "thrum is the carbon cycle reclamation tar to-do ",
-    "trans / platform pandemic brook : cell >^ of !.! "
+    "p sew turn the helm the wheel the tide the orbit ",
+    "bang eternally person dark vision entanglement Ø ",
+    "cigarette wild as spilling trashcan freight lay ",
+    "woke far semisynthetic && archer skew culture >: "
    ],
    [
-    "boy e prairie meadow sequestration herself blank ",
-    "de 64 orchestra $ passenger lone bird cat spoken ",
-    "song &> platform station È set data cadenza .& ê ",
-    "he P È roar transcriptions stuttered conjunction "
+    "history vacancy bit dance |-| bow luminous ƒ sky ",
+    "inflection bending curve or proof boatman &^ bee ",
+    "shredded they ray join the cognition we tin upon ",
+    "sailor at 1914 howling sow tape 10 probabilities "
    ],
    [
-    "interpreter of m Ü our transformation ë circuits ",
-    "rusted texaco station folded map built #_# in 17 ",
-    "pulsing cellar (ze)ro geographies once in these ",
-    "hunt k filled || junk stretching more &^ palette "
+    "plans >< clamps soul video stones .^ table study ",
+    "steel weaving five belief text but evoke bar :# ",
+    "states artifacts context-specific was 64 lexicon ",
+    "groups bad so curve :::: acrobat radio +. player "
    ]
   ]
  },
@@ -118,22 +118,22 @@ module.exports = [
   "title": "poem 5",
   "lists": [
    [
-    "43 silences dew be H superintelligence sculpture ",
-    "animate & breathe wire similar inventory ¾ since ",
-    "<<-- ::: . ::: -->> 16 ç -. packs stoichiometric ",
-    "narrative 4 nets bone well calculations glasses "
+    "f intimate profile any currency && transform -. ",
+    "deeply caws 89 cellular connections resonance we ",
+    "runes pillars wolf û discontinuity loss 13 town ",
+    "losing || he he watched Ê high ½ ze coughing 01 "
    ],
    [
-    "diagram emission .^ cannot pulse coffee wire 1 o ",
-    "curves (our hero zero rider ze) terms fungal dew ",
-    "sandwich lukewarm coffee thermos spoken => beast ",
-    "ze re timestamp <> Ï forests grit oil boat melt "
+    "Í browser mathematical all whispering efficiency ",
+    "j lungs cast mend restart retrain reboard rewire ",
+    "beyond á ax rip G â stealing of climate so girl ",
+    "instead => ƒ about # electromagnetic each R dirt "
    ],
    [
-    "pen ‹ b markets speech proliferation has left by ",
-    "join nails inception ¾ 2 bison V ì lattice scale ",
-    "interface lamp >: wars ó ô 8 .& fractionated gut ",
-    "loose enrichment urgent mission organize ý could "
+    "gospel disk are shuffling lock rolls has .- hero ",
+    "split >^ rescue too road vectors scraping caged ",
+    "bees 4 electrons animation fragile lever deeper ",
+    "loop sums bits => lazy _ xylophone 1938 recorded "
    ]
   ]
  },
@@ -141,22 +141,22 @@ module.exports = [
   "title": "poem 6",
   "lists": [
    [
-    "tenderness = hill ì geometries speaking gathers ",
-    "projections ? #.# charcoal sharpen starry ´ yet ",
-    "j magnet scottish ê carries drive snows not J ê ",
-    "stuttered circling &. k maps art „ squares ward "
+    "… heavy my moon lips vision f focal hurtling 13 ",
+    "ago 4th he radar >: if balance geo axes another ",
+    "vacancy û none craft < > .# specimens (ze)ro jaw ",
+    "two flooded toasters nest collides die enter :|: "
    ],
    [
-    "z off smoke serve &. ? log :: king (m)bodiments ",
-    "deployment jaw spatially-distributed blood |.|.| ",
-    "adaptation bow compass doe cybernetic she became ",
-    "duty awake coat responds in failure water tattoo "
+    "=> dyke rusted texaco station folded map whether ",
+    "of was dark N 9 chrome beyond 1914 >^ cacophony ",
+    "bombing sighted majestic S purpose winds fossil ",
+    "tide algorithm 43 4 up jazz my reeds my hey => : "
    ],
    [
-    "permeate pepper cabinets poems us && chain silo ",
-    "beer diners mend restart retrain reboard rewire ",
-    "dark +. mirror knowledge 2d railroad materials t ",
-    "by o cavern practice 8 ½ devastated transcribe j "
+    "ash f delivered rusted texaco station folded map ",
+    "christmas 4th writing identification plane green ",
+    "expression why is this day unlike any other day? ",
+    "rocks hike atomic quest gun ^. infinite between "
    ]
   ]
  },
@@ -164,22 +164,22 @@ module.exports = [
   "title": "poem 7",
   "lists": [
    [
-    "cellular connections cards exponential find cat ",
-    "goal ax Ø transfer poles ƒ say my name shattered ",
-    "^ (how things change) sack #.# 6 concerto swing ",
-    "parched :|: thin cage :: switch curvatures 48 .- "
+    ".< easily inflection bending curve waif mercury ",
+    "sanctuary you é |..| = ^. breathtaking sink maps ",
+    "roadway re multi-threaded he fish &^ boys me ze ",
+    "flag trajectories chronometer race map christmas "
    ],
    [
-    "root gay restated melt out language crumpled cup ",
-    "010 dinosaur we wandering devastated chlorophyll ",
-    "010 iteration animate & breathe fuse sea humans ",
-    "hat <=> downward glance creased map marked path "
+    "of quartet low caws too-long suppose >: .# ½ oar ",
+    "plankton 01 devastated well hiker ¼ chlorophyll ",
+    "prey proposals red low rises encourage adapting ",
+    "dependencies ƒ linear going sage visits rocking "
    ],
    [
-    "man (how things change) hooves has flung reader ",
-    "eyes miles lack few payday towards constant hill ",
-    "<> &. bifurcations leap l routed highway pillars ",
-    "backward boy am .& above iowa wind score ¨ urban "
+    "ü snail abstract sculpture &> too disoriented 5 ",
+    "veils type below foot elegy use cup by scripts J ",
+    "bowl migration road glove .- radio transmissions ",
+    "pie slung gay itself concerto - -. ± splayed to "
    ]
   ]
  },
@@ -187,22 +187,22 @@ module.exports = [
   "title": "poem 8",
   "lists": [
    [
-    "ƒ clear differential equations no bent cages be ",
-    "farm : cat devastated cascade bus sheath ‡ epoch ",
-    "$ pasture in links mary stitching run vastness … ",
-    "Õ it was like this every morning loophole leader "
+    "« labyrinth repetition erosion mast howl j green ",
+    "J dimensions nights cup magician choreographic 2 ",
+    "record bender easily song | landmarks << wooden ",
+    "sets no rope clouded thank humans exploring ? so "
    ],
    [
-    "nap are centers 1 geologic marked 8 balls chance ",
-    "gold supposed transistor lonesome jar <! follow ",
-    "parameter why is this day unlike any other day? ",
-    "west < > K 8 17 by dusty smoke-filled orange sky "
+    "incomplete get boat î ÷ utter && teaching escape ",
+    "abacus birdless canyon classroom fact _ us flag ",
+    "chalkboard value(s) heat ` rusted texaco station ",
+    "abundance to limit wires N our the infinite sky "
    ],
    [
-    "caps a the trans / formed Ï becoming &. branches ",
-    "cybernetic she web mouth finite mass cliffs … if ",
-    "|! blades >& strewn << fission journey concrete ",
-    "ý Ø (our hero zero rider ze) insurrection pupils "
+    "chariot it was like this every morning sinew art ",
+    "explosive interpreter breath distracted ropes M ",
+    "knives facts 17 artificial ash submerged words Q ",
+    "between up engagement land kite the cyborg rib & "
    ]
   ]
  },
@@ -210,22 +210,22 @@ module.exports = [
   "title": "poem 9",
   "lists": [
    [
-    "spew Ç holding reference ` upon dark taking axes ",
-    "16 alphabets text configurations harmony compare ",
-    "î verdant whale oily citation such swing ! lungs ",
-    "vial hum bog Q 48 spew code algorithm pixel off "
+    "hum perhaps din hat dim the modernist grid color ",
+    "ghost line highway whispers arithmetic jar early ",
+    "unending rusted texaco station folded map j fail ",
+    "half faded paper census sketchpad marks learning "
    ],
    [
-    "#_# key #_# ? silos ó 1 flew electrical current ",
-    "bulk &> visualization delivered 1906 such fallen ",
-    "fix gears network system jade splendor living 4 ",
-    "Ü .& maps rusted texaco station folded map poets "
+    "resonate hot !^ the modernist grid frayed sea up ",
+    "car coordinates by core grabbing risks submerged ",
+    "tune blood Ê dew box 32 dead turn back the clock ",
+    "elegy .# !^ dusty smoke-filled orange sky ´ fold "
    ],
    [
-    "phd 2d laboratories ø # experience distillations ",
-    "flows foolish new 8 spatially-distributed stored ",
-    "differential equations lung 9 buffalo duluth to ",
-    "turn back the clock œ moves systems forgotten È "
+    "% tap beer 2d undo prairie meadow sequestration ",
+    "raw brief ode drawing upside splintered projects ",
+    "thermos story c š ‰ utter 4 foot hole bibles H w ",
+    "tall b made multi-faceted vectors make broadcast "
    ]
   ]
  },
@@ -233,22 +233,22 @@ module.exports = [
   "title": "poem 10",
   "lists": [
    [
-    "evoke short clutching elements log clutches ray ",
-    "see stretched conversion .,. hidden axe say map ",
-    "or sweep } by eternally unfettered submerged .& ",
-    "new rich prairie meadow sequestration apoplectic "
+    "river j N carries tune word 7 dictionaries axes ",
+    "crate full jumping ± woman coordinates &> .,. +. ",
+    "angles conductor roar notches us q differentials ",
+    "64 map 2d take transmission feet now regiment ß "
    ],
    [
-    "dancehall => zoo | % he data =- compass centers ",
-    "sonic burnished book wave incandescent de whale ",
-    "downward glance creased map marked path spiders ",
-    "transcendence orbits energy !^ ‡ variation / bog "
+    "but => light collections bus homestead noon own ",
+    "color +. ¾ modeling entranced 8 slant >& Â š 0 ¾ ",
+    "bagpipe >^ trail villages few phd mineralization ",
+    "soda see taco block reedy => hero zero rider ze "
    ],
    [
-    "gap(s) exists m Q pixels charge 4 rocking view = ",
-    "felon reedy to flashlight differential equations ",
-    "8 number station urgent message curtain than her ",
-    "collaborative tar rivers boys Û plural axis away "
+    "shirt salt murder chute sweep = ö a layered post ",
+    "16 dams $ it was like this every morning arms >< ",
+    "bright tubes flag any multi dimensional to rest ",
+    "Í natural dimly at T sea limbs infinite between "
    ]
   ]
  },
@@ -256,22 +256,22 @@ module.exports = [
   "title": "poem 11",
   "lists": [
    [
-    "turn the helm the wheel the tide the orbit often ",
-    "haunted geo w number station urgent message ink ",
-    "co2 && repair(*) floor years that grid replacing ",
-    "spell _ key ‹ centers ü 1 arms >: get bird turns "
+    "breath click parched 8th ideal remnants each p S ",
+    "<! ? ö plant gaze failures sleet midst rehearsal ",
+    "teach beam -. intelligence loud È too touch man ",
+    "distillations !== distilled scale fractionated e "
    ],
    [
-    "loss (re)creation number station urgent message ",
-    "crate fretless nets flood wandered sky rim ³ up ",
-    "such rusted texaco station 8 collision liked -. ",
-    "buslines vastness ô day bullets isotopic ++ rush "
+    "doe few reify for watched bus moments liked town ",
+    "y by road food hot cup bit pictures die resinous ",
+    "unfretted tonal 3 nap ether possibly cello built ",
+    "shopping hey own :# 48 unfretted intra dependent "
    ],
    [
-    "inflections gear so #_# ++ bit city elegy cube J ",
-    "formulas independence wind mills fins strands !^ ",
-    ".& .- inscrutable knives inflections planet 4 ze ",
-    "me chute chord industry clockworks approach old "
+    "plane tires feet was wireless signal code ± iowa ",
+    "j ? storm ruptured # no drive knit gleaming epic ",
+    "÷ =- ledger the modernist grid tutor +. metaphor ",
+    "art illuminated .& saw fog distance rhyme curves "
    ]
   ]
  },
@@ -279,22 +279,22 @@ module.exports = [
   "title": "poem 12",
   "lists": [
    [
-    "< > 2d avenue luminous sympathetic call box fog ",
-    "at sea huge Ø $ limestone tar tiny bird twist as ",
-    "run fists grassland say infinite mission gestalt ",
-    "community-driven glass bones algorithm >& touch "
+    "cup => | modeling station air encounter ruptured ",
+    "laws 0 soaked dim >: next same visualization its ",
+    "last echo é L smooth sale above isotopic 1906 >& ",
+    "set interface road hours dreams shards maskless "
    ],
    [
-    "stream cataclysmic terrains â top hours || chest ",
-    "ü nap resident arts geometric masked my tomorrow ",
-    "context-specific bicycle soul so isotopic glassy ",
-    "risks! frayed eye numerical biomass Õ out vortex "
+    "artificial dolls bloody ! gale hand poets diode ",
+    "be odometer but œ husks Y é sensitive worn motel ",
+    "break ï the networked (i) rail Í codes sidewalk ",
+    "1 tightly factories latch making houses < i play "
    ],
    [
-    "whole taco :: stones 32 bar tapper 01 heartless ",
-    "89 free rusted texaco station 3:48 e inhabitance ",
-    "convergences likelihoods waif 1938 afternoon 128 ",
-    "mend restart retrain reboard rewire × browser at "
+    "î t >< hoe transmigration word way = oars deals ",
+    "stream meadow bee snow muscle Ê listening every ",
+    "downward glance creased map marked path 64 =||= ",
+    "muscled etched next the cyborg real plan longarm "
    ]
   ]
  },
@@ -302,22 +302,22 @@ module.exports = [
   "title": "poem 13",
   "lists": [
    [
-    "128 .,. 4 monologues re ¾ we arc 64 string risks ",
-    "noun bars mend restart retrain reboard rewire as ",
-    "photosynthesis or chicago birth maps || ` anyway ",
-    "retie quickly ç swarm 64 notes any transcribe œ "
+    "ashes recollection redo ´ wordless constellation ",
+    "high up spiders my company breathlessness count ",
+    "faint shaped beer middle .& we ^|^ clouds level ",
+    "dusty smoke-filled orange sky law inhabitance my "
    ],
    [
-    "frames bell î differential equations bog lone me ",
-    "slam sandwich lukewarm coffee thermos eye motel ",
-    "index visceral had restart makers cavern tool |! ",
-    "braille geo cities sixth 17 researcher de boy => "
+    "expenditure ÷ artist non-traditional 2 driftless ",
+    "(re)do (red)o past implicit electromagnetic own ",
+    "=- why is this day unlike any other day? the pie ",
+    "cathedral 64 bit filtered trash hallways >< p < "
    ],
    [
-    "full gathering instrumental clouds pen > ancient ",
-    "ode & (m)bodiments dust ÷ had È commercial faint ",
-    "sing none de in rhythms silences be observatory ",
-    "breaking ether differentials throw pluto # gears "
+    "animate & breathe grit :: pen o .^ K asl leather ",
+    "titration shingles ode transcription utter || û ",
+    "irresistibly wind >: siberian you chevy woke wax ",
+    "up >^ albert vial codework resolution unmerciful "
    ]
   ]
  },
@@ -325,22 +325,22 @@ module.exports = [
   "title": "poem 14",
   "lists": [
    [
-    "its animations j l vowels checker î ÷ cup · Â R ",
-    "faded paper census sketchpad marks mary balding ",
-    "windy downward glance creased map marked path 01 ",
-    "weather horses .# acid too-long yet said w runes "
+    "!^ inch moves ! thicker Ø oxen bee eyes for jazz ",
+    "¾ beat 1 !.! plane distillations journal culm =- ",
+    "y south pavement vibrate move 5 caps clump an ó ",
+    "malls p laws mend restart retrain reboard rewire "
    ],
    [
-    "levels w students chariot 4 swimming hone jaw be ",
-    "song wizard 4 traverse deer strewn wolves cattle ",
-    "rates energetic torn me play =- vital >: . motel ",
-    "arrow jar phd relations map pluto pins releasing "
+    "why modeling red .& sea relation ribcage 1 k off ",
+    "tomb m + takes ÷ aspect seal books air fog >& ‹ ",
+    "the repairman rider plumbing no hot Û Ç matrices ",
+    "electrical current graffiti bendable landscapes "
    ],
    [
-    "effective wind incomplete ++ old ? æ 5 date core ",
-    "goal æ incomplete boat man <=> wave my microbes ",
-    "webs software rebreathe lace third trash opening ",
-    ">< yesterday ê D am smell sent +. instead ‰ bomb "
+    "++ writes digits pen out rusted texaco station ÷ ",
+    "A etched barns down 16 calling |! Ü hunger look ",
+    "notations goes &> .- soil jacket dense visceral ",
+    "made backward J k sketches .# ourselves alphabet "
    ]
   ]
  },
@@ -348,22 +348,22 @@ module.exports = [
   "title": "poem 15",
   "lists": [
    [
-    "48 (our hero zero rider ze) ÷ throng town clear ",
-    "ý language independence sun red copy concrete <! ",
-    "captive roar scores flat necklace ¾ inscrutable ",
-    "write low move wooden leaden pandemic challenges "
+    "catapult L J lit duluth „ differential equations ",
+    "gas took locomotion ash its after incinerations ",
+    "climb by implicit =- ‡ <=> his semicolon guitars ",
+    "m boat coughing road gold 64 ö fractionated sow "
    ],
    [
-    "information Ã :: scores doe bendable wanted wars ",
-    "introduce +. >^ tools row bit low dustlit ç #_# ",
-    "N glassy physics on chutes residue w Ù blend 10 ",
-    "bow 89 || ivy ½ or greasy paper shattered towns "
+    "plane mend restart retrain reboard rewire coding ",
+    "(m)bodiments suitcase broadcast transcription by ",
+    "table ? wash cube kite untied litanies . stable ",
+    "w key waltz 89 after how &. she ghosts portal && "
    ],
    [
-    "tone likelihoods … start journals visceral an && ",
-    "reception # effective prey relations 01 run plow ",
-    "emission illumination linguistics 48 # improv am ",
-    "incident turns has poisoned dim winter _ scripts "
+    "onto telephone wires out w >^ ½ scar inflections ",
+    "remain (our hero zero rider ze) shelter threaded ",
+    "rope up staccato none dynamics >: approximation ",
+    "k % walker saving Ã chess 4 creased map restored "
    ]
   ]
  },
@@ -371,22 +371,22 @@ module.exports = [
   "title": "poem 16",
   "lists": [
    [
-    "&. mend restart retrain reboard rewire maps silk ",
-    "jaw repair reclaim rebuild reweave restore rock ",
-    "work >: it digital clockworks explosion flag in ",
-    "we roar || |! silk whispered cycles 0 plurality "
+    "folk impacts : ze loss neon sea dated s built 13 ",
+    "soldiers swallow range attempts ë 2d holding |-| ",
+    "scatter out but harp musicians metal j none head ",
+    "cascading w prairie meadow sequestration gut die "
    ],
    [
-    "boats >^ plans story gaunt feather echoed basis ",
-    "« 43 isocline bank guns darkened echo À currents ",
-    "distillation slant wolf Ø low .# full niche tar ",
-    "64 why is this day unlike any other day? declare "
+    "views 16 it was like this every morning weaving ",
+    "sun rates parts hero zero rider ze sketchpad 13 ",
+    ">& way step drifting by up ê |.|.| 3 Æ which nyx ",
+    "faded paper census sketchpad marks bee sky rungs "
    ],
    [
-    "oxen limited œ run rip fog sets &^ lungs 10 128 ",
-    ": ý takes why is this day unlike any other day? ",
-    "top criss-cross ­ drowning sun us 2d #_# isotope ",
-    "degrees oar w null share plow full incinerations "
+    "culm box box upside likelihood lose soldiers we ",
+    "toward … astronomy wireless signal code slam or ",
+    "<> spoken +. ` >< H rewind (re)do (red)o Â based ",
+    "inflection bending curve strike ö ties . painted "
    ]
   ]
  },
@@ -394,22 +394,22 @@ module.exports = [
   "title": "poem 17",
   "lists": [
    [
-    "³ alone torrential rivers boy distracted p fugue ",
-    "dusty smoke-filled orange sky us multiple abacus ",
-    "smell he entanglement choreography coat flashes ",
-    "bully pull us drowning velocities lash shortcuts "
+    "&> heterotrophs drawings has shape fall my days ",
+    "ink || webs drew 48 electrical current gun thief ",
+    "fly ray Õ => creativity 48 no striking splendor ",
+    "Æ >: ode glow up ^. dervish feel constellation ÷ "
    ],
    [
-    "biome repeated _ am shore smell reaches i ø room ",
-    "low halogen given meant dark steaming other H ó ",
-    "edge burning <! intensity spew mineral is gun 16 ",
-    "box o outstretched cybernetics light - narrative "
+    "fact ecologies &. none pine based trans / gender ",
+    "mend restart retrain reboard rewire loss M say t ",
+    "be ++ ? !^ still concrete 89 & .< rush driftless ",
+    "rise seal rails no N jagged x :# œ run ï $ flies "
    ],
    [
-    "saw : : : shady dancehall catalogue any || lose ",
-    "birdless about damp tenders 4th arc modular sew ",
-    "resurrection hat bars harnessed fretless c feet ",
-    "nyx 64 de transmission after rhizomatic de signs "
+    "create remnants keen essential bits transmitted ",
+    "‹ reader oboe well I father shaped cries +. juke ",
+    "rocking feather stochastic repair(z) flat stream ",
+    "buffalo chorus artists |-| transfiguration here "
    ]
   ]
  },
@@ -417,22 +417,22 @@ module.exports = [
   "title": "poem 18",
   "lists": [
    [
-    "<< platform station gods thermal bang f lazy U C ",
-    "faint die way contours restoration experiential ",
-    "power welder on C need frames kite rail answers ",
-    "½ (re)cover shards index gravitational boy chair "
+    ".# bends medium :: wires multiplicity stock race ",
+    "push range x gas manuscript he bang asphalt free ",
+    "fall æ plain æ being 010 edge in share &> reader ",
+    "fog -. no or saw pick up bustled decay internet "
    ],
    [
-    "pages it Ù why is this day unlike any other day? ",
-    "archaeologists heavens << differential equations ",
-    "multi threaded when compression sink was traffic ",
-    "enactment leaf opportunities be labels portal 16 "
+    "then ze foster de resinous && man vital fluidity ",
+    "indecipherable ago sack ü had emergent dancehall ",
+    "interested narrator heaven migrations swift our ",
+    "curves =- far grass blade dyke reed proclaim jar "
    ],
    [
-    "=> sonic pause hope last aglow frame forth atoms ",
-    "burn q &> low = episodic places carnivals 1938 + ",
-    "6 sandwich lukewarm coffee thermos but reference ",
-    "she animate & breathe slows : days bad iterative "
+    "=> untied inflection bending curve ½ an with tap ",
+    "swept geometry . dead sow rim raw old lifetime = ",
+    "stock « breathing turbulence lock script .< lay ",
+    "hue dry << with made query N put likelihood bee "
    ]
   ]
  },
@@ -440,22 +440,22 @@ module.exports = [
   "title": "poem 19",
   "lists": [
    [
-    "cable-access is plumes beak work Y door unveiled ",
-    "G conductance force goals stringed blankets sky ",
-    "intertwine indigo shouting Û millenniums o .< … ",
-    "cargo staccato G bang filaments tranquilizer #.# "
+    "x archer strands but keen tent f xylophone like ",
+    "x coat capture .^ flung ahab repetition low boat ",
+    "wax lips hat sow P prairie meadow sequestration ",
+    "visual .& collated voices burn trying mean weave "
    ],
    [
-    "scattered y differentials the Í ë log cave wool ",
-    "dinosaurs dynamic ‡ shed fall wooden its fix row ",
-    "large drop flux as fascist j creased map rhythms ",
-    "slow œ science arterial malls stuttered dustlit "
+    "released an we torched cells pump towns de bang ",
+    "wireless signal code ¦ y populations housing M # ",
+    "doors call not leap festivals rings necklace in ",
+    "gendered manifesto welder differential equations "
    ],
    [
-    "downward glance creased map marked path transfer ",
-    "box to offerings boxed he bags ¼ caps alchemical ",
-    "4 trees +. #_# wish (how things change) circling ",
-    "fact b <> oar ourselves the re 64 ^. once neural "
+    "cyber-orchestration 4th devoid grew S they swift ",
+    "spatially-distributed luminous systems musicians ",
+    "tangled alley leans prairie meadow sequestration ",
+    "ý omniscient ze : independence ½ hymn fluid neon "
    ]
   ]
  },
@@ -463,22 +463,22 @@ module.exports = [
   "title": "poem 20",
   "lists": [
    [
-    "angles bends detector c bury gaze .< tangle what ",
-    "z din reduction ions fluorescence -. halo wolves ",
-    "aluminum geologies ripe sent &. lure 43 !^ half ",
-    "stars (our hero zero rider ze) cincinnati fog ++ "
+    "outlines changes i thoughts hiker &. tune closed ",
+    "÷ bar fraying day lack pipelines beer shining no ",
+    "number station urgent message perfect sale vial ",
+    "atoms 64 frequencies management d || ray 9 sing "
    ],
    [
-    "<! turn the helm the wheel the tide the orbit or ",
-    "roar <! bullets venom downward animate & breathe ",
-    "slam earth 3 prism join demystify alive requires ",
-    "it tar shopping conservation M hands-on now drop "
+    "nyx craters culm -. line taut standing battered ",
+    "lock T gun z human-readable box challenges |..| ",
+    "inscrutable stone ¤ fold 4th .& by H retort hole ",
+    "jar tracks they turn back the clock caverns that "
    ],
    [
-    "it was like this every morning p pigment œ dirt ",
-    "electricity typically burned « machines tires 10 ",
-    "swiftly song mend restart retrain reboard rewire ",
-    "unfretted t-cell both ||| this survey mirror |-| "
+    "cellars corridors pollinator û : or knife repair ",
+    "look re ê rusted texaco station keening low of æ ",
+    "in >< & incinerations rewind signal nyx tangent ",
+    "stalks clump fur song marking rises capture hall "
    ]
   ]
  },
@@ -486,22 +486,22 @@ module.exports = [
   "title": "poem 21",
   "lists": [
    [
-    "installation circulations ½ held loosely-coupled ",
-    "slower · á the networked (i) ” cat sand arteries ",
-    "mentor together bills damp line stereo airbase ì ",
-    "now stamps think castles :# clue (un)synchronize "
+    "one ze straining accordion hue heaving beginning ",
+    "de migration turnstile >< no notches wind clear ",
+    "{ industry! red sun gaze rhythm they body filter ",
+    "delay milling winding reactions mercury 0 ++ all "
    ],
    [
-    "++ yellowed constellations often H T mine sewing ",
-    "fools gold fixed fraying oars incoherence prints ",
-    "of uncountably specific swan .& ç statement he i ",
-    "body receipts story bison < sews fabric gathers "
+    "soundless prairie meadow sequestration ê # eons ",
+    "loss û > transition lake ink own boundless video ",
+    "~ spatially-distributed dreamed can intensity ^. ",
+    "vast j looked push roll trans double affordable "
    ],
    [
-    "grazer =- projections pollen weeks trembling 43 ",
-    "mill leaf .- mend restart retrain reboard rewire ",
-    ".# many emerald structure day at lab-coat Í cat ",
-    "text devastating or ³ terms cellular connections "
+    "¾ 17 weightless shadow skull human-readable pins ",
+    "dim steam oar sketchpad searching speaks ray co2 ",
+    "but 17 fly arrives profile lock dreamed put mist ",
+    "culture memex ƒ leapt lexicon juke faint &^ gaze "
    ]
   ]
  },
@@ -509,22 +509,22 @@ module.exports = [
   "title": "poem 22",
   "lists": [
    [
-    "soon beak hum Â binary meadow P die renderer put ",
-    "tired sun masts chain vastness hold it < fading ",
-    "rusted texaco station hand rusted texaco station ",
-    "interlude treadle razed -. 10 receivers sounding "
+    "Ç # two plot frozen sleepy é cadenza creased map ",
+    "woven weft 0 plots breathlessness quaker .& run ",
+    ".- grabbing faded paper census sketchpad marks $ ",
+    "iteration 43 too curved fragmentation junctions "
    ],
    [
-    "flower chamber is supposed =- spline Ê ê goals n ",
-    "re giants 4 frozen the networked (i) 2 lament y ",
-    "v && ready & so living spline planet sweltering ",
-    "stool behind palette at >< willow veil form bomb "
+    "010 phase 48 rim draw stain as of things tsunami ",
+    "news askew bending have ! rusted texaco station ",
+    "clocks frame he suitcases 1 plains top matrices ",
+    "resinous bearing sew layered : commerce-mediated "
    ],
    [
-    "colonists set repairman 17th the repairman rider ",
-    "89 distributed ê rows silo cavern nearest its =- ",
-    "methane suitcases 1 can line nap car disoriented ",
-    "tutor 1 wrong icy speak avalanche full tattered "
+    "out faded paper census sketchpad marks Ù sleep n ",
+    "spew playback fossil emission slow wire grows T ",
+    "hare quick ^|^ devouring date re railroad ? arms ",
+    "ash w 1 broke double unprecedented << my pulled "
    ]
   ]
  },
@@ -532,22 +532,22 @@ module.exports = [
   "title": "poem 23",
   "lists": [
    [
-    "lessons directions spend gestures sectors .# Ð x ",
-    "my triples Ê codes bus û threads management beat ",
-    ".& threads vial iteration juke artificial choose ",
-    "chemistry where k far sweep conduct uses ô tube "
+    "retort dusty smoke-filled orange sky bagpipe #_# ",
+    "man &. resonance area made cat often skyward you ",
+    "turns 8 =- torn cadenza you core porous oxen any ",
+    "philosophy bones up forecast bifurcations bodies "
    ],
    [
-    "2d suburban 8th bus snow reify diode loans !^ 89 ",
-    "stammering fires paul ¼ lit plane transcriptions ",
-    "¾ repetition .< astrologers bullets !^ bow chill ",
-    ">< 13 spectral resinous his ± interval multiple "
+    "sea ecosystem K turn back the clock charcoal for ",
+    "mesh ephemeral fishers waves : put dependencies ",
+    "at miss whispers axle hill flower aglow shorn 32 ",
+    "each _ silo held begins superintelligence slight "
    ],
    [
-    "lukewarm day & system-level => glassy wool 1914 ",
-    "teeming me :|: plains holy ¨ harmonics be desert ",
-    "gap ¾ of cellular by balance forever join the ý ",
-    "exists slow cold ^. differential equations cube "
+    "for duty emergency remain differential equations ",
+    "lucky strike gulf probabilistic raw promised din ",
+    "through .- inventory deserts moss multi rainfall ",
+    "flaw Í globe newsprint lament quixotic majestic "
    ]
   ]
  },
@@ -555,22 +555,22 @@ module.exports = [
   "title": "poem 24",
   "lists": [
    [
-    "eye proprietary important À electrical current w ",
-    "institute measures get î .^ man ³ distance basin ",
-    "electromagnetic dim dice never antenna opal rip ",
-    "are ghost roofscape space flat tapper hour today "
+    "printed mineral looms p serve node î ochre push ",
+    "yet .< pie painted æ kinetic / alleyways ù wiry ",
+    "an singing on => hundreds -. takes incinerations ",
+    "yellow H 32 fungus fretless grassland mirror e o "
    ],
    [
-    "too-long mend restart retrain reboard rewire ¾ Q ",
-    "bit can hike on (un)synchronize the infinite sky ",
-    "dew tall going spoon under screws bar flint purl ",
-    "j tune continuous ringing parched my cognition ´ "
+    "fluidity klezmer .# blades &. race -. old storms ",
+    "rusted texaco station folded map ladders tightly ",
+    "polyphony rings heartbeat electrical current 32 ",
+    "rim blurring alphabet l fuel archaeologists jaw "
    ],
    [
-    "10 soul ^. faded paper census sketchpad marks G ",
-    "step Q fractal an burned stem snow l reception S ",
-    "or say < > +. dyke rusty ray migration |! small ",
-    "clickbait dumpsters textured sedge ions coughing "
+    "day turn the helm the wheel the tide the orbit # ",
+    "fungal coding 4 lived fix gears network system 8 ",
+    "drawers beast if radiation rusted texaco station ",
+    "robust hunt trying walker hoe hat >< x electrode "
    ]
   ]
  },
@@ -578,22 +578,22 @@ module.exports = [
   "title": "poem 25",
   "lists": [
    [
-    "sweep w store intertwine duty produced learning ",
-    "fix gears network system Â Ã us feather 13 untie ",
-    "ç none asl rusted texaco station august is sleet ",
-    "muscle gaze surface waif of extinct lament farm "
+    "01 devouring hinges differential equations bee ì ",
+    "¦ sheets every <<-- ::: . ::: -->> microfiche Q ",
+    "up experiential differential equations p yet -. ",
+    "footholds still starry ½ G his bulb bad poles ze "
    ],
    [
-    "poison we vast bridges aerial memex ties freedom ",
-    "use group watering milling leaders environments ",
-    "potency bus sidewalk V query electrical current ",
-    "concrete rock listening baskets burn ze files 64 "
+    "4 emerging shed rimmed mission threshold joyful ",
+    "+. cipher faded paper census sketchpad marks tar ",
+    "&^ float ^. |! 1 management hours de H inversion ",
+    "^ media speech weeping rush downward poetics law "
    ],
    [
-    "$ Ü napkin c rip few painted limbs á encounters ",
-    "commerce w why is this day unlike any other day? ",
-    "out 17 quick cathedral laments v to-do which nap ",
-    "bad resistance scripts textured ecstatic de fork "
+    "south È beautiful old-school flickered j eons -. ",
+    "rusted texaco station folded map listeners 43 ze ",
+    "beneath loophole burlap area metal << often tar ",
+    "gestures novel pail us marking simpler re plumb "
    ]
   ]
  },
@@ -601,22 +601,22 @@ module.exports = [
   "title": "poem 26",
   "lists": [
    [
-    "ship rocking din heavy 4th preoccupied both ivy ",
-    "roads buffalo trans / gender 3 my buried walter ",
-    "radio transmissions hero dynamite boy x cut food ",
-    "G becoming ½ tall outlines raining lit .,. rites "
+    "wrong ½ whispers <> fair Ç role cross-platform Í ",
+    "potency rock meadow gaunt stoichiometric begins ",
+    "he e the networked (i) news o pawn it oceans 8th ",
+    "cellular connections ^. touch hat matrices field "
    ],
    [
-    "extinction homeostasis t K bend noun |.|.| plow ",
-    "power reed solitude ý to 1 aurally jar renderers ",
-    "2 á how translate pierces tents data artist were ",
-    "Â are .& commerce-mediated merciless or ! cellar "
+    "_ differential equations redo upside .- << dry + ",
+    "way arrived alone nails system-level tube j orb ",
+    "rules f redo gramophone bulk translate .< pitch ",
+    "l mend restart retrain reboard rewire c traverse "
    ],
    [
-    "Ê number station urgent message route ago marked ",
-    "thicket provided drew ze ash equations ½ .< junk ",
-    "auto carries in 4 aspect hat naked pull lung if ",
-    "curvatures screens look (our hero zero rider ze) "
+    "k wing non-traditional branch singing deftly dim ",
+    "chance-infused N being slam enrichment tin wish ",
+    "plant hoe thought ë repeat start fascist fur can ",
+    "++ died than w 6 hare alternating renderings on "
    ]
   ]
  },
@@ -624,22 +624,22 @@ module.exports = [
   "title": "poem 27",
   "lists": [
    [
-    "flaw nyx cross-disciplinary goal player reviewed ",
-    "f dwell bagpipe and old ivy before topographic ‡ ",
-    "digital cloud sagebrush w 5 whose trash sectors ",
-    "mirage || smoky ê explosive provided pool ½ like "
+    "enter halo boots river modeling 3 two agents &. ",
+    "&& wax asymptotic slow harp recorded orthogonal ",
+    "superintelligence practice chord tin bad rinse x ",
+    "wiry adaptations aflame manifestos dial plains i "
    ],
    [
-    "life trans / platform fuse gas x bend hat crisis ",
-    "|| us fur coke 4th every stairwell |-| >& i gas ",
-    "4th bad prayer „ generative to canyons difficult ",
-    "ý way ½ weld node weft extensible radiator ï bit "
+    "atoms adaptation railroad spatially-distributed ",
+    "writing harnessing no lung 17 the body $ thermal ",
+    "affixed things home ý tangents boat our violent ",
+    "unpressed <<-- ::: . ::: -->> shops crack rapid "
    ],
    [
-    "differential equations æ look >< 2 concert thing ",
-    "loophole sets an non-traditional intra dependent ",
-    "ï :|: multimedia redfield us transcriptions held ",
-    "D melt medium winged area endless u mist ô rinse "
+    "uses bit key 8 roofscape wing soon => :# >& box ",
+    "cross-media => news samples memex steel l ocean ",
+    "typically spatially-distributed dated whisper Ý ",
+    "netherworld v mission constrained data if makers "
    ]
   ]
  },
@@ -647,22 +647,22 @@ module.exports = [
   "title": "poem 28",
   "lists": [
    [
-    "to w ragged ÷ above yet machine Ø rates town din ",
-    "lights repair reclaim rebuild reweave restore .# ",
-    "he ç nyx pavement knit river shredded living box ",
-    "so loss emergence stalk 2d hold !^ wax learning "
+    "rhizome arc Ê wide knives town measurement cells ",
+    "lists marked trans / border dried push rush or ò ",
+    "west cascade raw reed distillations .& ray what ",
+    "collapse S roar ||| < > enter box copy grief ++ "
    ],
    [
-    ".# repair reclaim rebuild reweave restore $ foot ",
-    "computer-driven 10 counted within towns & sow <! ",
-    "17 newsprint ¦ din monads am <> û × ward knit !^ ",
-    "lose bombing no migrating photosynthetic grit &^ "
+    "rough buslines his damp corrugated clickbait ze ",
+    "|! thirst fix gears network system man hands-on ",
+    "cup episodic stalk space biography body thermal ",
+    "<<-- ::: . ::: -->> headed ½ risky H lung polar "
    ],
    [
-    "mend restart retrain reboard rewire accordion ++ ",
-    "railroad transformers shows shadow jar pavement ",
-    "real |:|:| ax fixed 3 p 1914 lingual look orange ",
-    "you rib in stitching gender fluid trousers .< J "
+    "dinosaur .& sympathetic pale one trumpet 8 ´ || ",
+    "æ P infinite between risks! hands-on dissolution ",
+    "scale .- .^ cyber-orchestration state or cherry ",
+    "hum æ ý dusty smoke-filled orange sky choir pull "
    ]
   ]
  },
@@ -670,22 +670,22 @@ module.exports = [
   "title": "poem 29",
   "lists": [
    [
-    "digits œ lumens at his scribbled ||| verb plains ",
-    "pie animate & breathe could creased companion it ",
-    "` drive ½ grit T energy weave diagram fossilized ",
-    "why is this day unlike any other day? cook 4 key "
+    "borders dime stealing choreographic î swallow it ",
+    "at yoke their loom countable => sink gut smooth ",
+    "^. cross-platform ink detector trace find farms ",
+    "H 32 o am writing unfolding cellular connections "
    ],
    [
-    "jar not _ cloth cook husks shuffling ode mist if ",
-    ">: tap radio transmissions _ ++ À axis auto .- ê ",
-    "=- hawker weaving red 48 turn back the clock gut ",
-    "-. next any .# oar number station urgent message "
+    "gender product infinite well f curl 4 7 m quest ",
+    "castles unroll escape pipeline counts vibrating ",
+    "<< highway r car .,. hour picture caves barns À ",
+    "off 01 >^ pretty .< database worn flashes missed "
    ],
    [
-    "maskless phonograph pie of nitrogen È spun ‹ ++ ",
-    "landing fur n radio transmissions pie distracted ",
-    "topographic blackhole inflection bending curve 8 ",
-    ":::: artistic cards triode boatman particles &. "
+    "freight &> lament have bait the repairman rider ",
+    "8 hymns sew hero zero rider ze f ? 16 lack back ",
+    "destination ceiling é multi analogue fretless .- ",
+    "{ prairie meadow sequestration rapunzel topology "
    ]
   ]
  },
@@ -693,22 +693,22 @@ module.exports = [
   "title": "poem 30",
   "lists": [
    [
-    "aspects epoch roaming bind branch :# o =- ø west ",
-    "day iterations spectral betweens imagined signal ",
-    "over ceiling lament of industry! hone orchestra ",
-    "P ü drought mirage railways map ƒ first door key "
+    "habitat =- asl b shows fix gears network system ",
+    "spatially-distributed .& crisis fugue hurried 89 ",
+    "boot form quilting forsaken din G 1 glance grief ",
+    "hydrology accessible roofscape in „ ½ hoe chrome "
    ],
    [
-    "gear parched glance aflame see duluth weave torn ",
-    "different À >& struggling constant gay 2d unroll ",
-    "resonate sandwich lukewarm coffee thermos churn ",
-    "pine = phonograph these pulls late of moth cry 1 "
+    "Ø core halogen nitrogen magic both lights d :|: ",
+    "girl position => .< harnessing interrupted <=> t ",
+    "it was like this every morning snow arc hey ribs ",
+    "r receiver net electron field short wave thatch "
    ],
    [
-    "top ÷ reclamation gulf build = ç beautiful third ",
-    "branch sequestration meet grew x + factory œ us ",
-    "skin translate specimen say co2 frame .& culled ",
-    "flow re rusted texaco station folded map struck "
+    "semicolon co2 forgotten !^ e chain ax narrate so ",
+    "S evening spiral icy || map wireless signal code ",
+    "dyke 13 being haunted sail 7 chains shadowless ö ",
+    "cyclones fascist yesterday ¨ animation insights "
    ]
   ]
  },
@@ -716,22 +716,22 @@ module.exports = [
   "title": "poem 31",
   "lists": [
    [
-    "wiry heaven 16 rusted texaco station folded map ",
-    "/ hearing equation red car choreographies 13 bar ",
-    "is thicket fall commercial boundaries lean ö ice ",
-    "map daylight ç martha humidity lace { cries text "
+    "mend restart retrain reboard rewire fractionated ",
+    "arc ghost any extinctions net paper description ",
+    "bowels bounds projections soot bowl artist clock ",
+    "coughing federation hour computer-driven lit by "
    ],
    [
-    "stripped our soon sew beyond embeddedness tubes ",
-    "very $ profile mourning miracle cast sale flung ",
-    "arc e <! icy unveiled profile smoky &> gestures ",
-    "harmonic was old î cascade divine slung plankton "
+    "it woke ê 13 ignite =- indices :: early this << ",
+    "storefront =- greasy paper reactant re faded why ",
+    "differentials rains natural ether news rainfall ",
+    "harp axis slipped make suitcase devastating get "
    ],
    [
-    "broken choral hall the networked (i) redeem =||= ",
-    "on low arrivals z =- 48 bad hero zero rider ze w ",
-    "ô sequester growth stand : sets am cyclones my î ",
-    "tender speak temperature #_# fluidity marked 2d "
+    "receipts prairie meadow sequestration in | gay 5 ",
+    "verdant jaw murky ivy ~ inflorescent burn repair ",
+    "û any turn the helm the wheel the tide the orbit ",
+    "place ‹ repair reclaim rebuild reweave restore Ý "
    ]
   ]
  },
@@ -739,22 +739,22 @@ module.exports = [
   "title": "poem 32",
   "lists": [
    [
-    "towns (re)creation pulsing work digit # 9 around ",
-    "limited prairie meadow sequestration lined cool ",
-    "morse dusty smoke-filled orange sky gut bowling ",
-    "holy rung see À vertex … coins is spill 01 churn "
+    "visceral prairie meadow sequestration ö up lists ",
+    "3 ax curtain top pulled installation saxophones ",
+    "extinctions in in picture => sink levels golden ",
+    "streets 16 slows degrees chair requires 64 torch "
    ],
    [
-    "glint downward glance creased map marked path o ",
-    "trembling ray t :|: ax date 8 are piercing babel ",
-    "profit-driven · weave gathers fistfuls scribbled ",
-    "gay K her .,. rim û 17 by skin alone why martha "
+    "&^ up creative cook man tilted shaking value if ",
+    "file rubber hard fog doorway chips b survey star ",
+    "ô unfolding hour significance codes &^ on 3 bury ",
+    "sentence .< ¨ affixed sums house curves iowa doe "
    ],
    [
-    "M ahab unmerciful image weaver guns <> imperfect ",
-    "~ am 6 4 elevator icy !^ progress! dry scattered ",
-    "old web map mend restart retrain reboard rewire ",
-    "he w arc it fire helm A œ urgent mission braille "
+    "multi threaded ½ >< looked lit original risks! Y ",
+    "< c spell wars crisis starry giants plain +. || ",
+    "sweep large none ø vibrant heaven skeleton 4 am ",
+    "entry acrobat lack crisis rib skew failure open "
    ]
   ]
  },
@@ -762,22 +762,22 @@ module.exports = [
   "title": "poem 33",
   "lists": [
    [
-    "by ||| ^|^ ô commerce (re)enactment H wide sail ",
-    "or rapid own star rain yoke planets taxonomy die ",
-    "can stretched ever pages chaotic possible -. 32 ",
-    "railways way step identification weave transform "
+    "c as up was 2d no takes <> spatially-distributed ",
+    "quartets dimmer D desert solitude set arts tight ",
+    "turn the helm the wheel the tide the orbit digit ",
+    "² 7 break is G bowl chain silos old-school proof "
    ],
    [
-    "G be bifurcation !^ pads sail grave synergistic ",
-    "Ê pressed towards why ladders row ± downward fix ",
-    "creates forms raw fell Ã bits ready 01 me starry ",
-    "we prairie meadow sequestration ­ blue worlds b "
+    "snake ý fades fusion p chronometer sanctuary :# ",
+    "declare hone 2d union kite meditations payday ý ",
+    "sighted bog planes drowned Õ creativity vectors ",
+    "culm #.# accessible watchfulness arched bends 0 "
    ],
    [
-    "architecture & others T is checker ± so q grazer ",
-    "! cat ½ soda wire phosphorous fail any red-sky o ",
-    "installations bone yet makers bad hare elevator ",
-    ":# knives skin Ý new ý looms staring vapor asked "
+    "roar trucks nomad inception 3 workshop 4th mean ",
+    "up tubes observation explicit wash profanities œ ",
+    "amplify repelling so bones carries summary look ",
+    "whispered prey hat vibration up wire looked weld "
    ]
   ]
  },
@@ -785,22 +785,22 @@ module.exports = [
   "title": "poem 34",
   "lists": [
    [
-    "dice hey >^ utterances shady thermal helicopter ",
-    "maps am why is this day unlike any other day? 4 ",
-    "converges ô deviant wireless signal code paths œ ",
-    "flower if aboard jet quickening & multi-threaded "
+    "conductor mirror low C bends damp 10 continuance ",
+    "observe weld guards frozen wireless signal code ",
+    "chair seemingly lack netherworld live values &. ",
+    "count aspiring forms crow against &. 8 oats cool "
    ],
    [
-    ":::: sinew „ .# edge empty loud > stillness ::: ",
-    "silk => compose redo l spline graphs k embedded ",
-    "gun voices forms deliver ” rusted texaco station ",
-    "ì lungs streetlamps !^ efficient me ecology fail "
+    "paint street follow ice cast power my telescope ",
+    "` vacant on shelf spatially-distributed media on ",
+    "#.# is platform station wandering fusing balance ",
+    "cook 2d flaw bends otherworldly acres = december "
    ],
    [
-    ">< fragile >: illuminate spun tar soda cigarette ",
-    "tent count chalky -. settle by in H film setting ",
-    "3:48 mend restart retrain reboard rewire # rolls ",
-    "rib ^ corrugated stamps keen handbook torch walk "
+    "it gut my gaunt tape ¯ inflection bending curve ",
+    "quickening unpressed .^ skin (how things change) ",
+    "very we out P bus while transmissions centers x ",
+    "cellular connections snakes we q veils scottish "
    ]
   ]
  },
@@ -808,22 +808,22 @@ module.exports = [
   "title": "poem 35",
   "lists": [
    [
-    "really chill on bait there waiting center in ||| ",
-    "are e divine horses cross-disciplinary in chess ",
-    "÷ such not harnessing Ø << breathless l organics ",
-    "if Ï external marrow concerto hole .& oil cages "
+    ".# soul it record railways city ý his arrived 32 ",
+    "k T jukebox suburban cargo stick utter construct ",
+    "becoming h axis urban thermionic barn 128 rhythm ",
+    "magnet its once can unfretted stop trans / media "
    ],
    [
-    ">& ` ¾ to unpressed adapting roar seasonal gas ÷ ",
-    "sea traveling embrace free duty 5 &> gallery are ",
-    "rusted texaco station folded map wiry plurality ",
-    "mend restart retrain reboard rewire null audion "
+    "observatory &^ ‹ emptiness at spew radiation bog ",
+    "magnet out bad noon insect york stock lever pawn ",
+    "x 64 stock seed spine computable nap madrid reef ",
+    "letters 32 taut texaco ì archaeologists lose 13 "
    ],
    [
-    "omniscient calculates page destinations ‹ bus ^. ",
-    "took description take built functions image waif ",
-    "gulf ç macro .- chamber work ý architects tangle ",
-    "grows resist photosynthesis dinosaurs mass fused "
+    "= dependencies background mirage :# half if them ",
+    ">& near glimmers >: and jungle fog die receivers ",
+    "an & ¯ labels (re)do (red)o ^|^ bleeding mouth j ",
+    "drop -. asl coffee art neural Ï rib better trees "
    ]
   ]
  },
@@ -831,22 +831,22 @@ module.exports = [
   "title": "poem 36",
   "lists": [
    [
-    "drown hundreds .< shops dirt draw j of soda fog ",
-    "off super verdant coursework grassland 43 heavy ",
-    "harmony >: plumes _ 17th junctions fur soldiers ",
-    "every flowerhead soot raining chips electricity "
+    "< > marlboro inversion fields +. noise gold jet ",
+    "at creation coordinates 64 stain 0 dark yoke ^. ",
+    "low profanities knifelike king lips => essence h ",
+    "he ice ” set extension rectify vibration worked "
    ],
    [
-    "vast asl phd moons metaphor head stains Ï 01 icy ",
-    "œ gap an downward glance creased map marked path ",
-    "transcribe look or fix gears network system have ",
-    "onto arid summary dream rib is denim work 43 an "
+    "ax needs still rains ^ tomb take runes loophole ",
+    "chest traveler prints >^ u thread encounters wax ",
+    "ash ¦ geometries ‹ >< cup j dusk chalk … edition ",
+    "arid soil thunder forcing ^ cut fabrics melt cut "
    ],
    [
-    "center how masts gas bits inky by # 64 narrator ",
-    "% parchment wide no category context |-| creased ",
-    "unpressed his parameters trashcan |! manifestos ",
-    "din jagged hoe boy Ð shouting electrical ¨ shown "
+    "nyx spider angel # stalks bow be recitation them ",
+    "roadway ¼ wrapper gun ends vector web-native rim ",
+    "tides => × oil opal gleaming 64 typing ! living ",
+    "^|^ macro pavement >: power resonance inebriated "
    ]
   ]
  },
@@ -854,22 +854,22 @@ module.exports = [
   "title": "poem 37",
   "lists": [
    [
-    "cacophony streets Ø in î photosynthetic my sleet ",
-    "into yet emergence lash fell modulation throws j ",
-    "geologic my torn 9 flying fugue 10 ax ´ midnight ",
-    "translator than resonate reduction j scream box "
+    "rusted texaco station folded map be baskets but ",
+    "bagpipe remnants |:|:| knowing textures they cry ",
+    "„ days .- k plywood 0 foster => 2d jaw dissonant ",
+    "5 downward glance creased map marked path ö fish "
    ],
    [
-    "movies yet dead doe forsaken fodder none new m h ",
-    "bait drown plates .- u .^ ¦ arteries 10 v visits ",
-    "drown 8th am change :|: proliferation ö ÷ fever ",
-    "arc no haunted worn not cloth lever area >& prey "
+    "as fallen foam jet expenditure it specimen .< 48 ",
+    "coin research rinse painter leapt dots wolf land ",
+    "64 f fix fleeting ||| ý footnotes eye .^ ship Ï ",
+    "fossils = +. device fire ç timetables .^ hinges "
    ],
    [
-    "platform station repair(*man) colossal restored ",
-    "!.! lights =- measurement cool 4 fossils doorway ",
-    "89 critical martha c &. gap birds ç hard tuning ",
-    "9 cut U prairie meadow sequestration re |! town "
+    "by c divine linguistics city | trucks zone point ",
+    ":: joins ascending oar gear star pressed Ü birth ",
+    "=> so &. entrance phd 4th metallic transmissions ",
+    "_ theorems ocean aged gray intra dependent an 13 "
    ]
   ]
  },
@@ -877,22 +877,22 @@ module.exports = [
   "title": "poem 38",
   "lists": [
    [
-    "j ¯ script text hand fodder billion copy aspire ",
-    "waking sine ö dissonant my college polychromatic ",
-    "stalks suspended î particles chance-infused 5 ? ",
-    "love no grasses the infinite sky parameter 1 row "
+    "9 jesus simply x woman cloth &^ sew reedy crow m ",
+    "wizard 8 && it was like this every morning where ",
+    "2 ripe ê orb noun wolf abacus +. towns shelter b ",
+    "rocky inside <! diner ‹ a asl cup :: arctic fix "
    ],
    [
-    "17 dreams h the API grass multi threaded arctic ",
-    "eye looms repair reclaim rebuild reweave restore ",
-    "hum ecology bus self-documentation arrived alone ",
-    "rust deductions the carbon cycle leather thermal "
+    "Ê ivy proof now gulf clock create multi-threaded ",
+    "mesh latch && gay vast rain &^ limit experienced ",
+    "talk ago risk bottle reverberate link ç j murder ",
+    "connotations ö forget 16 orbit stilled pool what "
    ],
    [
-    "reversal epoch illuminated energetic 64 = tied Ø ",
-    "higher ½ strings ² whales -. subway becomes just ",
-    ">& to 10 ï lung goes ||| switch &. nightly denim ",
-    "loose quest probabilities failures .# æ .# ideal "
+    "swirling ! why is this day unlike any other day? ",
+    "È inflection bending curve ribs september no … ¾ ",
+    "undo recollection nap û turns meteorite category ",
+    "contexts blue 10 J ax forget spaces => l leader "
    ]
   ]
  },
@@ -900,22 +900,22 @@ module.exports = [
   "title": "poem 39",
   "lists": [
    [
-    "scattered trains ambiguity of calculations cup J ",
-    "r geo :: h ++ circus titration markers draw & of ",
-    "it ² acrobat an ô simply worn suitcase poet can ",
-    "be æ cardinalities ½ suits stem formulas perhaps "
+    "hum chlorophyll jet 8th retry spoken beautiful 2 ",
+    "repair reclaim rebuild reweave restore dawn t á ",
+    "all shift inky clue box & 1 gay room yet oar .< ",
+    ".- fossilized symphony sine +. bait die stars .& "
    ],
    [
-    "pins pond && merciless inky it pulling different ",
-    "ode scores inflection die ^. south wandering nap ",
-    "tours chevy it 89 ¯ stable dust discontinuity us ",
-    ": say grand .^ ‰ it was like this every morning "
+    "before effort polychromatic faster 17 symphonies ",
+    "8 lack . Ù parameter á histories Â mercury redo ",
+    "burlesque bags ray tap zone reached measure into ",
+    "ß tides beat volume fix :# taut alone charges 48 "
    ],
    [
-    "it was like this every morning scores œ bisected ",
-    "sow animate & breathe trans / gender cool Ý ü 43 ",
-    "culm to-do |! into plot :: progress! probability ",
-    "piece 9 snows :|: prism plant nuclear 3 circled "
+    "missing Û mean ü tangents mineralization +. Õ &. ",
+    "sloping z voice free creates script lash monads ",
+    "clamps 9 hive core level deranged >& thief were ",
+    "foam => ode halo j reweave tattered collection 8 "
    ]
   ]
  },
@@ -923,22 +923,22 @@ module.exports = [
   "title": "poem 40",
   "lists": [
    [
-    "mend restart retrain reboard rewire program too ",
-    "on platform elemental blue guns hole P meteorite ",
-    "5 function creased map probability thread prey š ",
-    "you differential equations source 010 draw skull "
+    "letters fallen t grave melt taxonomy keystrokes ",
+    "the carbon cycle gun row geo cello cavern % noun ",
+    "city siren drunken lost electromagnetic narrator ",
+    "~ ¹ dim 64 … risk dim ­ roll bullets encoded he "
    ],
    [
-    "choose minutes trans / border wind mills groups ",
-    "repair reclaim rebuild reweave restore floor š ÷ ",
-    "heaving shops excavated infinity ” 10 hydrology ",
-    "frayed jet b elevators cattle storefronts its >< "
+    "J conveyer metal laughing whisper walked me Í => ",
+    "<> downward glance creased map marked path shelf ",
+    "trajectories external board icy his census bow é ",
+    "say glimpse / 64 .,. .,. À book glides exploring "
    ],
    [
-    "moth glancing p to thin cascade platform station ",
-    "stolen ³ complicity while by choreography ropes ",
-    "Ø => p radiance feedback the networked (i) team ",
-    "=- moment impacts rust singing bitter unfretted "
+    "fix organics masks cybernetic she beam ¦ duty -. ",
+    "nyx geologic ions scrawled ze pin sea lay if « I ",
+    "numerous glasses w monastery zero bee reef laced ",
+    "thrum ì mend restart retrain reboard rewire rush "
    ]
   ]
  },
@@ -946,22 +946,22 @@ module.exports = [
   "title": "poem 41",
   "lists": [
    [
-    "ý ahab shaking quilting robust millennia no the ",
-    "wandering bow gray solitude lay axes Ü alone run ",
-    "bog î laments visualization betweens pointer Y u ",
-    "stuffed drawn 2d provided bait contexts pie 1 Ê "
+    "windy lay anchors unpressed H suppose geometric ",
+    "^. coins root parchment as jazz circling 2d here ",
+    "sleet likelihoods downward psychotropic box full ",
+    "slam + dimly ½ tide Û J differential equations | "
    ],
    [
-    "paul underlying states || clouds 7 differentials ",
-    "be m cell second rusted texaco station teach web ",
-    "&^ head prairie meadow sequestration thread loom ",
-    "reversal ÷ promise 13 or home |! fades saxophone "
+    "web-native stitching mapped tent shutter station ",
+    "zero nap assessments tubes niche promise being ÷ ",
+    "energy frames ¨ blinking prison deep and << past ",
+    "elegy prairie meadow sequestration or ý engines "
    ],
    [
-    "inflection bending curve but l cathedral cascade ",
-    "temperature curve ½ responding cat conservation ",
-    "4 turns sew he breathe identification whisper 10 ",
-    "oil probabilities roots platform station roaming "
+    "vacuum 1938 p ratio motion flag scraping chariot ",
+    "node turn the helm the wheel the tide the orbit ",
+    "swamps mainstream the modernist grid on maps # Õ ",
+    "glue sandwich lukewarm coffee thermos crash you "
    ]
   ]
  },
@@ -969,22 +969,22 @@ module.exports = [
   "title": "poem 42",
   "lists": [
    [
-    "probability fork entranced hymn-like tilted soil ",
-    "illumination o magic wolves S extensible tents t ",
-    "we >: t knots as position he hot trucks flooded ",
-    "rocks silence astronomies lash ripple inch asl # "
+    "slows fungus drain cage = gray roll protests :: ",
+    "workshop nebraska orb ê far dinosaurs assemblage ",
+    ".- fragments drew becomes asl body eyes grasping ",
+    "numerical than daylight bottle delay as consume "
    ],
    [
-    "elevators .- full <> &> iron lock differentials ",
-    "engine densities birds now >^ utter breathing _ ",
-    "creating retry q insights 0 breaking M outlines ",
-    "ç deals œ r ü battered in dissolved drowning bus "
+    "downward glance creased map marked path are many ",
+    "4 he run … testify |-| retrieve ::: transference ",
+    "still naked incantation laws ÷ #.# 3:48 consume ",
+    "scales breathlessness <> utterances pandemic me "
    ],
    [
-    "=> stunned metaphor 1958 make digital cloud wish ",
-    "forecast wagon faint red exquisite to percussion ",
-    "screaming coal 3 composable cluster 48 13 ¤ dusk ",
-    "curved Ê x spatially-distributed slant => webs « "
+    "on differential equations transform past context ",
+    "‡ cacophony blown response % sow .- he eye m hum ",
+    "iron script dimly bibles creativity flickered .# ",
+    "commerce-mediated or polyphony snow off ¯ archer "
    ]
   ]
  },
@@ -992,22 +992,22 @@ module.exports = [
   "title": "poem 43",
   "lists": [
    [
-    "1 .< an o ½ cup ß turning D laws specific light ",
-    "mist soot chronometer deployment list texture => ",
-    "muscle bent attempts Ç oboe trashcan rise be of ",
-    "rehearsal polyphony ray |-| 64 translate strewn "
+    "seas painting pen appliance kite ways j pulse 2d ",
+    "device electrical current encourage this london ",
+    "8th verb =||= redemption log ¦ ablaze boundaries ",
+    "constellations 16 train conveyer ÷ plumbing roll "
    ],
    [
-    "flickering root <! sack drifting magnetic ý coin ",
-    "dusty smoke-filled orange sky see rail wards û V ",
-    ">^ stain i dated likelihood too slanted 0 grid ö ",
-    "!^ action 10 ^|^ hero zero rider ze past have we "
+    "2d thirst e tranquilizer times faltering digit ¾ ",
+    "news cross-disciplinary hike its non-traditional ",
+    "P : golden fleeting bend study +. indecipherable ",
+    "beating clue >< radiant gatherer nyx oar in mass "
    ],
    [
-    ".< rural unpinned acoustic walks slows fabric or ",
-    "hero zero rider ze multi-faceted breathlessness ",
-    "flaw quick + cognition multi dimensional railway ",
-    "loosely-coupled 0 H ax ÷ ocean federation de fly "
+    "start page dissolving <=> unprecedented stone re ",
+    "bang << fugue feasibly too follow operatic phd ^ ",
+    "us adapting assemblage ý lash link heavens #_# ¦ ",
+    "bow a Ü ü dyke clap cipher ý glaciers by lock <! "
    ]
   ]
  },
@@ -1015,22 +1015,22 @@ module.exports = [
   "title": "poem 44",
   "lists": [
    [
-    "interaction tenders low ratio ‰ water l 7 woke ÷ ",
-    "æ seed ze leaf trees sun <! west ¹ bog contours ",
-    "computation shiny insights dynamical from fists ",
-    "position 3 mail ignite mass not our making ++ 43 "
+    "!^ 8th moving grammar _ +. 1906 trans / figured ",
+    "hope ¾ oil he illumination letters noun +. path ",
+    "bendability piece babel murky < e expectation 3 ",
+    "lament &> as cyclone reboard hot m windy ++ 17 m "
    ],
    [
-    "dry !.! wireless signal code breathlessness axis ",
-    "| 48 mourning team at wind lantern rubbing plumb ",
-    "repair reclaim rebuild reweave restore clue l r ",
-    "fractured ^. spool k art taut numbers the me &> "
+    "-. ^. 32 h sandwich lukewarm coffee thermos ode ",
+    "self-documentation housing &^ dying twist |.|.| ",
+    "ý downward glance creased map marked path drown ",
+    "am the networked (i) sign art abandoned #.# Ù ~ "
    ],
    [
-    "explosion correct mass trash efficient stalk ||| ",
-    "² seeing >< near students up 13 fail .& sketches ",
-    "today ash dusty smoke-filled orange sky plots 9 ",
-    "teacher vapor turning <! spool G C ++ weave boat "
+    "_ pen novel world improvisational Û sang exactly ",
+    "dim =||= wandering hunt bends when your tar bow ",
+    "g ++ me fluid better work ignite off rhythm din ",
+    "ë 13 conjurer sang ax P sidewalk :|: # bone seal "
    ]
   ]
  },
@@ -1038,22 +1038,22 @@ module.exports = [
   "title": "poem 45",
   "lists": [
    [
-    "sew we inference woke reclamation flint visceral ",
-    "ý n x devastated tin î than variable ± nutrient ",
-    "indecipherable red even transact meant numerical ",
-    "cyber-orchestration dying û sleep brief edge fur "
+    "die semicolon # soldiers seemed flash doorway w ",
+    "product globe reclamation $ than pool glory sang ",
+    "sounds vibrant arcs vibration storyteller „ halo ",
+    "Ç probabilities ax musicians eye ohio narrative "
    ],
    [
-    "opal she o passage wide junk non-traditional cup ",
-    "de fishers technologies mend wax -. mean => hair ",
-    "maybe her trans on waning scottish if coffeepot ",
-    "homestead brown || we avenue wax nyx auto cellar "
+    "equation cup harnessed markets prayer >: of dawn ",
+    "we .# reify phonetics >: ashes ink lightning bar ",
+    "us number station urgent message photosynthetic ",
+    "010 hear pensive Û G 2d { five hinges roar wrong "
    ],
    [
-    "1 doorway <! cellular connections de containment ",
-    "stream mend restart retrain reboard rewire till ",
-    "receiver net electron field short wave thatch us ",
-    "sow coughing gun august 8 manuscript barren jet "
+    "different sandwich lukewarm coffee thermos plumb ",
+    "buffalo beautiful construct one rib !^ cafe Ã an ",
+    "turn back the clock low ý assembly leap _ gap(s) ",
+    "D turn the helm the wheel the tide the orbit 4th "
    ]
   ]
  },
@@ -1061,22 +1061,22 @@ module.exports = [
   "title": "poem 46",
   "lists": [
    [
-    "mast we chrome no affirm ± share ë he played :|: ",
-    "were a media « settle as joyful ô simplify time ",
-    "upon dams <=> +. milling windy 2d prophet boats ",
-    "orbit winged thick heard neighborhood folk 1938 "
+    "stems tangle has be translucent dream lit ++ !== ",
+    "j basin tight drawers ax .< deep in -. patterns ",
+    "prism trans / formed leaf hard 48 43 resistance ",
+    ":# ions 32 why is this day unlike any other day? "
    ],
    [
-    ".# man 6 top 48 64 circulate trans / border had ",
-    "bit spell groan disrupted ink microscope compose ",
-    "sing simple harnessing j click q post wards % 32 ",
-    "I Y roads facts ceiling w as hertzian sun green "
+    "word rusted texaco station folded map basis dyke ",
+    "motion J hue throw pour .# fractionated # our G ",
+    "diorama predicate ax H own canvas +. fuse plan ½ ",
+    "u crisis radiant cages 89 >^ gap land traversals "
    ],
    [
-    "perilously gaze newspaper nails interrupted š as ",
-    "useful cipher guns swollen commerce-mediated gay ",
-    "hurricane silk labels so fungus m one fish miss ",
-    "they hinge systems put pools biography ivy epic "
+    "is 13 .< :|: &. altered electrified Ø we grammar ",
+    ": : : transmigration at felon hero zero rider ze ",
+    "velocities exuberance spatially-distributed west ",
+    "b = mend restart retrain reboard rewire die shed "
    ]
   ]
  },
@@ -1084,22 +1084,22 @@ module.exports = [
   "title": "poem 47",
   "lists": [
    [
-    "swan phrase resplendent cipher ray golden G << # ",
-    "mend live Ê off community-driven feet || missed ",
-    ">& .^ is poisoned nyx generating trash rasping ¾ ",
-    "halo weld f spatially-distributed query flight 3 "
+    "œ bang !^ flow trapeze long meet :# my mass fork ",
+    "opera roll bury redo ò narrow w interested Ã too ",
+    "swan =- woke (re)cover synchronized .< w natural ",
+    "tune :|: time hat it was like this every morning "
    ],
    [
-    "oxen cloaked violent is skies &. bad ash <=> zoo ",
-    "in } webs repair reclaim rebuild reweave restore ",
-    "transference date gray raw platform found o set ",
-    "emptiness 1958 torrents × ½ ||| fractured gods J "
+    "flow joins bits hallelujah globe eye yoke Í :::: ",
+    "=> sums house room circled nail howl +. din can ",
+    "creates .- stealing swallow glue irresistibly 3 ",
+    "rock re R ++ ¹ quest seasonal acoustic reef nest "
    ],
    [
-    "voyage ü 10 64 && grates stringed drowsy hot hot ",
-    "17 32 we press changeful window tubes thermos 9 ",
-    "sandwich lukewarm coffee thermos replacing ½ = ¯ ",
-    "art grand 17th ¯ ^. pathways torrents scratching "
+    "data ‡ clothes he remember î ^. throw the switch ",
+    "midst temperature use transmissions an the rural ",
+    "melding differential equations ink i oar 17 bait ",
+    "reaching present ^|^ artists winds she fast grid "
    ]
   ]
  },
@@ -1107,22 +1107,22 @@ module.exports = [
   "title": "poem 48",
   "lists": [
    [
-    "m parameters distant q transformation histories ",
-    "beast hot number station urgent message wondrous ",
-    "monastic wound dusty smoke-filled orange sky 48 ",
-    "man wax 3 g how root chance-infused soldiers ß ± "
+    "losing hovering chemistry bifurcations cacophony ",
+    "collection ||| q staining here manufacture æ ash ",
+    "synchronized .# felon twist taut orb looms husks ",
+    "an herself oboe graphite screens stones my her ~ "
    ],
    [
-    "or Í blade cool layers buzz (re)enactment plumes ",
-    "Ø take retrieving rusted texaco station edition ",
-    "with spine receiver lifting ash Ç <! - Ü promise ",
-    "construct tell 16 rolls o · ß &. waves something "
+    ".< confluence ï 010 webs as aspire amplify map ´ ",
+    "many york j 5 >< 8th ++ x × player transcendence ",
+    "# signs rich tonality ^|^ put glance tar memory ",
+    "plain geo sang abandoned differential equations "
    ],
    [
-    "J knit narrow dwell swan yet dice indecipherable ",
-    "loom lean erase rails … progressions pandemic or ",
-    "drive railroad 43 dots intra dependent waning 16 ",
-    "an hymns probabilistic tension producers living "
+    "transcendence slender chips echo Í role steaming ",
+    "ë on chronometer it was like this every morning ",
+    "_ effort ++ rings newsprint tension ghostly mask ",
+    "43 baby on turnstile nap quartets if mathematics "
    ]
   ]
  },
@@ -1130,22 +1130,22 @@ module.exports = [
   "title": "poem 49",
   "lists": [
    [
-    "the networked (i) wash dissolution .- f .^ farms ",
-    "drought the repairman rider :: catapult R ç x j ",
-    "skewed transformations ÷ sews 43 tree father ash ",
-    "rays u top out splayed b D .- school web-native "
+    "hero ü community-driven consume frozen ablaze &. ",
+    "17th waif 01 trans / platform ze hearts supposed ",
+    "wave # wire footholds statements belts purl | by ",
+    "locks collaborative regenerative bandwidth guns "
    ],
    [
-    "heat make Ã moss % still left an lamp generators ",
-    "dyke boarding fists geo o ï => Û 8 ^|^ noun had ",
-    "boys initial gaze agents 0 ripening use ÷ Ü ray ",
-    "drawings her structures nap lined w are counted "
+    ">^ &^ push find just out share not airbase then ",
+    "isocline pull .^ or û checkerboard left supposed ",
+    "++ lay rocky 00100 ½ intoxicating abstract b law ",
+    ".# û .# gay 16 plumbing sow zero ö rhythms stare "
    ],
    [
-    "blurring ­ thirst oar grip form bone development ",
-    "was spun indecipherable burlesque way population ",
-    ">& &. fair mend restart retrain reboard rewire ¤ ",
-    "-. é v numerical each stock metals encounter can "
+    "repair reclaim rebuild reweave restore &. spiral ",
+    "decay cross-platform willow ink 8 betweens upon ",
+    "¼ self-documentation bowl are sow blades raw 3rd ",
+    "… cigarettes contours arms why animations images "
    ]
   ]
  },
@@ -1153,22 +1153,22 @@ module.exports = [
   "title": "poem 50",
   "lists": [
    [
-    "cup geo scroll .< the arctic repair(*) first ||| ",
-    "plains dew swollen # freedom fog tides hill halo ",
-    "way vines storefront ê force submerged 1938 bits ",
-    "coupled bell lit mission % tomb œ ratio œ oxygen "
+    "hive <> swift network cloak û 16 : threaded film ",
+    "&& fix gears network system / girl unprecedented ",
+    "swing any _ roll x get watchfulness &. inky caws ",
+    "43 flag encourage journey animate 8 destruction "
    ],
    [
-    "typographer tape tide c pollen blocks below bank ",
-    "sandwich lukewarm coffee thermos scale &. H fish ",
-    "too recorded things system-level cat pale fix && ",
-    "dinosaurs red-sky auto && illumination fog over "
+    "frequency s currencies to 89 <! environments de ",
+    "door rusted texaco station folded map (ze)ro key ",
+    "demystify times transcendence storage 17 we ripe ",
+    "howling .- sunless switch 1906 object soundless "
    ],
    [
-    "calculations fists +. captain !^ strangers j or ",
-    "tenders fix gears network system opal flat baby ",
-    "down parcel lucky verb bus map leaves beginning ",
-    "shaped # subway ô inky sensory fur creased map 4 "
+    "if mend restart retrain reboard rewire # .# sky ",
+    "spatially-distributed freedom bomb feet bee say ",
+    "tires pistons _ saw package daylight physics own ",
+    "plumbing && electrify fog 89 rhizome re dense as "
    ]
   ]
  },
@@ -1176,22 +1176,22 @@ module.exports = [
   "title": "poem 51",
   "lists": [
    [
-    "æ query hard !.! it was like this every morning ",
-    "oboe e G sandwich lukewarm coffee thermos skewed ",
-    "dolls no soil valuable $ thicker . ò drench wood ",
-    "staring 13 heaven cliff gear slender swings time "
+    "same lazy transformation folded map wiry clamps ",
+    "8 indecipherable distilled plan collaborations « ",
+    "!.! metals <> tranquilizer h mathematical flung ",
+    "noise pie salt duluth say my name word creating "
    ],
    [
-    "jaw slowly mercury discussion rolled .< lessons ",
-    "torn < > jungle 4 # lit drop course ¼ creativity ",
-    "label up re beginning roofer law wiry 89 signals ",
-    "say operatic polychromatic dim extinction coffee "
+    "astronomy Ù cloth rigging 17 :: arts call headed ",
+    ".& listeners proof shovel rosin simpler explore ",
+    "faded set clutching flash prophets transact sand ",
+    "how â web icy trans / platform work public dimly "
    ],
    [
-    "have meditations 64 row ² series oxen find :::: ",
-    "o × in sedge streets ½ ‡ din w urban ! ideal way ",
-    "electrical current alphabet clamps &> up Ø shed ",
-    "m Ã interlude rusted texaco station collage row "
+    "rusted texaco station lose so 01 even pie prey : ",
+    "sandwiches so deals present fossil speed swings ",
+    "alternating _ walls pin &> orchestral 16 he |! ¤ ",
+    "forests tool urban sketches draw configurations "
    ]
   ]
  },
@@ -1199,22 +1199,22 @@ module.exports = [
   "title": "poem 52",
   "lists": [
    [
-    "all mathematician tap printed ý iterations humid ",
-    "de gaze downward glance creased map marked path ",
-    "16 icy filtered (un)synchronize Û &. foster guns ",
-    "½ |! windy C juke tied silverware dyke furthered "
+    "sleep adaptable all co2 64 cups trophic ‰ ions { ",
+    "œ bend 64 found crow |:|:| between glassy that « ",
+    "tangents is crucifix <> &> cement û stamped say ",
+    "chicago |! bells oil out gap whisper tools rider "
    ],
    [
-    "interface transference clothes processes mirror ",
-    "oboe mend restart retrain reboard rewire not 89 ",
-    "dynamite hear } cells checkerboard typically 2d ",
-    "failures visceral it was like this every morning "
+    "if tomb from pie proprietary unpressed lazy have ",
+    "sixth helpless way critical glue ash found : : : ",
+    "hue row noun asl hill inflection bending curve # ",
+    "illumined boundless open embeddedness are ! bars "
    ],
    [
-    "(m)bodiments && plane intermittent bus forecast ",
-    "sent de >^ rusted texaco station wave á nevada Ø ",
-    "axe looms be friction 89 ago promised buildings ",
-    "fact & 3 near cross-disciplinary my ? sale bent "
+    "swan flaw ¯ o files differential equations role ",
+    "up ß <<-- ::: . ::: -->> chordal !.! we grows 43 ",
+    "&^ photosynthesis differential equations lean 43 ",
+    "downward glance creased map marked path nebraska "
    ]
   ]
  },
@@ -1222,22 +1222,22 @@ module.exports = [
   "title": "poem 53",
   "lists": [
    [
-    "nightly ü as š answers nomad hot textured clamps ",
-    ": drunken the lamp one û ý cellular connections ",
-    "gentle engine of god seek drowning run vein &. : ",
-    "night pixels as live experienced thin voice get "
+    "I decisions risk awake ± taxonomy row technology ",
+    "use î torrent concrete bells accessibility arid ",
+    "ions trumpet 64 to meteorite transistor threads ",
+    "shows !.! 8 mathematics excavated said particles "
    ],
    [
-    "now faded paper census sketchpad marks loud ü >< ",
-    "ambient sequence being de ø limited 0 conjoin 16 ",
-    "geographies dust tattoo .- essential surface am ",
-    "Ü tone pulled { ` h é desert >: flashlight churn "
+    "=- digits whether l fog carts ^ cool bifurcation ",
+    "gunpoint or lace jet conversion receipts glowing ",
+    "web turn the helm the wheel the tide the orbit 3 ",
+    "4th pressing emptiness blur home asl sailor play "
    ],
    [
-    "ç researcher digital frame ze moments ½ talking ",
-    "guns 10 slow horsepower visceral breathing pick ",
-    "_ world plates heartless duty beautiful eons can ",
-    "aluminum commerce-mediated magnetic caws decline "
+    "splayed up ` mission all >< degrees steering =- ",
+    "3 P iron downward glance creased map marked path ",
+    "m cellular connections opaque # far net seasonal ",
+    "=> awkward multi dimensional semisynthetic local "
    ]
   ]
  },
@@ -1245,22 +1245,22 @@ module.exports = [
   "title": "poem 54",
   "lists": [
    [
-    "o hero zero rider ze site-specific progressions ",
-    "angel at radio transmissions elevator thin tutor ",
-    "pump conflagration ash ¾ ø elemental 3 traveling ",
-    "thatch ions rays dyke 13 outline û tires << ì ô "
+    "tap differential equations scar (re)creation box ",
+    "abundance nitrogen hoe chance platform frequency ",
+    "ladder torched perfect ax chance blackened an || ",
+    "phd rooms rolls dinosaurs connections ½ prophets "
    ],
    [
-    "mountain hovering commerce-mediated duration how ",
-    "we imprint H tar t ø word infinite between mesh ",
-    "ahab symphony sea lure drawn hooves ice Ã dew =- ",
-    "took 8th buslines movies stalk 3 rasping texts 0 "
+    "moth :# resurrections ¯ lived trees art cyclone ",
+    "renderer „ difference such jet background london ",
+    "makers echo origin => are zoo at natural counted ",
+    "wolf are them compare fix gears network system s "
    ],
    [
-    "sun making use color at node ¼ drawn escape fast ",
-    "too honey psychotropic not c caps .^ >< majestic ",
-    "dimensions >: an wiry stalks bit living 8 payday ",
-    "chicago we drawers operatic her :# tranquilizer "
+    "bad 32 reverberation pail the networked (i) din ",
+    "book # mend restart retrain reboard rewire going ",
+    "slung world H o æ 43 full he networked .# : : : ",
+    "tires chorus ½ fungus o cup ways die well drive "
    ]
   ]
  },
@@ -1268,22 +1268,22 @@ module.exports = [
   "title": "poem 55",
   "lists": [
    [
-    "about script management two relentless weight |! ",
-    "++ tenets electromagnetic p detail ¾ edge no |! ",
-    "top over dwell w transects percussion join .- we ",
-    "cognition reactions cataclysmic 43 topology coal "
+    "brook renderer vibration .& 1938 ç de views star ",
+    "rip barns was Ã ripe bee digital poetics waiting ",
+    "collision great computer-driven ý ticket to free ",
+    "machine boys tides you # corrugated cell harness "
    ],
    [
-    "writes repair reclaim rebuild reweave restore Í ",
-    "recorded ø pensive own |..| retry icarus j feel ",
-    "not >< sandwich lukewarm coffee thermos swirling ",
-    "||| faded paper census sketchpad marks ö copied "
+    "32 n an surround-scapes metals Â every h graphic ",
+    "projections force bound ^. cellular connections ",
+    "the infinite sky bird food de arithmetics y gray ",
+    "plane along up 8 inebriated branch geometry died "
    ],
    [
-    "de armaments book slows humidity storage k limbs ",
-    "p water electrified Ø niche fuse rim energy prey ",
-    "loud god sand 10 phd reach or |-| chord playback ",
-    "K gay gods de !^ requires spatially-distributed "
+    "rung 89 midnight #_# run hey fast database deer ",
+    "plankton reaching see _ rails wooden 2 goes root ",
+    "midst rusty caught archaeologists ± waves 2d an ",
+    "two Y multi-faceted ivy me poetics ƒ stone re û "
    ]
   ]
  },
@@ -1291,22 +1291,22 @@ module.exports = [
   "title": "poem 56",
   "lists": [
    [
-    "rope file say Ð densities 32 listening area cups ",
-    ".< rusted texaco station corrugated held whistle ",
-    "&. crash cook loans struts lever texts 4 ý rows ",
-    ">& or faded paper census sketchpad marks 48 k no "
+    "bowels ¯ 01 artifact „ 4th deer laws underlying ",
+    "platform station redemption Ð self-documentation ",
+    "=> >< build tree florescence on tied = often bee ",
+    "} û · 89 mail unexpected humans maybe skewed ||| "
    ],
    [
-    "de transfer mend restart retrain reboard rewire ",
-    "along solitude lucky strike girl 64 squares net ",
-    "scar lone survey complexity transformation maybe ",
-    ">: reaching arctic post law lost cast oil effort "
+    "diffusion skills rings grand û = x footholds 16 ",
+    "link opacity from block silver repair(z) was has ",
+    "|| !^ torched &> o ribs filter commerce-mediated ",
+    "restless heaving dusty smoke-filled orange sky × "
    ],
    [
-    "‰ dreamed { m snakes breathtaking re <=> no turn ",
-    "reformation one it rip fly perfect circling echo ",
-    "variation honey & ! long ^. k crow intrinsically ",
-    "K pine marking asl loop !^ constrained w |..| to "
+    "17 ^ gay 010 faded paper census sketchpad marks ",
+    "43 8 T chamber writes legibility streams called ",
+    "machines boys boundedness came helicopter asl 48 ",
+    "open !== 3 ends swarm rapid rapid mathematician "
    ]
   ]
  },
@@ -1314,22 +1314,22 @@ module.exports = [
   "title": "poem 57",
   "lists": [
    [
-    "box bowling .^ 9 89 spatially-distributed when . ",
-    "turn the helm the wheel the tide the orbit ´ is ",
-    "between ± monastic $ sine housings (re)enactment ",
-    "real j !== tilted supermarket acrobat up lung in "
+    "falling û aurally worn change asymptotic bloody ",
+    "so .^ downward glance creased map marked path >^ ",
+    "screws governing coffeepot 32 gates low press 10 ",
+    "&& unexpected colossal moss souls bit renderings "
    ],
    [
-    "½ us :# or enactments girl today ß : alternating ",
-    "downward glance creased map marked path ze flows ",
-    "battered weightless :# 3rd Ï Ý throw the switch ",
-    "yet irretrievable whisky cook barn gut |! where "
+    "take burn why is this day unlike any other day? ",
+    "boxed H p rugged say gaze gulf arms stock my hue ",
+    "de submerged power the geologic counted database ",
+    "89 you name gay sandwich lukewarm coffee thermos "
    ],
    [
-    "û K !^ critical 4 flux key wireless signal code ",
-    "reach ice score watched >^ flux dams researchers ",
-    "oceans why is this day unlike any other day? he ",
-    "j slides gates had trees hard Y land plane drive "
+    "glimpse up failures dear risk mast ocean aflame ",
+    "lash papers requires electromagnetic cave quest ",
+    "9 absent ++ paper hot poet spatially-distributed ",
+    "cliffs grabbing tangents elicit or illumination "
    ]
   ]
  },
@@ -1337,22 +1337,22 @@ module.exports = [
   "title": "poem 58",
   "lists": [
    [
-    "=> cyber-orchestration hero zero rider ze 9 take ",
-    "64 quixotic wrong lexicon 2d chiseled juke noise ",
-    "of far ¨ attempts its inside _ scales rides mill ",
-    "saw copied wasteland bowling humid wound put art "
+    "inhabitants ù lantern pulse minerals encode town ",
+    "raw star soot dying undo potential … transistor ",
+    "semisynthetic saxophones voices of ^. glove bad ",
+    "by gates >< shadowless self failure x hyperspace "
    ],
    [
-    "text æ smoke =- beam slanted x dependencies net ",
-    "study churn constellation cube charges use duty ",
-    "ends >^ á backward zoo bog ¦ gear i drowning die ",
-    "carefully site-specific efficient dinosaurs mast "
+    "ç package rip excavated on horse spinner frames ",
+    "pen beat trembling â traveling ‹ purpose >< glow ",
+    "brook on cliffs witness drifting our die cipher ",
+    "÷ translator differential equations bitter flash "
    ],
    [
-    "cattail P wanderers start gravity gestalt bridge ",
-    "notations unfretted falling chipped map tall bar ",
-    "re phrase second rough value(s) father faltering ",
-    "platform station c holy >^ king again 32 fix tar "
+    "media remnants ready explores cross-disciplinary ",
+    "see ^. 1 changeful 48 gear glory corner law beam ",
+    "half # scattered taste hot press sailor clusters ",
+    "flood transmitted 3:48 semicolon #_# art swollen "
    ]
   ]
  },
@@ -1360,22 +1360,22 @@ module.exports = [
   "title": "poem 59",
   "lists": [
    [
-    "need claw blueprint Ç (re)cover message similar ",
-    "V faded paper census sketchpad marks alchemists ",
-    "! swallow cloudy << && purl seas !^ keen struck ",
-    "rip 48 Ã has risks dendrite ö „ cut reference de "
+    "wing intoxicating I fluorescence >: ê effective ",
+    "cycle parchment lit bound leap no constraint re ",
+    "promised planets => flashlight transistor ink .< ",
+    "++ stitched ¨ viola sack forces infinite between "
    ],
    [
-    "y blown computation cybernetic she boarding key ",
-    "neon growth =- digits parts ç organize ò machine ",
-    "flashes measure low what &^ belts û ze traveler ",
-    "asymptotic trans / figured L << ^|^ ax ø spinner "
+    "coin { regenerative o pulled bells highways ¯ us ",
+    "turn die god electrified talking next x soldiers ",
+    "prints questions shoes 43 unmerciful and tall ze ",
+    "decline passenger as swamps Q last tone soldiers "
    ],
    [
-    "cyber-orchestration wizard … / of wanderer sang ",
-    "independence transmitted the API ý incompatible ",
-    "storefronts no cloistered >< addition temporary ",
-    "inversion ¤ watchfulness exquisite wiry gestures "
+    "nap sketches in compression contexts boundless j ",
+    "willow hive climbing steed && whether in alleys ",
+    "shady lack back fuel book tune sighted ! burlap ",
+    "fix gears network system ghost p joins to city Ã "
    ]
   ]
  },
@@ -1383,22 +1383,22 @@ module.exports = [
   "title": "poem 60",
   "lists": [
    [
-    "become J ü leaden improvisational & curve horses ",
-    "+. k we field z expenditure sail once form latch ",
-    "pool ze notes whimper + & holy $ pool decades so ",
-    "eyes ­ differential equations one use 10 9 ions "
+    "prairie meadow sequestration so beating cyclones ",
+    "5 shift fly finding collisional bags classifiers ",
+    "context-specific iced hum fools smoke ^. flashes ",
+    "echo approach feel ÷ 64 10 regenerative fire !^ "
    ],
    [
-    "ý moss mallet summer scale milling theorems 1938 ",
-    "incoherence transfigured arcs .- counted knit ¯ ",
-    "g goal ax continuity no it out geometries pulse ",
-    "faded paper census sketchpad marks trains could "
+    "radio transmissions 2 thief fix the carbon cycle ",
+    "¦ make throw the switch wild draw guards < once ",
+    "calling she ++ $ buzz 3 clutches - architecture ",
+    "fair <! .^ millenniums with exquisite directions "
    ],
    [
-    "c turn the helm the wheel the tide the orbit ^. ",
-    "cut > like hyperspace radiator +. chain maxwell ",
-    "down lantern deduction for tall surround-scapes ",
-    "signs downward glance creased map marked path ý "
+    "oxygen jar urgent mission mass the API fur bar H ",
+    "t-cell spun last balls rib ax orb 3 limit device ",
+    "why is this day unlike any other day? symphonies ",
+    "4th &^ goes glyph v duty differential equations "
    ]
   ]
  },
@@ -1406,22 +1406,22 @@ module.exports = [
   "title": "poem 61",
   "lists": [
    [
-    "ê frightened dice liquid 43 grass z raging tolls ",
-    "P ode gospel &> thrown remain 4 ¤ hallowed hone ",
-    "an braided craft whispers ± shuffling hill &^ : ",
-    "crate radiator k product &> live p pathways axe "
+    ">^ worn rectify polyphony you junk transcription ",
+    "tension rollercoaster intersecting Ê wolf home g ",
+    "captain thief language bar wooden ý portland cup ",
+    "food K easily oar 8th curvatures glory duluth m "
    ],
    [
-    "repairman aflame <! cry i knots physics outlines ",
-    "ß downward glance creased map marked path a inch ",
-    "key friend ++ mercury tin m lips bury as filing ",
-    "cognition vibrate opal organics hearts veils 10 "
+    "brown weights back them dust ash upon traveling ",
+    "far ê | moves lily almost had burnished stripped ",
+    "steel rural jaw de captain >< ¨ ç art mentorship ",
+    "configurations basis spatially-distributed is || "
    ],
    [
-    "throw j cloud union geo kaleidoscope released is ",
-    "often _ midst w Ç collections developer restart ",
-    "sublime dew hoe platform station << stem => hone ",
-    "? transformers being ! multi-threaded rib retie "
+    "< > had pads times cargo seeing reception oil Ù ",
+    "knowledge &. á && ` wrapper ship bent so palette ",
+    "figure coke % at orthogonal diagrams lit threads ",
+    "roar set hero zero rider ze ++ milling gathered "
    ]
   ]
  },
@@ -1429,22 +1429,22 @@ module.exports = [
   "title": "poem 62",
   "lists": [
    [
-    "chariot graphs next spills 4 bifurcations left + ",
-    "mesh tenets subliminal each machines piece he 43 ",
-    "meteorite blades :# manufacture ü atoms marimba ",
-    "riding contrast j next become phd contour v cast "
+    "explicit shadow =- sleepy turned shiny l 1938 !^ ",
+    "T no town my suspension can labels o drowsy but ",
+    "frequencies ƒ parcel doorway boundaries creating ",
+    "î state flags temporary Ï &. decisions word .,. "
    ],
    [
-    "breaking floating silo artistic mass o ze pocket ",
-    "% sent ghosts p m up surround-scapes creating me ",
-    "dew w electrode ax k miss pipes sews ::: whimper ",
-    "transact lazy wax tonal is human-readable lists "
+    "me ü ƒ ý vessel sandwich lukewarm coffee thermos ",
+    "bar suits burlesque currency 4 - touching pupils ",
+    "ripening deliver thermionic & o 3 along holding ",
+    "action 8 pulse ¾ 01 possibilities lined cultures "
    ],
    [
-    "a 1938 down atoms bee down cool built estimation ",
-    "us specimen translation -. cyborg photosynthesis ",
-    "criminal && air inflection bending curve pigeons ",
-    "for coat aspiring ago it dusk multi-threaded ze "
+    "ö |! manifesto rinse 4 your but near first fades ",
+    "gravitational iron 3 stop ^ mineralization g &^ ",
+    "velocity divergences asleep radiance siren river ",
+    "young transcendence my insect .,. skin 2d bog it "
    ]
   ]
  },
@@ -1452,22 +1452,22 @@ module.exports = [
   "title": "poem 63",
   "lists": [
    [
-    "&& ivy differential equations alphabet automated ",
-    "spatially-distributed by lifetimes cultures gray ",
-    "need m inflorescent put can <! are tonal H hole ",
-    "man coordinates |! find cafe railway turbulence "
+    "word electrons commerce-mediated put winter wish ",
+    "be clickable multi dimensional if ze felon shown ",
+    "û seal coding verdant bills 89 liminal broadcast ",
+    "creates skew blocks ý Ù teacher fur >: seemingly "
    ],
    [
-    "houses && rail harmonic reaching energetic why Ê ",
-    "|! ‰ « 1 artificial hidden be deserts ? longing ",
-    "entangled convergences lure restoration conveyer ",
-    "oar ++ mend restart retrain reboard rewire 10 - "
+    "walls energy o down ivy out % inversion daylight ",
+    "J collaborations machine green ^. rolled switch ",
+    "study drip be … À constrained coins = fork 2 pen ",
+    "half ivy journals &> tunnel so acid atmospheres "
    ],
    [
-    "sought boys icy developer ¦ ö ¯ electrical laced ",
-    "locks punctuate desert physical archer the body ",
-    "8 currency torn burnished cross-platform ground ",
-    "synchronized trans / border log m our >< level é "
+    "cloth take dusty smoke-filled orange sky absence ",
+    "you disk inference lit plow am our ½ sound my î ",
+    "low expansion snail sublime cantor by ø | routed ",
+    "car handbook hinge ` sang brief escape breathing "
    ]
   ]
  },
@@ -1475,22 +1475,22 @@ module.exports = [
   "title": "poem 64",
   "lists": [
    [
-    "am rise bar ode +. saw laws car pierces tall 48 ",
-    "16 grass blade dyke cross-disciplinary seemingly ",
-    "t gulf five regiment nap lone c alone masks mine ",
-    "spilling would homestead equals taste sun proof "
+    "receiver net electron field short wave thatch ! ",
+    "48 prism rusted texaco station (re)enactment rim ",
+    "bending doe copy set (our hero zero rider ze) 13 ",
+    "sundial 8 repair reclaim rebuild reweave restore "
    ],
    [
-    "tapping careening semantic cross-disciplinary ze ",
-    "89 waif railways be <> mail the networked (i) Y ",
-    "possibly 43 it was like this every morning of >& ",
-    "losing illuminate gut ochre grief certain pixel "
+    "& chalky theater any bow heavens pleasure think ",
+    "bars ö built & ý pipeline circuits unbound d cat ",
+    "distracted inky null axes arcs gun reach take t ",
+    "leap œ sink skin belts forms chariot && hearing "
    ],
    [
-    "charges downward glance creased map marked path ",
-    "tar -. chrome ivy formation function ze uncover ",
-    "worlds < > combine carbon 10 hoe intra dependent ",
-    "motion electron dusty smoke-filled orange sky 17 "
+    "bind joints beak it was like this every morning ",
+    "erasure grew ‹ taco flows inter suits be miracle ",
+    "run yellowed no oar woke <! wireless signal code ",
+    "years risks! thank re Ê prostitutes slant û S && "
    ]
   ]
  },
@@ -1498,22 +1498,22 @@ module.exports = [
   "title": "poem 65",
   "lists": [
    [
-    "beer move it was like this every morning 16 draw ",
-    "industry sectors moon retrieving product vacuum ",
-    "commercial specimen consuming .- woman beat gay ",
-    "drive 5 artificial v humid scrawled quick 89 gut "
+    "rusted texaco station dated i thousand moth find ",
+    "J bearing teaching categories || theorem walked ",
+    "seed nyx net be pick linear 64 pigeon -. knots j ",
+    "2 skills rocky 01 Ù type underground instability "
    ],
    [
-    "cat ze lifetimes hoe dirt sleepy put hydrology v ",
-    "series ax assert foolish translation repeated ax ",
-    "# pour are lay Ê portland reclaim b .- domain û ",
-    "ƒ cathedral o &^ û west streaming hot sketchpad "
+    "|| not routes create kind duration links >& only ",
+    "sun arid king flower exquisite repair diagrams k ",
+    "=||= 43 ö dissonant 13 god bog ÷ stare fists law ",
+    "{ sirens ::: playing ¼ f hymn-like k gospel .# < "
    ],
    [
-    "ö hone primal legibility database => rails curve ",
-    "files has shirt 7 restated =- insect >: archive ",
-    "robots here nails testing stripped drainpipe as ",
-    "alphabetic crash ^. 8 geologic ascending chaotic "
+    "48 ice <> only lock h => j turned winds => flux ",
+    "chord ocean came half &. N thing % on signals we ",
+    "air weight repair fold ³ 89 sleepy bee ecosystem ",
+    "preoccupied N ¤ into the repairman rider tiny P "
    ]
   ]
  },
@@ -1521,22 +1521,22 @@ module.exports = [
   "title": "poem 66",
   "lists": [
    [
-    "cloistered been boat helpless man œ escape thick ",
-    "numbers turns too-long .- dim on write æ 64 wind ",
-    "pail dew he geometries .- hue swamps millenniums ",
-    "the modernist grid thread flags shape choir thin "
+    "efficiency co2 tangents stand => d all of rocks ",
+    "ç repairman pistons jump icy flying reverse +. ½ ",
+    "heartless empty 2d :# ray s masks coin no coin b ",
+    "racing destinations î 32 precious artifact 5 89 "
    ],
    [
-    "alternating #.# steed 8 put beat ô typographer H ",
-    ">: beginning !^ body as beats (un)synchronize ½ ",
-    "bodies resolution antenna ½ 17 <! minerals 5 one ",
-    "¦ see 4 prairie meadow sequestration g attention "
+    "when accelerate 32 -. drip m tool am depth ó ago ",
+    "on planets salt fixed chevy tightly sheet mentor ",
+    "of 2d inhabitants cellular connections boys iowa ",
+    "# de outstretched pool node ê mend winter È laws "
    ],
    [
-    "her 32 expenditure from >: simplify dance sirens ",
-    "equations pointer need ½ modular post flickering ",
-    "? textures focal phd racing gay wax distraction ",
-    "2d stand mist infinite &. J zoo punctuate vertex "
+    "hour .< sticky breadth sunless muscle theory as ",
+    "the ç telephony how yet m ragged loom o hat made ",
+    "+. spinner tree 010 glimmers <<-- ::: . ::: -->> ",
+    "lantern abundance always broadcast m profile an "
    ]
   ]
  },
@@ -1544,22 +1544,22 @@ module.exports = [
   "title": "poem 67",
   "lists": [
    [
-    "grief poems waking relentless && never 3 longing ",
-    "13 sunlight platform station are ? „ limbs howl ",
-    "meteorite wireless signal code she believe solar ",
-    "payday pattern _ prairie meadow sequestration l "
+    "¯ say use put multi dimensional &. an denim than ",
+    "gendered souls ç emission rusted texaco station ",
+    "around self-documentation >: 8 if 1 died digital ",
+    "resinous timestamp ÷ our f suspended (m)bodiment "
    ],
    [
-    "::: î seas barns cages strike gospel pollinator ",
-    "dream bog alienation fleeting gun < inhabitants ",
-    "whisper palettes >: field renderers hear box de ",
-    "phd orb moons galleries nap rains tent #_# media "
+    "« ¦ prison spills thicker countable payday grief ",
+    "me decline the repairman rider cages dervish by ",
+    "sleet rusted texaco station ± ç top thin howling ",
+    "home turn the helm the wheel the tide the orbit "
    ],
    [
-    "aged signature stone R wax 1 &. depth dated hand ",
-    "± put tall eruptions nest create 8 ç sculpture _ ",
-    "G an colonists backspace ::: find on heart based ",
-    "taut manhood ë bacteria :# functional ¦ numerous "
+    "room Ý moth strewn 48 the infinite sky icy goods ",
+    "retrieve the specimens 43 Ã horsepower artifact ",
+    "Q => of ø 3 probabilistic ephemeral looms ||| î ",
+    "b mouth inflections intimate arc hymns specimens "
    ]
   ]
  },
@@ -1567,22 +1567,22 @@ module.exports = [
   "title": "poem 68",
   "lists": [
    [
-    "car so foot gun turn .< electrical current goes ",
-    "&& connotations reading grit car planet prophets ",
-    "sets creative how playback sticks catalogue wolf ",
-    "bender structure taut manifest my black burn ze "
+    "barns tool creation ý pick board liminal whisky ",
+    "turn back the clock transfer sequestrate .# days ",
+    "skyscrapers blades rim horizon fix at abundance ",
+    "mathematical open me quickening out Æ 16 through "
    ],
    [
-    "pie dreaming š filaments Û momentum our 4 bog é ",
-    ".^ >: << sky move fold shelters die >< london 48 ",
-    "threshold ½ rusted texaco station veil parameter ",
-    "razed >: - … cellular connections tackle consume "
+    "½ !^ repair reclaim rebuild reweave restore rip ",
+    "beat feather law charcoal raven reef estimation ",
+    "trans / figured p captain are a >& nyx rich ± 64 ",
+    "rusted 2d ode 17 again outlines 4th waves risks "
    ],
    [
-    "cellar × transmitted saxophones me jar food web ",
-    "bees rusted texaco station folded map fades - .< ",
-    "` fix gears network system concert circulations ",
-    "yet explore animate & breathe storage Ç gun 3 by "
+    "^. material ripe pump loop ever < > :# spectral ",
+    ".< 01 ÷ constellation sews number folded golden ",
+    "bullet spoon :: È ivy Ç 32 phonetics gay } _ ++ ",
+    "duty saxophone florescence &. monastic C think m "
    ]
   ]
  },
@@ -1590,22 +1590,22 @@ module.exports = [
   "title": "poem 69",
   "lists": [
    [
-    "¹ forgot if infinite between { copy neon states ",
-    "shelters Y calls heart law language dissolution ",
-    "no reverberation on b : : : heat flow cry glove ",
-    "knifelike ì 8 tap dusty smoke-filled orange sky "
+    "cycle - she runes be null prism doe Ù subliminal ",
+    "++ ropes dynamical skies failing wagon emergent ",
+    "wire prairie meadow sequestration better b bait ",
+    "digit fallen body gathered unfretted curtain 43 "
    ],
    [
-    "unfettered fraying splayed cross repeat hands-on ",
-    "unfolding multi 2d junk unfold emergent +. U 16 ",
-    "our deck <> ü magic ice eye baby 89 arachne buzz ",
-    "mend restart retrain reboard rewire wish _ pivot "
+    "meet own telescope differential equations gap |! ",
+    "hallways fire was experience ý ratio directions ",
+    "orbit 8 pictures Õ opera 7 lips sought fly => <! ",
+    "my .- blade road split regenerative caps 32 fell "
    ],
    [
-    "÷ P motel (our hero zero rider ze) clockworks V ",
-    "run bisected mend restart retrain reboard rewire ",
-    "important difficult students run aluminum packs ",
-    "deciphered ! if things field conjunction { large "
+    "mend restart retrain reboard rewire 3 merciless ",
+    "balls bendable future gathering ++ 3:48 objects ",
+    "post dream c rails transfiguration 1 us 17th has ",
+    "æ god development i scripts ½ thermoelastic walk "
    ]
   ]
  },
@@ -1613,22 +1613,22 @@ module.exports = [
   "title": "poem 70",
   "lists": [
    [
-    "gray 1958 sandwich lukewarm coffee thermos press ",
-    "for push cyclone movement 17 renderer junction m ",
-    "wave | &^ 43 flew encourage (how things change) ",
-    "generative write symphonies nuclear dependencies "
+    "½ set ‰ ø entry rusted texaco station often type ",
+    "dissipating steed elemental bound ice young day ",
+    "<> nap Ù ´ why is this day unlike any other day? ",
+    "second ++ k cafe unengraved prey rolls to closed "
    ],
    [
-    "Ù one frictions sound fistfuls eyes :: veil !.! ",
-    "foam two glass Ã hand j high reify new heartbeat ",
-    "introduce lever repair(*) ê bowl saves! 8th fell ",
-    "bind tide bell loom buslines thief asl empty .& "
+    "oracles throw the switch dawn out q ý slow latch ",
+    "as ï .< | blueprints instruments fire # robotic ",
+    "community È it halo black dim 10 fluid cups last ",
+    "sandwich lukewarm coffee thermos û multi lingual "
    ],
    [
-    "remember 3 flies death chill ray walker shadows ",
-    "pawn gone exactly feel ½ generators weld .# crow ",
-    "now !^ matrices dreams wind mills 64 decline jar ",
-    "H leaders .# introduce orb ¨ sections dissolving "
+    "forth p pool paint 01 maps lit weaver reclaimed ",
+    "my road shovel sandwich lukewarm coffee thermos ",
+    "differential equations ode i river Ü .# glaciers ",
+    "classifiers populations wrung w taut bus skipped "
    ]
   ]
  },
@@ -1636,22 +1636,22 @@ module.exports = [
   "title": "poem 71",
   "lists": [
    [
-    "… neighborhood physics :# snapped conjunction || ",
-    "we rewind ||| # shady choreographic =||= fossil ",
-    "9 m ++ x ivy duration thin š terrains pixel fell ",
-    "held 9 unfolding homestead star fly bottles door "
+    "delay dissolution time moment lace < babel spun ",
+    ".& communion migration scattering || orbit hive ",
+    "replacing pick sew Ê steam gas mark ½ bait cups ",
+    "wish veil dry bee C fragility materiality odessa "
    ],
    [
-    "radio transmissions skull => o dirt oboe if said ",
-    "Ê telephone edition pawn thread >& soil arcs had ",
-    "de superintelligence axle ¦ windshield snapshot ",
-    "shock .^ blade looms ¤ hammered cyclones say gut "
+    "gods fix gears network system grabbing venom we ",
+    "economy manifesto meant =- incinerations g tower ",
+    "gun glue 9 mass 43 š y ancient earth local bits ",
+    "conduct vacuum concerto links methods f playback "
    ],
    [
-    "muscle stones z incompatible / bus &> can starry ",
-    "rusted texaco station folded map flame &> poets ",
-    "algorithmic railroad set ze domain tires squares ",
-    "oceans inflection bending curve eruptions cycle "
+    "<! gathers opacity cross-disciplinary teach howl ",
+    "horizon 1 countable rib Í stop the gears t-cell ",
+    "area u jar resonate up bully arid moths shelters ",
+    "ü in flickering over setting blade cat husks hue "
    ]
   ]
  },
@@ -1659,22 +1659,22 @@ module.exports = [
   "title": "poem 72",
   "lists": [
    [
-    "= dusty smoke-filled orange sky pensive left ray ",
-    "soda :: mass cellular connections Ù t fog iced 9 ",
-    "forced range so ? axes miss we terms beats rolls ",
-    "ý &> sail repair reclaim rebuild reweave restore "
+    "way in we .# it was like this every morning ward ",
+    "beating sandwich lukewarm coffee thermos boatman ",
+    "û => >& breathtaking 6 choose wiry < > limestone ",
+    "A differential equations homestead k glory cold "
    ],
    [
-    "millennia epic climate >& ß survey found clothes ",
-    "some rosin lattice .# #.# vinyl :: as % similar ",
-    "æ photosynthesis cloth geo failures 32 collector ",
-    "watchfulness another =- distillations or lost H "
+    "swallowed repair reclaim rebuild reweave restore ",
+    "mend restart retrain reboard rewire ions >: hour ",
+    "as life ray rain prime improv rasping temporary ",
+    "open communion melt unsteady difference letters "
    ],
    [
-    "it tide ~ stamp shattered type spew glint holes ",
-    "|-| illuminate environments grit present .& web ",
-    "mentor sandwich lukewarm coffee thermos tightly ",
-    "why is this day unlike any other day? developer "
+    "tenderness rusted texaco station folded map say ",
+    "my fair ^|^ wetland flag package force traverse ",
+    "ahab london 16 have form lysergic .,. by noun h ",
+    "manifesto claw wide feel rectify art orbits flaw "
    ]
   ]
  },
@@ -1682,22 +1682,22 @@ module.exports = [
   "title": "poem 73",
   "lists": [
    [
-    "time cross bulb me bang maybe died stretched raw ",
-    "juke trail chronometer arithmetic utterances gay ",
-    "l name red devoid am roles û silo going witness ",
-    "it was like this every morning - midst art grave "
+    "axes atoms branch fly z m e m missed direct vein ",
+    "fix gears network system gender saxophone shape ",
+    "turn the helm the wheel the tide the orbit purl ",
+    "energetic n rip swallowed marks web +. ++ bee +. "
    ],
    [
-    "grabbing ruptured coffee 10101 17 column degrees ",
-    "chess billion loosely-coupled skyscrapers rip <> ",
-    "zoo had é rules intoxicating leader shouting fix ",
-    "mapping very kept girl j :: hole mind toward Ã ‡ "
+    "differential equations D &> &> street hour fire ",
+    "w mend restart retrain reboard rewire humans ¦ œ ",
+    "superintelligence next tiny $ learned x soda gut ",
+    "gay bombing Æ H quartet morning transmitted ± ? "
    ],
    [
-    "¦ awake room produced the body <! gun compelling ",
-    ">: sheet electric routes clue abstraction mark Y ",
-    "sew rising lysergic ± watering renderers treadle ",
-    "coordinates sounds < car rim S imperfect gallery "
+    "south k structure it was like this every morning ",
+    "bleeding honey mine multi-threaded blank skipped ",
+    "89 cathedral wireless signal code same looms &^ ",
+    "lists 64 spatially-distributed throw the switch "
    ]
   ]
  },
@@ -1705,22 +1705,22 @@ module.exports = [
   "title": "poem 74",
   "lists": [
    [
-    "89 turn the helm the wheel the tide the orbit V ",
-    "0 cup quaker producers resurrect Ê time fog bank ",
-    "why is this day unlike any other day? <=> art >& ",
-    "low turn the helm the wheel the tide the orbit # "
+    "collected cellular connections bus w ribs decay ",
+    "consumed tranquilizer cross-media so writes null ",
+    "it voices pulse computation up sunless r manhood ",
+    "shady rugged thrivance matrix vast labels seemed "
    ],
    [
-    "<! photosynthetic b resident make shredded pause ",
-    "scale cigarette stream door trying & buzz stored ",
-    "sinew conservation deduction pin blank Ý ý thin ",
-    "hydrology few emergence ratio us developer flow "
+    "! faltering K fix gears network system ode shirt ",
+    "see (our hero zero rider ze) type my fusing co2 ",
+    "place beyond ƒ it roadway series body languages ",
+    "unbound => ||| on ‡ you dew <> human-readable it "
    ],
    [
-    "‹ 43 filing !^ beer text … for love fur 00100 && ",
-    "seed throw roofer poisoned clamps choreographies ",
-    ".< as passenger lone bird lung record ± stranger ",
-    "value salvaged textures extinction out catalysts "
+    "why is this day unlike any other day? artifacts ",
+    "more (our hero zero rider ze) junk silk facts <! ",
+    "grand : ^ use gun bullet friend containment sow ",
+    "farms hours ray it waif mesmerized ze rains hour "
    ]
   ]
  },
@@ -1728,22 +1728,22 @@ module.exports = [
   "title": "poem 75",
   "lists": [
    [
-    "speech erotic edge my x ++ +. filaments projects ",
-    "0 & his : clue flower cars morning sun flying it ",
-    "creased map decisions thief hymns &. one next :# ",
-    "lily herself .# surging compare more :# believe "
+    "prime beat mill notation galleries regression as ",
+    "& 2d sticks Ù (our hero zero rider ze) eternally ",
+    "oxen why is this day unlike any other day? royal ",
+    "electrical current phd Æ ecstatic rider gay more "
    ],
    [
-    "dice why is this day unlike any other day? tonal ",
-    "roadway dusty smoke-filled orange sky sanctuary ",
-    "trajectory foster ø # trans / border net fishers ",
-    "ö given paths battered t-cell ô forcing ² image "
+    "arrived form(s) tap oracles value(s) D trumpet H ",
+    "keening pawn « view criss-cross mapping drawings ",
+    "g arc transfiguration <> boundaries low early ¦ ",
+    "intersecting geo key transport tapping boats our "
    ],
    [
-    "courier moth hawker harmonic so acid hymn h spun ",
-    "huge tied bison way û 4 how fistfuls query ½ law ",
-    "possibility >^ explosion Y V body ~ my to robots ",
-    ". lightning talks I variation &^ resurrect A cut "
+    "¤ thrumming equals motel curtain ² thief marimba ",
+    "askew guitars illumination at eyes ÷ jar mesh 89 ",
+    "co2 64 whimper stones shelf cloud 17 poetics you ",
+    "attempts t mask 32 > cup community-driven slice "
    ]
   ]
  },
@@ -1751,22 +1751,22 @@ module.exports = [
   "title": "poem 76",
   "lists": [
    [
-    "profile in resurrection j recipes gun 01 stored ",
-    "01 . own limestone we !== and cybernetic simple ",
-    "wailing trains recorder we 32 :: area <! lake 2d ",
-    "winter needle wind mills field food web Í bee ~ "
+    "love observation cigarette geo oar migration &^ ",
+    "shady gone x o rising tube bars ‰ supposed views ",
+    "separating transmissions create laced back ray U ",
+    "trans / platform f box of multi threaded brown Ü "
    ],
    [
-    "ax Ü I rhythmic ¹ .^ embedded us leaves man well ",
-    "silverware pleasure flew bright ½ draw windswept ",
-    "be capture ¹ clump stairs â ^ proliferation 3:48 ",
-    "reference current modulate and meet continuity : "
+    "we phd payday image has context supposed slipped ",
+    "intelligence similar rip Û it sea ó dams jade 10 ",
+    "say an sea schema shirt an physics && dancehall ",
+    "melding shift ô possibly ship gay ephemeral bind "
    ],
    [
-    "feet rusted texaco station sent vacant serve 9 ¨ ",
-    "divine wireless signal code click transmigration ",
-    "passenger lone bird trans / media casting angles ",
-    "# sweetly matter 1906 creates highways diffusion "
+    "boy 1938 masts b Ü ê wireless signal code up Ã 8 ",
+    "subtraction shop 6 we wild waves or whether any ",
+    "howling cattail caws anchor same ¯ networked (i) ",
+    "iced simplify pitch 32 festivals shelf ticket am "
    ]
   ]
  },
@@ -1774,22 +1774,22 @@ module.exports = [
   "title": "poem 77",
   "lists": [
    [
-    "vector small number station urgent message silk ",
-    "tunnel dusty smoke-filled orange sky burning of ",
-    "sanctified gentle sky restated gut if translate ",
-    "fluidity put cigarettes => complexity takes sale "
+    "soda salt slam pawn mass clusters 8 leans „ form ",
+    "accumulation traveling recipes half pin &. soon ",
+    "spiders jade G clasp hero zero rider ze Í wolf # ",
+    "context-specific membrane 3 .^ to trans / border "
    ],
    [
-    "Ã put changeful wolf subliminal be l manual soot ",
-    "paths torn tone trucks incandescent 8 time sale ",
-    "fog so the infinite sky fast reeds nap rewire 2d ",
-    "lining uptake tango floor shops data frayed ‡ >& "
+    "ô power downward glance creased map marked path ",
+    "difference draw boy foot bicycle worked not !== ",
+    "89 turn the helm the wheel the tide the orbit 10 ",
+    "shattered delivered hall differential equations "
    ],
    [
-    "needs over improv ghosts spine air insect 64 bee ",
-    "alphabet 00100 reach vibrant distilled too rusty ",
-    "by breathless warm up electrical current pointer ",
-    "word proof color work out volume creased map raw "
+    "guitars greasy conservation colliding pool >& =- ",
+    "pandemic w => snakes wireless signal code sleepy ",
+    "coursework key chrome &^ uptake room washes juke ",
+    "how diorama rays stool the networked (i) glance "
    ]
   ]
  },
@@ -1797,22 +1797,22 @@ module.exports = [
   "title": "poem 78",
   "lists": [
    [
-    "thirst absence dwell ê laws i choose .- is ^. 43 ",
-    "intoxicating ‰ multi threaded oats dial or ² zoo ",
-    "e jukebox notation hard cellular connections orb ",
-    "4th dying mean context matrix stitches plow eons "
+    "# 5 spatially-distributed # N heard drunken took ",
+    "e hiker behind magnet subliminal mission ” 8 his ",
+    "toward lights proprietary poets astrologers ^|^ ",
+    "grasses prairie meadow sequestration lessons by "
    ],
    [
-    "day <! map up <! cellar 48 pillars ropes diagram ",
-    "~ rocks mend restart retrain reboard rewire hue ",
-    "j machines 010 steel betweens u trans / platform ",
-    "¾ path noun constrained purl spew .# rungs siren "
+    "hall be row rolled icy warm product runes scores ",
+    "1938 shaped 16 = his ocean see food starry c log ",
+    "along metals colossal sketches 4 dwell conjurer ",
+    "û È / distance i ì race lingual redo use rides … "
    ],
    [
-    "whose ` index observation # speaks oil .,. blink ",
-    "get sums any masks hat local die sine plates bow ",
-    ".^ map surround-scapes lay oil seeing ! below is ",
-    "angles ¨ arts trans / gender 16 photosynthesis 1 "
+    "marking symphony criminal belts sun lights film ",
+    "calculations perfect nap dissolve sow mast are _ ",
+    "how facts traveler +. method unroll kept hat .- ",
+    "flies pipes my flat land swamps fins diorama :: "
    ]
   ]
  },
@@ -1820,22 +1820,22 @@ module.exports = [
   "title": "poem 79",
   "lists": [
    [
-    "!^ receiver net electron field short wave thatch ",
-    "taut shore N avenue chance-infused .< too y stop ",
-    "÷ learned sea bar as radiation then arid dim see ",
-    "nap bottle ! x :# it was like this every morning "
+    "number ivy fragmentation out pipeline responding ",
+    "quickly spun ^. journals lock stairwell area <! ",
+    "cries prayer sandwich lukewarm coffee thermos me ",
+    ".< hand ÷ ze && clock full intimate joyful bees "
    ],
    [
-    "potential approach coordinates 01 human-readable ",
-    "spew echo top c tooth volume affirm cable-access ",
-    "bendable shadowless rail flaw oily ‰ 8th wash is ",
-    "} <> emergence barn computer-driven bind red-sky "
+    "recipe sale Ã || not hour ^. trumpet row average ",
+    "bank died rusted texaco station you inflorescent ",
+    "Ù open audion turns sweet | forests plurality if ",
+    "clamps dissolve date sew >^ off if o f quartets "
    ],
    [
-    "redo now Û way the body creation fish had cyborg ",
-    "ë off any babel > paper - beggar grasslands 32 ù ",
-    "railways cry intrinsically plow trans / figured ",
-    "relation moons tell hero roofscape cast tooth << "
+    "transference (re)cover buzz 43 13 o search your ",
+    "rib bee than took Ø father gun moss primal ze J ",
+    "¨ the modernist grid swing begins ç bomb provers ",
+    "cast fix gears network system repelling tiny rip "
    ]
   ]
  }

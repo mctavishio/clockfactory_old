@@ -50,14 +50,14 @@ elements[0] = [{tag:"rect", n:0, cx:0, cy:0, color:pigments.warmlightwhite}];
 		let color1 = allcolors[(z+j)%allcolors.length];
 		let color2 = allcolors[(z+j+1)%allcolors.length];
 		let cross = [
-			{tag:"line", cx:xgrid[j], cy:ygrid[j], role:"vline", n:count, color:color2}
+			{tag:"line", cx:xgrid[j], cy:ygrid[j], role:"hline", n:count, color:color1},
+			{tag:"line", cx:xgrid[j], cy:ygrid[j], role:"vline", n:count+1, color:color2}
 		];
-		count = count+1;
+		count = count+2;
 		return cross;
 	});
 	//}
 	//else elements[z] = [];
-	/*
 	[...new Array(n).keys()].forEach( x=> {
 		[...new Array(n).keys()].forEach( y=> {
 			let color = allcolors[(z+x+y)%allcolors.length];
@@ -65,9 +65,8 @@ elements[0] = [{tag:"rect", n:0, cx:0, cy:0, color:pigments.warmlightwhite}];
 			++count;
 		});
 	});
-	*/
 });
-console.log(`nelements = ${elements.length}`);
+//console.log(`nelements = ${elements.length}`);
 //console.log(`elements = ${JSON.stringify(elements)}`);
 
 let B = {
@@ -88,7 +87,7 @@ let Bfilm = {
 		});
 	})
 }
-const dotween = () => { return tools.randominteger(0,100) < 98 }
+const dotween = () => { return tools.randominteger(0,100) < 94 }
 const ischange = () => { return tools.randominteger(0,100) > 8 }
 
 /* layer 0
@@ -121,7 +120,7 @@ let xdt = [...new Array(n).keys()].map( j=> [tools.randominteger(2,5),tools.rand
 			let dx = (t%xdt[el.n%(n)][z-1]+1)/(xdt[el.n%n][z-1]);
 			//console.log(`dx=${dx}`);
 			let cy = el.cy, cx = el.cx; 
-			let sw = el.role==="circle" ? tools.randominteger(8,25)/100 : ( z<nz-2 ? tools.randominteger(12,68)/100 : 9);
+			let sw = el.role==="circle" ? tools.randominteger(8,25)/100 : ( z<nz-2 ? tools.randominteger(9,68)/100 : 6);
 			if(z>1) { 
 				let sw0 = B.elements[z-1].filter(e=>e.n===j)[0].b[t]["stroke-width"];
 				sw = sw0*tools.randominteger(6,9)/10;
